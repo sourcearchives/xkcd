@@ -1,0 +1,7 @@
+.editorconfig  text linguist-language=EditorConfig
+.gitattributes text linguist-language=Git-Attributes
+*.md           text linguist-language=Markdown
+*.txt          text linguist-language=Text
+
+*.jpg          binary
+*.png          binary

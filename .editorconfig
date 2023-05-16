@@ -1,0 +1,12 @@
+root = true
+
+[.{editorconfig,git{attributes,ignore}},*.{md,txt}]
+indent_style             = space
+insert_final_newline     = true
+max_line_length          = off
+
+[.{editorconfig,git{attributes,ignore}}]
+trim_trailing_whitespace = true
+
+[*.{md,txt}]
+trim_trailing_whitespace = false

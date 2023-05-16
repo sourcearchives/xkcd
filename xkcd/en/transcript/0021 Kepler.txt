@@ -1,0 +1,4 @@
+[[ Two people stand in an aisle in a store ]]
+Person 1: Nice store. How do you keep the floors so clean?
+Person 2: Oh, we hired this dude named Kepler, he's really good hard worker.  Doesn't mind the monotony. Sweeps out the same area every night.
+{{ alt: Science joke. You should probably just move along. }}
