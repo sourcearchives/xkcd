@@ -1,2 +1,2 @@
 # xkcd
-This is a mirror of xkcd by Randall Munroe.
+This is a mirror of _xkcd_ by Randall Munroe.
