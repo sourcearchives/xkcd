@@ -1,0 +1,4 @@
+# xkcd
+This is a mirror of _[xkcd][1]_ by Randall Munroe.
+
+[1]: https://xkcd.com
