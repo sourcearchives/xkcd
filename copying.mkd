@@ -1,6 +1,4 @@
-<!--
-SPDX-License-Identifier: CC0-1.0
--->
+<!-- SPDX-License-Identifier: CC0-1.0 -->
 # copying
 [_xkcd_][1] by Randall Munroe is licensed under [Creative Commons Attribution-NonCommercial 2.5][2] (CC BY-NC 2.5).
 Original text in this repository (i.e. the root directory) is licensed under [Creative Commons Zero 1.0 Universal][3] (CC0 1.0).
