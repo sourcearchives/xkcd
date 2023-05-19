@@ -1,4 +1,7 @@
+<!--
+SPDX-License-Identifier: CC0-1.0
+-->
 # xkcd
-This is a mirror of _[xkcd][1]_ by Randall Munroe.
+This is a mirror of [_xkcd_][1] and its related data by Randall Munroe.
 
 [1]: https://xkcd.com

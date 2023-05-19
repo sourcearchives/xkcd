@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0
+
 .editorconfig  text linguist-language=EditorConfig
 .gitattributes text linguist-language=Git-Attributes
 *.md           text linguist-language=Markdown
