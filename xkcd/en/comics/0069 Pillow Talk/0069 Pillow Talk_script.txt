@@ -1,0 +1,4 @@
+Guy: Staring at the ceiling, she asked me what I was thinking about.
+Guy: I should have made something up.
+Guy: The Bellman-Ford algorithm makes terrible pillow talk.
+{{Title Text: Maybe I should've tried Wexler?}}
