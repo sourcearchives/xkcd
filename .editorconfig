@@ -1,11 +1,17 @@
 # SPDX-License-Identifier: CC0-1.0
 
-root = true
+root                     = true
+
+[*]
+charset                  = unset
+end_of_line              = unset
+indent_size              = unset
+max_line_length          = off
+tab_width                = unset
 
 [.{editorconfig,git{attributes,ignore}},*.{md,txt}]
 indent_style             = space
 insert_final_newline     = true
-max_line_length          = off
 
 [.{editorconfig,git{attributes,ignore}}]
 trim_trailing_whitespace = true
