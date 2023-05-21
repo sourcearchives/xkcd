@@ -5,7 +5,7 @@
 
 [_xkcd: volume 0_][4] ([`/xkcd/en/print/xkcd - volume 0/`][5]) by Randall Munroe, published by [breadpig][6] and scanned by [OpenLibra][7], is licensed under [Creative Commons Attribution-NonCommercial 3.0 Unported][8] (CC BY-NC 3.0). `SPDX-License-Identifier: CC-BY-NC-3.0`
 
-Original text in this repository (i.e. the [root directory][9]) is licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0).[^1] `SPDX-License-Identifier: CC0-1.0`
+Original text in this repository (e.g. commit messages and the [root directory][9]) is licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0).[^1] `SPDX-License-Identifier: CC0-1.0`
 
 The [Creative Commons][9] ([`/licenses/`][12]) are licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0). `SPDX-License-Identifier: CC0-1.0`
 
