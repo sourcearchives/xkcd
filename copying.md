@@ -1,13 +1,15 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-# copying
+# xkcd on GitHub: copying
 
 [_xkcd_][1] ([`/xkcd/en/comics/`][2]) by Randall Munroe is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic][3] (CC BY-NC 2.5). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 [_xkcd: volume 0_][4] ([`/xkcd/en/print/xkcd - volume 0/`][5]) by Randall Munroe, published by [breadpig][6] and scanned by [OpenLibra][7], is licensed under [Creative Commons Attribution-NonCommercial 3.0 Unported][8] (CC BY-NC 3.0). `SPDX-License-Identifier: CC-BY-NC-3.0`
 
-Original text in this repository (i.e. the [root directory][9]) is licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0). `SPDX-License-Identifier: CC0-1.0`
+Original text in this repository (i.e. the [root directory][9]) is licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0).[^1] `SPDX-License-Identifier: CC0-1.0`
 
 The [Creative Commons][9] ([`/licenses/`][12]) are licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0). `SPDX-License-Identifier: CC0-1.0`
+
+[^1]: If you wish to attribute this text, please simply link to the original GitHub repository (<https://github.com/gabldotink/xkcd/>).
 
 [1]:  <https://xkcd.com/>
 [2]:  <./xkcd/en/comics/>

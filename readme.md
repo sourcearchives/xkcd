@@ -1,5 +1,5 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-# xkcd
+# xkcd on GitHub
 
 This is a mirror of [_xkcd_][1] and its related data by Randall Munroe.
 
