@@ -40,6 +40,7 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 
   <li id="1(i)">
   <strong>"Reproduce"</strong> means to make copies of the Work by any means including without limitation by sound or visual recordings and the right of fixation and reproducing fixations of the Work, including storage of a protected performance or phonogram in digital form or other electronic medium.</li>
+</ol>
 </span>
 
 ## <span id="2">2. Fair Dealing Rights
@@ -95,6 +96,7 @@ The license granted in Section <a href="#3">3</a> above is expressly made subjec
 
   <li id="4(e)">
   Except as otherwise agreed in writing by the Licensor or as may be otherwise permitted by applicable law, if You Reproduce, Distribute or Publicly Perform the Work either by itself or as part of any Adaptations or Collections, You must not distort, mutilate, modify or take other derogatory action in relation to the Work which would be prejudicial to the Original Author's honor or reputation. Licensor agrees that in those jurisdictions (e.g. Japan), in which any exercise of the right granted in Section <a href="#3(b)">3(b)</a> of this License (the right to make Adaptations) would be deemed to be a distortion, mutilation, modification or other derogatory action prejudicial to the Original Author's honor and reputation, the Licensor will waive or not assert, as appropriate, this Section, to the fullest extent permitted by the applicable national law, to enable You to reasonably exercise Your right under Section <a href="#3(b)">3(b)</a> of this License (right to make Adaptations) but not otherwise.</li>
+</ol>
 </span>
 
 ## <span id="5">5. Representations, Warranties and Disclaimer
