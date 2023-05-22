@@ -1,0 +1,5 @@
+[[Text only panel, hand written.]]
+Welcome to text-only Counterstrike.
+You are in a dark, outdoor map.
+> GO NORTH
+You have been pwned by a grue.
