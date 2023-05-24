@@ -7,7 +7,7 @@
 
 Original text in this repository (e.g. commit messages and the [root directory][9]) is licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0).[^1] `SPDX-License-Identifier: CC0-1.0`
 
-The [Creative Commons][9] ([`/licenses/`][12]) are licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0). `SPDX-License-Identifier: CC0-1.0`
+The [Creative Commons][9] licenses ([`/licenses/`][12]) are licensed under [Creative Commons Zero 1.0 Universal][10] (CC0 1.0). `SPDX-License-Identifier: CC0-1.0`
 
 [^1]: If you wish to attribute this CC0 work, please simply link to the original GitHub repository (<https://github.com/gabldotink/xkcd/>).
 
