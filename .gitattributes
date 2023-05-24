@@ -1,11 +1,13 @@
 # SPDX-License-Identifier: CC0-1.0
 
+CODEOWNERS     text linguist-language=CODEOWNERS
 .editorconfig  text linguist-language=EditorConfig
 .gitattributes text linguist-language=Git-Attributes
 .gitignore     text linguist-language=Git-Ignore
 *.json         text linguist-language=JSON
-*.md           text linguist-language=Markdown
+*.md           text linguist-language=Markdown diff=markdown
 *.txt          text linguist-language=Text
+*.yml          text linguist-language=YAML
 
 *.jpg          binary
 *.pdf          binary
