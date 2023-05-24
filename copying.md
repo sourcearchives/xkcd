@@ -13,13 +13,13 @@ The [Creative Commons][9] licenses ([`/licenses/`][12]) are licensed under [Crea
 
 [1]:  <https://xkcd.com/>
 [2]:  <./xkcd/en/comics/>
-[3]:  <https://creativecommons.org/licenses/by-nc/2.5/>
+[3]:  <./licenses/CC-BY-NC-2.5.md>
 [4]:  <https://openlibrary.org/works/OL17379456W/xkcd?edition=key:/books/OL25958867M/>
 [5]:  <./xkcd/en/print/xkcd - volume 0/>
 [6]:  <https://breadpig.myshopify.com/>
 [7]:  <https://openlibra.com/en/book/xkcd-volume-0/>
-[8]:  <https://creativecommons.org/licenses/by-nc/3.0/>
+[8]:  <./licenses/CC-BY-NC-3.0.md>
 [9]:  <./>
-[10]: <https://creativecommons.org/publicdomain/zero/1.0/>
+[10]: <./licenses/CC0-1.0.md>
 [11]: <https://creativecommons.org/>
 [12]: <./licenses/>
