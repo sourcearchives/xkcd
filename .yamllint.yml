@@ -8,29 +8,37 @@ rules:
   colons:
     max-spaces-before:  0
     max-spaces-after:  -1
+    level: error
   commas:
     max-spaces-before: -1
     min-spaces-after:   0
     max-spaces-after:  -1
+    level: error
   comments:
     require-starting-space: true
     ignore-shebangs: true
     min-spaces-from-content: 1
+    level: error
   comments-indentation:
     level: error
   document-end:
     present: true
+    level: error
   document-start:
     present: true
+    level: error
   empty-lines:
     max:       1
     max-start: 0
     max-end:   1
+    level: error
   hyphens:
     max-spaces-after: 1
+    level: error
   indentation:
     indent-sequences: false
     spaces: 2
+    level: error
   line-length: disable
   new-line-at-end-of-file: enable
   new-lines: disable
