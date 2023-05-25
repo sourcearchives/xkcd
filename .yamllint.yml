@@ -4,6 +4,9 @@
 
 extends: default
 
+yaml-files:
+- '*.yml'
+
 rules:
   colons:
     max-spaces-before:  0
