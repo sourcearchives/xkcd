@@ -18,6 +18,8 @@
 # - contains no more than 255 characters
 # This regular expression does not take path seperators into account.
 
+# ls-lint uses Perl Compatible Regular Expressions (PCRE) syntax, and does not support alternation or any other syntax which uses the vertical bar character (|).
+
 ---
 
 ls:
