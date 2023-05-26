@@ -3,7 +3,6 @@
 codeowners     text linguist-language=CODEOWNERS
 .editorconfig  text linguist-language=EditorConfig
 .gitattributes text linguist-language=Git-Attributes
-.gitignore     text linguist-language=Git-Ignore
 *.json         text linguist-language=JSON
 *.md           text linguist-language=Markdown diff=markdown
 *.txt          text linguist-language=Text
