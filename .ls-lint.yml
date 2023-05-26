@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: CC0-1.0
 
-# This file is configuration for ls-lint [https://ls-lint.org/], which lints filenames and directory names.
+# This file contains configuration for ls-lint [https://ls-lint.org/], which lints filenames and directory names.
 # ls-lint should not be used in this repository until the lookaheads and lookbehinds in the regexes are converted to standard.
 
 # The long regular expression matches filenames and directory names that meet all of the following criteria:
@@ -22,20 +22,20 @@
 
 ls:
   .:
-    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}(?<!\.)'
+    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .editorconfig: 'regex:.editorconfig'
     .gitattributes: 'regex:.gitattributes'
-    .jpg: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}\.jpg'
-    .json: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}\.json'
-    .md: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}\.md'
+    .jpg: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.jpg'
+    .json: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.json'
+    .md: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.md'
     .pdf: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.pdf'
     .png: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.png'
     .txt: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.txt'
     .yml: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.yml'
   .github:
-    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}(?<!\.)'
+    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
   licenses:
-    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}(?<!\.)'
+    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .md: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9.-]{1,255}\.md'
   xkcd/en/comics:
     .dir: 'regex:[0-2][0-9][0-9][0-9]_[A-Za-z0-9_-]{1,250}(?<!\.)'
@@ -49,10 +49,10 @@ ls:
     .jpg: 'regex:[0-2][0-9][0-9][0-9]_[A-Za-z0-9_-]{1,246}\.jpg'
     .txt: 'regex:[0-2][0-9][0-9][0-9]_[A-Za-z0-9_-]{1,246}\.txt'
   xkcd/en/print/xkcd_-_volume_0/pages/pdf:
-    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}(?<!\.)''
+    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)''
     .pdf: 'regex:xkcd_-_volume_0_[01][0-9][0-9].pdf'
   xkcd/en/print/xkcd_-_volume_0/pages/png:
-    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?.*)(?![Pp][Rr][Nn]\.?.*)(?![Aa][Uu][Xx]\.?.*)(?![Nn][Uu][Ll]\.?.*)(?![Ll][Pp][Tt][0-9]\.?.*)(?![Cc][Oo][Mm][0-9]\.?.*)[A-Za-z0-9._-]{1,255}(?<!\.)'
+    .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .png: 'regex:xkcd_-_volume_0_[01][0-9][0-9].png'
 
 ignore:
