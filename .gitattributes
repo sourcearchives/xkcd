@@ -3,13 +3,17 @@
 # This file contains configuration for Git based on filenames.
 
 codeowners     text linguist-language=CODEOWNERS
+mimetype       text linguist-language=Text
 .editorconfig  text linguist-language=EditorConfig
 .gitattributes text linguist-language=Git-Attributes
+.gitignore     text linguist-language=Git-Ignore
 *.json         text linguist-language=JSON
 *.md           text linguist-language=Markdown diff=markdown
 *.txt          text linguist-language=Text
+*.xml          text linguist-language=XML
 *.yml          text linguist-language=YAML
 
 *.jpg          binary
 *.pdf          binary
 *.png          binary
+*.ttf          binary

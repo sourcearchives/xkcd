@@ -33,6 +33,7 @@ ls:
     .pdf: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.pdf'
     .png: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.png'
     .txt: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.txt'
+    .xml: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.xml'
     .yml: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn]\.?)(?![Pp][Rr][Nn]\.?)(?![Aa][Uu][Xx]\.?)(?![Nn][Uu][Ll]\.?)(?![Ll][Pp][Tt][0-9]\.?)(?![Cc][Oo][Mm][0-9]\.?)[A-Za-z0-9._-]{1,255}\.yml'
   .github:
     .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
@@ -60,5 +61,6 @@ ls:
 ignore:
 - .git
 - .github/codeowners
+- xkcd/en/print/xkcd_-_volume_0/odg/mimetype
 
 ...

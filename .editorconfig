@@ -5,21 +5,26 @@
 root = true
 
 [*]
-charset         = unset
-end_of_line     = unset
-indent_size     = unset
-max_line_length = off
-tab_width       = unset
+charset              = unset
+end_of_line          = unset
+indent_size          = unset
+indent_style         = unset
+insert_final_newline = false
+max_line_length      = off
+tab_width            = unset
 
-[codeowners,.{editorconfig,gitattributes},*.{md,txt,yml}]
+[codeowners,.{editorconfig,git{attributes,ignore}},*.{md,txt,yml}]
 indent_style         = space
 insert_final_newline = true
 
 [*.{md,yml}]
 indent_size = 2
 
-[codeowners,*.yml,.{editorconfig,gitattributes}]
+[codeowners,mimetype,*.{xml,yml},.{editorconfig,git{attributes,ignore}}]
 trim_trailing_whitespace = true
 
 [*.{md,txt}]
 trim_trailing_whitespace = false
+
+[mimetype]
+insert_final_newline = false
