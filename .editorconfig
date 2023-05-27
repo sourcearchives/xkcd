@@ -28,3 +28,8 @@ trim_trailing_whitespace = false
 
 [mimetype]
 insert_final_newline = false
+
+[.gitkeep]
+insert_final_newline     = false
+max_line_length          = 0
+trim_trailing_whitespace = true

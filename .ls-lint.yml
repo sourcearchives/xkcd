@@ -27,6 +27,8 @@ ls:
     .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .editorconfig: 'regex:.editorconfig'
     .gitattributes: 'regex:.gitattributes'
+    .gitignore: 'regex:.gitignore'
+    .gitkeep: 'regex:.gitkeep'
     .jpg: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.jpg'
     .json: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.json'
     .md: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}\.md'
