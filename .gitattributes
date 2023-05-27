@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for Git based on filenames.
+# This file contains configuration for Git based on filenames in the repository root directory: /
 
 codeowners     text linguist-language=CODEOWNERS
 mimetype       text linguist-language=Text
@@ -13,6 +13,7 @@ mimetype       text linguist-language=Text
 *.xml          text linguist-language=XML
 *.yml          text linguist-language=YAML
 
+.gitkeep       binary
 *.jpg          binary
 *.pdf          binary
 *.png          binary

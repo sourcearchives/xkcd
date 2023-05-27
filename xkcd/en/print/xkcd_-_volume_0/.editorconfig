@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0
+
+# This file contains configuration for EditorConfig in the directory (relative to the repository root): /xkcd/en/print/xkcd_-_volume_0/
+
+[.gitkeep]
+insert_final_newline = false
+max_line_length      = 0
+
+[*.xml]
+indent_size          = 1
+indent_style         = space
+insert_final_newline = false
