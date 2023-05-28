@@ -3,8 +3,9 @@
 # This file contains configuration for EditorConfig in the directory (relative to the repository root): /xkcd/en/print/xkcd_-_volume_0/
 
 [.gitkeep]
-insert_final_newline = false
-max_line_length      = 0
+insert_final_newline     = false
+max_line_length          = 0
+trim_trailing_whitespace = true
 
 [*.xml]
 indent_size          = 1
