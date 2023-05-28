@@ -13,14 +13,14 @@ insert_final_newline = false
 max_line_length      = off
 tab_width            = unset
 
-[codeowners,.{editorconfig,git{attributes,ignore}},*.{md,txt,yml}]
+[codeowners,.{editorconfig,git{attributes,ignore}},*.{md,sh,txt,yml}]
 indent_style         = space
 insert_final_newline = true
 
-[*.{md,yml}]
+[*.{md,sh,yml}]
 indent_size = 2
 
-[codeowners,mimetype,*.{xml,yml},.{editorconfig,git{attributes,ignore}}]
+[codeowners,mimetype,*.{sh,xml,yml},.{editorconfig,git{attributes,ignore}}]
 trim_trailing_whitespace = true
 
 [*.{md,txt}]
