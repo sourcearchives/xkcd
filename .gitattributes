@@ -3,20 +3,21 @@
 # This file contains configuration for Git based on filenames in the repository root directory: /
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes/]
 
-codeowners     text linguist-language=CODEOWNERS
-mimetype       text linguist-language=Text
-.editorconfig  text linguist-language=EditorConfig
-.gitattributes text linguist-language=Git-Attributes
-.gitignore     text linguist-language=Git-Ignore
-*.json         text linguist-language=JSON
-*.md           text linguist-language=Markdown diff=markdown
-*.sh           text linguist-language=Shell diff=bash eol=lf
-*.txt          text linguist-language=Text
-*.xml          text linguist-language=XML
-*.yml          text linguist-language=YAML
+  codeowners    text linguist-language=CODEOWNERS
+ .editorconfig  text linguist-language=EditorConfig
+ .gitattributes text linguist-language=Git-Attributes
+ .gitignore     text linguist-language=Git-Ignore
+*.json          text linguist-language=JSON
+*.md            text linguist-language=Markdown diff=markdown
+  mimetype      text linguist-language=Text
+*.sh            text linguist-language=Shell diff=bash eol=lf
+*.txt           text linguist-language=Text
+*.xml           text linguist-language=XML
+*.yml           text linguist-language=YAML
 
-.gitkeep       binary
-*.jpg          binary
-*.pdf          binary
-*.png          binary
-*.ttf          binary
+*.cbz           binary
+ .gitkeep       binary
+*.jpg           binary
+*.pdf           binary
+*.png           binary
+*.ttf           binary
