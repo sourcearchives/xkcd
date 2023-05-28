@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: CC0-1.0
 
 # This file contains configuration for ls-lint [https://ls-lint.org/], which lints filenames and directory names.
-# ls-lint should not be used in this repository until the lookaheads and lookbehinds in the regexes are converted to standard.
+# ls-lint should not be used in this repository until the lookaheads and lookbehinds in the regexes are converted to standard..
+# This file is linted by YAMLlint.
 
 # The long regular expression matches filenames and directory names that meet all of the following criteria:
 # - only contains the characters defined in the POSIX Portable Filename Character Set, consisting of the following (not including spaces):
