@@ -5,7 +5,7 @@
 #   it creates a file containing the entire book.
 # Currently supported file formats are:
 #   comic book ZIP (CBZ)
-# These file formats will be supported in the future:
+# These file formats will (probably) be supported in the future:
 #   OpenDocument Drawing (ODG)
 #   Portable Document Format (PDF)
 #   comic book ACE (CBA)
@@ -17,7 +17,7 @@
 export POSIXLY_CORRECT
 
 if command -v basename > '/dev/null'; then
-  script=$(basename "$0")
+  script="$(basename "$0")"
   else script='make.sh'
 fi
 
@@ -31,8 +31,7 @@ in the same directory as this script.
 usage: %s cbz
 
 Build requirements are below:
-- cbz requires the zip application in your $PATH, and the 118 PNG files in the ./pages/png/ directory.\n' "$script"
-}
+- cbz requires the zip application in your $PATH, and the 118 PNG files in the ./pages/png/ directory.\n' "$script" ;}
 
 png_pages () {
   p001='./pages/png/001.png' # Yes. I am
@@ -153,105 +152,109 @@ png_pages () {
   p116='./pages/png/116.png' # lunatic.
   p117='./pages/png/117.png' # Because only
   p118='./pages/png/118.png' # I see my genius.
-  pngs="$p001 $p002 $p003 $p004 $p005
-  $p006 $p007 $p008 $p009 $p010 $p011
-  $p012 $p013 $p014 $p015 $p016 $p017
-  $p018 $p019 $p020 $p021 $p022 $p023
-  $p024 $p025 $p026 $p027 $p028 $p029
-  $p030 $p031 $p032 $p033 $p034 $p035
-  $p036 $p037 $p038 $p039 $p040 $p041
-  $p042 $p043 $p044 $p045 $p046 $p047
-  $p048 $p049 $p050 $p051 $p052 $p053
-  $p054 $p055 $p056 $p057 $p058 $p059
-  $p060 $p061 $p062 $p063 $p064 $p065
-  $p066 $p067 $p068 $p069 $p070 $p071
-  $p072 $p073 $p074 $p075 $p076 $p077
-  $p078 $p079 $p080 $p081 $p082 $p083
-  $p084 $p085 $p086 $p087 $p088 $p089
-  $p090 $p091 $p092 $p093 $p094 $p095
-  $p096 $p097 $p098 $p099 $p100 $p101
-  $p102 $p103 $p104 $p105 $p106 $p107
-  $p108 $p109 $p110 $p111 $p112 $p113
-  $p114 $p115 $p116 $p117 $p118"
-}
+
+  if [ -s "$p001" ] && [ -s "$p002" ] && \
+     [ -s "$p003" ] && [ -s "$p004" ] && \
+     [ -s "$p005" ] && [ -s "$p006" ] && \
+     [ -s "$p007" ] && [ -s "$p008" ] && \
+     [ -s "$p009" ] && [ -s "$p010" ] && \
+     [ -s "$p011" ] && [ -s "$p012" ] && \
+     [ -s "$p013" ] && [ -s "$p014" ] && \
+     [ -s "$p015" ] && [ -s "$p016" ] && \
+     [ -s "$p017" ] && [ -s "$p018" ] && \
+     [ -s "$p019" ] && [ -s "$p020" ] && \
+     [ -s "$p021" ] && [ -s "$p022" ] && \
+     [ -s "$p023" ] && [ -s "$p024" ] && \
+     [ -s "$p025" ] && [ -s "$p026" ] && \
+     [ -s "$p027" ] && [ -s "$p028" ] && \
+     [ -s "$p029" ] && [ -s "$p030" ] && \
+     [ -s "$p031" ] && [ -s "$p032" ] && \
+     [ -s "$p033" ] && [ -s "$p034" ] && \
+     [ -s "$p035" ] && [ -s "$p036" ] && \
+     [ -s "$p037" ] && [ -s "$p038" ] && \
+     [ -s "$p039" ] && [ -s "$p040" ] && \
+     [ -s "$p041" ] && [ -s "$p042" ] && \
+     [ -s "$p043" ] && [ -s "$p044" ] && \
+     [ -s "$p045" ] && [ -s "$p046" ] && \
+     [ -s "$p047" ] && [ -s "$p048" ] && \
+     [ -s "$p049" ] && [ -s "$p050" ] && \
+     [ -s "$p051" ] && [ -s "$p052" ] && \
+     [ -s "$p053" ] && [ -s "$p054" ] && \
+     [ -s "$p055" ] && [ -s "$p056" ] && \
+     [ -s "$p057" ] && [ -s "$p058" ] && \
+     [ -s "$p059" ] && [ -s "$p060" ] && \
+     [ -s "$p061" ] && [ -s "$p062" ] && \
+     [ -s "$p063" ] && [ -s "$p064" ] && \
+     [ -s "$p065" ] && [ -s "$p066" ] && \
+     [ -s "$p067" ] && [ -s "$p068" ] && \
+     [ -s "$p069" ] && [ -s "$p070" ] && \
+     [ -s "$p071" ] && [ -s "$p072" ] && \
+     [ -s "$p073" ] && [ -s "$p074" ] && \
+     [ -s "$p075" ] && [ -s "$p076" ] && \
+     [ -s "$p077" ] && [ -s "$p078" ] && \
+     [ -s "$p079" ] && [ -s "$p080" ] && \
+     [ -s "$p081" ] && [ -s "$p082" ] && \
+     [ -s "$p083" ] && [ -s "$p084" ] && \
+     [ -s "$p085" ] && [ -s "$p086" ] && \
+     [ -s "$p087" ] && [ -s "$p088" ] && \
+     [ -s "$p089" ] && [ -s "$p090" ] && \
+     [ -s "$p091" ] && [ -s "$p092" ] && \
+     [ -s "$p093" ] && [ -s "$p094" ] && \
+     [ -s "$p095" ] && [ -s "$p096" ] && \
+     [ -s "$p097" ] && [ -s "$p098" ] && \
+     [ -s "$p099" ] && [ -s "$p100" ] && \
+     [ -s "$p101" ] && [ -s "$p102" ] && \
+     [ -s "$p103" ] && [ -s "$p104" ] && \
+     [ -s "$p105" ] && [ -s "$p106" ] && \
+     [ -s "$p107" ] && [ -s "$p108" ] && \
+     [ -s "$p109" ] && [ -s "$p110" ] && \
+     [ -s "$p111" ] && [ -s "$p112" ] && \
+     [ -s "$p113" ] && [ -s "$p114" ] && \
+     [ -s "$p115" ] && [ -s "$p116" ] && \
+     [ -s "$p117" ] && [ -s "$p118" ]; then
+       pngs="$p001 $p002 $p003 $p004 $p005
+       $p006 $p007 $p008 $p009 $p010 $p011
+       $p012 $p013 $p014 $p015 $p016 $p017
+       $p018 $p019 $p020 $p021 $p022 $p023
+       $p024 $p025 $p026 $p027 $p028 $p029
+       $p030 $p031 $p032 $p033 $p034 $p035
+       $p036 $p037 $p038 $p039 $p040 $p041
+       $p042 $p043 $p044 $p045 $p046 $p047
+       $p048 $p049 $p050 $p051 $p052 $p053
+       $p054 $p055 $p056 $p057 $p058 $p059
+       $p060 $p061 $p062 $p063 $p064 $p065
+       $p066 $p067 $p068 $p069 $p070 $p071
+       $p072 $p073 $p074 $p075 $p076 $p077
+       $p078 $p079 $p080 $p081 $p082 $p083
+       $p084 $p085 $p086 $p087 $p088 $p089
+       $p090 $p091 $p092 $p093 $p094 $p095
+       $p096 $p097 $p098 $p099 $p100 $p101
+       $p102 $p103 $p104 $p105 $p106 $p107
+       $p108 $p109 $p110 $p111 $p112 $p113
+       $p114 $p115 $p116 $p117 $p118"
+       png_pages_success='yes'; fi ;}
 
 make_cbz () {
   if command -v zip; then
     if [ -e './pages/png' ]; then
       png_pages
-      if [ -s "$p001" -a -s "$p002" \
-        -a -s "$p003" -a -s "$p004" \
-        -a -s "$p005" -a -s "$p006" \
-        -a -s "$p007" -a -s "$p008" \
-        -a -s "$p009" -a -s "$p010" \
-        -a -s "$p011" -a -s "$p012" \
-        -a -s "$p013" -a -s "$p014" \
-        -a -s "$p015" -a -s "$p016" \
-        -a -s "$p017" -a -s "$p018" \
-        -a -s "$p019" -a -s "$p020" \
-        -a -s "$p021" -a -s "$p022" \
-        -a -s "$p023" -a -s "$p024" \
-        -a -s "$p025" -a -s "$p026" \
-        -a -s "$p027" -a -s "$p028" \
-        -a -s "$p029" -a -s "$p030" \
-        -a -s "$p031" -a -s "$p032" \
-        -a -s "$p033" -a -s "$p034" \
-        -a -s "$p035" -a -s "$p036" \
-        -a -s "$p037" -a -s "$p038" \
-        -a -s "$p039" -a -s "$p040" \
-        -a -s "$p041" -a -s "$p042" \
-        -a -s "$p043" -a -s "$p044" \
-        -a -s "$p045" -a -s "$p046" \
-        -a -s "$p047" -a -s "$p048" \
-        -a -s "$p049" -a -s "$p050" \
-        -a -s "$p051" -a -s "$p052" \
-        -a -s "$p053" -a -s "$p054" \
-        -a -s "$p055" -a -s "$p056" \
-        -a -s "$p057" -a -s "$p058" \
-        -a -s "$p059" -a -s "$p060" \
-        -a -s "$p061" -a -s "$p062" \
-        -a -s "$p063" -a -s "$p064" \
-        -a -s "$p065" -a -s "$p066" \
-        -a -s "$p067" -a -s "$p068" \
-        -a -s "$p069" -a -s "$p070" \
-        -a -s "$p071" -a -s "$p072" \
-        -a -s "$p073" -a -s "$p074" \
-        -a -s "$p075" -a -s "$p076" \
-        -a -s "$p077" -a -s "$p078" \
-        -a -s "$p079" -a -s "$p080" \
-        -a -s "$p081" -a -s "$p082" \
-        -a -s "$p083" -a -s "$p084" \
-        -a -s "$p085" -a -s "$p086" \
-        -a -s "$p087" -a -s "$p088" \
-        -a -s "$p089" -a -s "$p090" \
-        -a -s "$p091" -a -s "$p092" \
-        -a -s "$p093" -a -s "$p094" \
-        -a -s "$p095" -a -s "$p096" \
-        -a -s "$p097" -a -s "$p098" \
-        -a -s "$p099" -a -s "$p100" \
-        -a -s "$p101" -a -s "$p102" \
-        -a -s "$p103" -a -s "$p104" \
-        -a -s "$p105" -a -s "$p106" \
-        -a -s "$p107" -a -s "$p108" \
-        -a -s "$p109" -a -s "$p110" \
-        -a -s "$p111" -a -s "$p112" \
-        -a -s "$p113" -a -s "$p114" \
-        -a -s "$p115" -a -s "$p116" \
-        -a -s "$p117" -a -s "$p118" ]; then
-        printf 'zipping...\n'
+      if [ "$png_pages_success" = 'yes' ]; then
+        printf 'creating comic book ZIP (CBZ)...\n'
         if zip -0Juv './xkcd_-_volume_0.cbz' $pngs; then
           printf 'success!'
+        
         fi
       fi
     else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.'
     fi
   else printf 'zip is not in your $PATH. CBZ cannot be made.\n'
   exit 1
-  fi
-}
+fi ;}
 
-
-if [ "$1" = '' -o "$1" = '-h' -o "$1" = '-?' -o "$1" = '--help' ]; then
+if [ "$1" = '' ]   || \
+   [ "$1" = '-h' ] || \
+   [ "$1" = '-?' ] || \
+   [ "$1" = '--help' ]; then
   info
 elif [ "$1" = cbz ]; then
   make_cbz
