@@ -13,16 +13,16 @@
 #   comic book tar (CBT)
 #   comic book 7z  (CB7)
 
-# tell shells to be POSIX-compliant
+# tell (some) shells to be POSIX-compliant
 export POSIXLY_CORRECT
 
 trap quit INT
 
 quit () {
-  if [ -a './cbz/xkcd_-_volume_0.cbz' ]; then
+  if [ -e './cbz/xkcd_-_volume_0.cbz' ]; then
     rm './cbz/xkcd_-_volume_0.cbz' > '/dev/null'; exit 2; fi ;}
 
-if command -v basename > '/dev/null'; then
+if command -v basename >/dev/null 2>&1; then
   script="$(basename "$0")"
   else script='make.sh'
 fi
@@ -30,13 +30,17 @@ fi
 info () {
   printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs, PNGs, and/or the ODG source from:
-  https://github.com/openmirrors/xkcd/
+  https://github.com/openmirrors/xkcd/ (/xkcd/en/print/xkcd_-_volume_0/)
 in the same directory as this script.
 
 usage: %s cbz
 
 Build requirements are below:
-- cbz requires the zip application in your $PATH, and the 118 PNG files in the ./pages/png/ directory.\n' "$script" ;}
+- cbz requires
+  - the zip application in your $PATH
+  - the 118 PNG files in the ./pages/png/ directory
+  - (preferably) the file ./cbz/mimetype
+  - (preferably) ./metadata/ComicInfo.xml and ./metadata/Cover.png .\n' "$script" ;}
 
 png_pages () {
   p001='./pages/png/001.png' # Yes. I am
@@ -237,18 +241,23 @@ png_pages () {
        $p108 $p109 $p110 $p111 $p112 $p113
        $p114 $p115 $p116 $p117 $p118"
        png_pages_success='yes'
-     else printf 'One or more of the required PNG files does not exist, or is empty. ""$target"" cannot be made.\n'; exit 1; fi ;}
+     else printf 'One or more of the required PNG files does not exist, or is empty. '"$target"' cannot be made.\n'; exit 1; fi ;}
 
 make_cbz () {
-  if command -v zip > '/dev/null'; then
+  if command -v zip >/dev/null 2>&1; then
     if [ -e './pages/png' ]; then
       png_pages
       if [ "$png_pages_success" = 'yes' ]; then
+        if [ ! -s './cbz/mimetype' ]; then mimetype='no'; fi
+        if [ ! -s './metadata/ComicInfo.xml' ]; then comicinfo='no'; fi
+        if [ ! -s './metadata/Cover.png' ]; then cover='no'; fi
         printf 'creating comic book ZIP (CBZ)...\n'
-        if zip -0Jfz-  './cbz/xkcd_-_volume_0.cbz' './cbz/mimetype' && \
-           zip -0Jufz- './cbz/xkcd_-_volume_0.cbz' './cbz/ComicInfo.xml' $pngs; then
-          printf 'Success!\n'; exit 0
-        else printf 'Something went wrong.\n'; quit; exit 1
+        if [ "$mimetype" != 'no' ]; then  zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './cbz/mimetype' >/dev/null 2>&1; fi
+        if [ "$comicinfo" != 'no' ]; then zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './metadata/ComicInfo.xml' >/dev/null 2>&1; fi
+        if [ "$cover" != 'no' ]; then     zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
+                                       if zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' $pngs >/dev/null 2>&1; then
+                                          printf 'Success!\n'; exit 0
+        else printf 'Something went wrong. CBZ was not made.\n'; quit; exit 1
         fi
       fi
     else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.\n'; exit 1
@@ -260,8 +269,7 @@ if [ "$1" = '' ]       || \
    [ "$1" = '-h' ]     || \
    [ "$1" = '-?' ]     || \
    [ "$1" = '--help' ] || \
-   [ "$2" != '' ]; then
-  info
+   [ "$2" != '' ]; then info
 elif [ "$1" = cbz ]; then
   target='CBZ'
   make_cbz
