@@ -4,14 +4,14 @@
 # This POSIX shell script is similar to a Makefile;
 #   it creates a file containing the entire book.
 # Currently supported file formats are:
-#   comic book ZIP (CBZ)
+#   comic book ZIP (cbz)
 # These file formats will (probably) be supported in the future:
-#   OpenDocument Drawing (ODG)
-#   Portable Document Format (PDF)
-#   comic book ACE (CBA)
-#   comic book RAR (CBR)
-#   comic book tar (CBT)
-#   comic book 7z  (CB7)
+#   OpenDocument Drawing (odg)
+#   Portable Document Format (pdf)
+#   comic book ACE (cba)
+#   comic book RAR (cbr)
+#   comic book tar (cbt)
+#   comic book 7z  (cb7)
 
 # tell (some) shells to be POSIX-compliant
 export POSIXLY_CORRECT
@@ -261,12 +261,12 @@ make_cbz () {
         if [ "$cover" != 'no' ]; then     zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
                                        if zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' $pngs >/dev/null 2>&1; then
                                           printf 'Success!\n'; exit 0
-        else printf 'Something went wrong. CBZ was not made.\n'; quit; exit 1
+        else printf 'Something went wrong. cbz was not made.\n'; quit; exit 1
         fi
       fi
-    else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.\n'; exit 1
+    else printf 'The directory ./pages/png/ does not exist. cbz cannot be made.\n'; exit 1
     fi
-  else printf 'zip is not in your $PATH. CBZ cannot be made.\n'; exit 1
+  else printf 'zip is not in your $PATH. cbz cannot be made.\n'; exit 1
 fi ;}
 
 if [ "$1" = '' ]       || \
@@ -274,8 +274,8 @@ if [ "$1" = '' ]       || \
    [ "$1" = '-?' ]     || \
    [ "$1" = '--help' ] || \
    [ "$2" != '' ]; then info
-elif [ "$1" = cbz ]; then
-  target='CBZ'
+elif [ "$1" = 'cbz' ]; then
+  target='cbz'
   make_cbz
 else info
 fi
