@@ -16,14 +16,19 @@
 # tell shells to be POSIX-compliant
 export POSIXLY_CORRECT
 
+trap quit INT
+
+quit () {
+  if [ -a './cbz/xkcd_-_volume_0.cbz' ]; then
+    rm './cbz/xkcd_-_volume_0.cbz' > '/dev/null'; exit 2; fi ;}
+
 if command -v basename > '/dev/null'; then
   script="$(basename "$0")"
   else script='make.sh'
 fi
 
-# show info
 info () {
-  printf 'This shell script builds files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution 3.0 Unported.
+  printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs, PNGs, and/or the ODG source from:
   https://github.com/openmirrors/xkcd/
 in the same directory as this script.
@@ -152,7 +157,6 @@ png_pages () {
   p116='./pages/png/116.png' # lunatic.
   p117='./pages/png/117.png' # Because only
   p118='./pages/png/118.png' # I see my genius.
-
   if [ -s "$p001" ] && [ -s "$p002" ] && \
      [ -s "$p003" ] && [ -s "$p004" ] && \
      [ -s "$p005" ] && [ -s "$p006" ] && \
@@ -232,32 +236,34 @@ png_pages () {
        $p102 $p103 $p104 $p105 $p106 $p107
        $p108 $p109 $p110 $p111 $p112 $p113
        $p114 $p115 $p116 $p117 $p118"
-       png_pages_success='yes'; fi ;}
+       png_pages_success='yes'
+     else printf 'One or more of the required PNG files does not exist, or is empty. ""$target"" cannot be made.\n'; exit 1; fi ;}
 
 make_cbz () {
-  if command -v zip; then
+  if command -v zip > '/dev/null'; then
     if [ -e './pages/png' ]; then
       png_pages
       if [ "$png_pages_success" = 'yes' ]; then
         printf 'creating comic book ZIP (CBZ)...\n'
         if zip -0Jfz-  './cbz/xkcd_-_volume_0.cbz' './cbz/mimetype' && \
            zip -0Jufz- './cbz/xkcd_-_volume_0.cbz' './cbz/ComicInfo.xml' $pngs; then
-          printf 'Success!\n'
-          else printf 'Something went wrong.\n'; exit 1
+          printf 'Success!\n'; exit 0
+        else printf 'Something went wrong.\n'; quit; exit 1
         fi
       fi
-    else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.'
+    else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.\n'; exit 1
     fi
-  else printf 'zip is not in your $PATH. CBZ cannot be made.\n'
-  exit 1
+  else printf 'zip is not in your $PATH. CBZ cannot be made.\n'; exit 1
 fi ;}
 
-if [ "$1" = '' ]   || \
-   [ "$1" = '-h' ] || \
-   [ "$1" = '-?' ] || \
-   [ "$1" = '--help' ]; then
+if [ "$1" = '' ]       || \
+   [ "$1" = '-h' ]     || \
+   [ "$1" = '-?' ]     || \
+   [ "$1" = '--help' ] || \
+   [ "$2" != '' ]; then
   info
 elif [ "$1" = cbz ]; then
+  target='CBZ'
   make_cbz
 else info
 fi
