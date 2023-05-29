@@ -1,4 +1,4 @@
-<?xml version="1.0" charset="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- SPDX-License-Identifier: CC-BY-NC-3.0 -->
 <ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">
   <Title>xkcd: volume 0</Title>
