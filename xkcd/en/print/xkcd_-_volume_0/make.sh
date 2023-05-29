@@ -241,8 +241,7 @@ make_cbz () {
       if [ "$png_pages_success" = 'yes' ]; then
         printf 'creating comic book ZIP (CBZ)...\n'
         if zip -0Juv './xkcd_-_volume_0.cbz' $pngs; then
-          printf 'success!'
-        
+          printf 'success!\n'
         fi
       fi
     else printf 'The directory ./pages/png/ does not exist. CBZ cannot be made.'
