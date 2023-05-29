@@ -20,7 +20,7 @@ insert_final_newline = true
 [*.{md,sh,yml}]
 indent_size = 2
 
-[codeowners,mimetype,*.{sh,xml,yml},.{editorconfig,git{attributes,ignore}}]
+[codeowners,mimetype,*.{mimetype,sh,xml,yml},.{editorconfig,git{attributes,ignore}}]
 trim_trailing_whitespace = true
 
 [*.{md,txt}]
@@ -29,7 +29,7 @@ trim_trailing_whitespace = false
 [*.xml]
 insert_final_newline = false
 
-[mimetype]
+[mimetype,*.mimetype]
 insert_final_newline = false
 
 [.gitkeep]
