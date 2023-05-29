@@ -10,7 +10,6 @@
 *.json          text linguist-language=JSON
 *.md            text linguist-language=Markdown diff=markdown
   mimetype      text linguist-language=Text
-*.mimetype      text linguist-language=Text
 *.sh            text linguist-language=Shell diff=bash eol=lf
 *.txt           text linguist-language=Text
 *.xml           text linguist-language=XML

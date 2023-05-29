@@ -20,13 +20,13 @@ insert_final_newline = true
 [*.{md,sh,xml,yml}]
 indent_size = 2
 
-[codeowners,mimetype,*.{mimetype,sh,xml,yml},.{editorconfig,git{attributes,ignore}}]
+[codeowners,mimetype,*.{sh,xml,yml},.{editorconfig,git{attributes,ignore}}]
 trim_trailing_whitespace = true
 
 [*.{md,txt}]
 trim_trailing_whitespace = false
 
-[mimetype,*.mimetype,xkcd/en/print/xkcd_-_volume_0/odg/*.xml]
+[mimetype,xkcd/en/print/xkcd_-_volume_0/odg/*.xml]
 insert_final_newline = false
 
 [xkcd/en/print/xkcd_-_volume_0/odg/*.xml]
