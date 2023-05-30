@@ -23,21 +23,53 @@
   <BlackAndWhite>No</BlackAndWhite>
   <Manga>No</Manga>
   <Pages>
-    <ComicPageInfo>
+    <Page>
       <Image>1</Image>
       <Type>FrontCover</Type>
       <DoublePage>false</DoublePage>
       <ImageSize>28492</ImageSize>
       <ImageWidth>1750</ImageWidth>
       <ImageHeight>1700</ImageWidth>
-    </ComicPageInfo>
-    <ComicPageInfo>
+    </Page>
+    <Page>
       <Image>2</Image>
       <Type>InnerCover</Type>
       <DoublePage>false</DoublePage>
       <ImageSize>28650</ImageSize>
       <ImageWidth>1750</ImageWidth>
       <ImageHeight>1700</ImageHeight>
-    </ComicPageInfo>
+    </Page>
+    <Page>
+      <Image>3</Image>
+      <Type>Other</Type>
+      <DoublePage>false</DoublePage>
+      <ImageSize>75407</ImageSize>
+      <ImageWidth>1876</ImageWidth>
+      <ImageHeight>1800</ImageHeight>
+    </Page
+    <Page>
+      <Image>4</Image>
+      <Type>Other</Type>
+      <DoublePage>false</DoublePage>
+      <ImageSize>7991</ImageSize>
+      <ImageWidth>2025</ImageWidth>
+      <ImageHeight>1950>/ImageHeight>
+    </Page>
+    <Page>
+      <Image>5</Image>
+      <Type>Other</Type>
+      <DoublePage>false</DoublePage>
+      <ImageSize>121261</ImageSize>
+      <ImageWidth>1876</ImageWidth>
+      <ImageHeight>1800</ImageHeight>
+    </Page>
+    <Page>
+      <Image>6</Image>
+      <Type>Other</Type>
+      <DoublePage>false</DoublePage>
+      <ImageSize>169829</ImageSize>
+      <ImageWidth>1876</ImageWidth>
+      <ImageHeight>1800</ImageHeight>
+    </Page>
   </Pages>
 </ComicInfo>
