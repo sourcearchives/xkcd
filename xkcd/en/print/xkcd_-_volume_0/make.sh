@@ -20,11 +20,9 @@ trap quit INT
 
 quit () {
   if [ -e './cbz/xkcd_-_volume_0.cbz' ]; then
-    if rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2             # Despite my cockiness below,
-  elif unlink './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2         # I fully recognize that this is
-  elif busybox rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2     # absolutely horrifying.
-  elif coreutils rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2;
-  else printf 'The script tried to clean up and delete your cbz file, but you appear to have no way to remove a file on your $PATH. Maybe you should take a look at that.\n'; fi ;}
+    if rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
+    elif unlink './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
+    else exit 2; fi; fi ;}
 
 if command -v basename >/dev/null 2>&1; then
   script="$(basename "$0")"
