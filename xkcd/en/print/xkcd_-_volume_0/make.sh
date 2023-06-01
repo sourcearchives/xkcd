@@ -22,7 +22,8 @@ quit () {
   if [ -e './cbz/xkcd_-_volume_0.cbz' ]; then
     if rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
     elif unlink './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
-    else exit 2; fi; fi ;}
+    else exit 2; fi; fi
+}
 
 if command -v basename >/dev/null 2>&1; then
   script="$(basename "$0")"
@@ -42,7 +43,8 @@ Build requirements are below:
   - the zip application in your $PATH
   - the 118 PNG files in the ./pages/png/ directory
   - (preferably) the file ./cbz/mimetype
-  - (preferably) ./metadata/ComicInfo.xml and ./metadata/Cover.png .\n' "$script" ;}
+  - (preferably) ./metadata/ComicInfo.xml and ./metadata/Cover.png .\n' "$script"
+}
 
 png_pages () {
   p001='./pages/png/001.png' # Yes. I am
@@ -243,7 +245,8 @@ png_pages () {
        $p108 $p109 $p110 $p111 $p112 $p113
        $p114 $p115 $p116 $p117 $p118"
        png_pages_success='yes'
-     else printf 'One or more of the required PNG files does not exist, or is empty. '"$target"' cannot be made.\n'; exit 1; fi ;}
+     else printf 'One or more of the required PNG files does not exist, or is empty. '"$target"' cannot be made.\n'; exit 1; fi
+}
 
 make_cbz () {
   if command -v zip >/dev/null 2>&1; then
@@ -267,10 +270,7 @@ make_cbz () {
   else printf 'zip is not in your $PATH. cbz cannot be made.\n'; exit 1
 fi ;}
 
-if [ "$1" = '' ]       || \
-   [ "$1" = '-h' ]     || \
-   [ "$1" = '-?' ]     || \
-   [ "$1" = '--help' ] || \
+if [ "$1" != 'cbz' ] || \
    [ "$2" != '' ]; then info
 elif [ "$1" = 'cbz' ]; then
   target='cbz'
