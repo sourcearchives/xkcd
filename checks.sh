@@ -15,3 +15,5 @@ quit () {
 info () {
   printf 'This shell script checks the repository for format and internal consistency. It does not currently take any arguments.\n'
 }
+
+if [ "$1" != '' ]; then info; exit 2; fi
