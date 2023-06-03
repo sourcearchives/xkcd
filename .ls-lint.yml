@@ -54,10 +54,10 @@ ls:
   xkcd/en/comics/*/_plus:
     .jpg: 'regex:[0-2][0-9][0-9][0-9]_[A-Za-z0-9_-]{1,246}\.jpg'
     .txt: 'regex:[0-2][0-9][0-9][0-9]_[A-Za-z0-9_-]{1,246}\.txt'
-  xkcd/en/print/xkcd_-_volume_0/pages/pdf:
+  xkcd/en/print/xkcd_volume_0/pages/pdf:
     .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .pdf: 'regex:xkcd_-_volume_0_[01][0-9][0-9].pdf'
-  xkcd/en/print/xkcd_-_volume_0/pages/png:
+  xkcd/en/print/xkcd_volume_0/pages/png:
     .dir: 'regex:(?!-)(?!.*\.\.)(?![Cc][Oo][Nn](\..*)?)(?![Pp][Rr][Nn](\..*)?)(?![Aa][Uu][Xx](\..*)?)(?![Nn][Uu][Ll](\..*)?)(?![Ll][Pp][Tt][0-9](\..*)?)(?![Cc][Oo][Mm][0-9](\..*)?)[A-Za-z0-9._-]{1,255}(?<!\.)'
     .png: 'regex:xkcd_-_volume_0_[01][0-9][0-9].png'
 

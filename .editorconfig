@@ -26,10 +26,10 @@ trim_trailing_whitespace = true
 [*.{md,txt}]
 trim_trailing_whitespace = false
 
-[mimetype,xkcd/en/print/xkcd_-_volume_0/odg/*.xml]
+[mimetype,xkcd/en/print/xkcd_volume_0/odg/*.xml]
 insert_final_newline = false
 
-[xkcd/en/print/xkcd_-_volume_0/odg/*.xml]
+[xkcd/en/print/xkcd_volume_0/odg/*.xml]
 indent_size = 1
 
 [.gitkeep]

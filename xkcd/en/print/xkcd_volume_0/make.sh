@@ -19,9 +19,9 @@ export POSIXLY_CORRECT
 trap quit INT
 
 quit () {
-  if [ -e './cbz/xkcd_-_volume_0.cbz' ]; then
-    if rm './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
-    elif unlink './cbz/xkcd_-_volume_0.cbz' >/dev/null 2>&1; then exit 2
+  if [ -e './cbz/xkcd_volume_0.cbz' ]; then
+    if rm './cbz/xkcd_volume_0.cbz' >/dev/null 2>&1; then exit 2
+    elif unlink './cbz/xkcd_volume_0.cbz' >/dev/null 2>&1; then exit 2
     else exit 2; fi; fi
 }
 
@@ -33,7 +33,7 @@ fi
 info () {
   printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs, PNGs, and/or the ODG source from:
-  https://github.com/openmirrors/xkcd/ (/xkcd/en/print/xkcd_-_volume_0/)
+  https://github.com/openmirrors/xkcd/ (/xkcd/en/print/xkcd_volume_0/)
 in the same directory as this script.
 
 usage: %s cbz
@@ -257,10 +257,10 @@ make_cbz () {
         if [ ! -s './metadata/ComicInfo.xml' ]; then comicinfo='no'; fi
         if [ ! -s './metadata/Cover.png' ]; then cover='no'; fi
         printf 'creating comic book ZIP (CBZ)...\n'
-        if [ "$mimetype" != 'no' ]; then  zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './cbz/mimetype' >/dev/null 2>&1; fi
-        if [ "$comicinfo" != 'no' ]; then zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './metadata/ComicInfo.xml' >/dev/null 2>&1; fi
-        if [ "$cover" != 'no' ]; then     zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
-                                       if zip -0Jqfz- './cbz/xkcd_-_volume_0.cbz' $pngs >/dev/null 2>&1; then
+        if [ "$mimetype" != 'no' ]; then  zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './cbz/mimetype' >/dev/null 2>&1; fi
+        if [ "$comicinfo" != 'no' ]; then zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './metadata/ComicInfo.xml' >/dev/null 2>&1; fi
+        if [ "$cover" != 'no' ]; then     zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
+                                       if zip -0Jqfz- './cbz/xkcd_volume_0.cbz' $pngs >/dev/null 2>&1; then
                                           printf 'Success!\n'; exit 0
         else printf 'Something went wrong. cbz was not made.\n'; quit; exit 1
         fi
