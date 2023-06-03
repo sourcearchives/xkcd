@@ -10,7 +10,7 @@ repository:
   description: a mirror of xkcd [https://xkcd.com], including comics, title text, transcripts, JSON, etc.
   homepage: https://xkcd.com/
   topics:   comic,webcomic,xkcd
-  private: true
+  private: false
   has_issues:    true
   has_downloads: true
   has_projects:  false
