@@ -15,6 +15,7 @@
 *.yml           text linguist-language=YAML
 
 *.cbz           binary
+*.gif           binary
  .gitkeep       binary
 *.jpg           binary
 *.pdf           binary
