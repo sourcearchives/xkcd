@@ -7,7 +7,7 @@
 
 repository:
   name: xkcd
-  description: a mirror of xkcd [https://xkcd.com], including comics, title text, transcripts, JSON, etc.
+  description: a mirror of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.
   homepage: https://xkcd.com/
   topics:   comic,mirror,webcomic,xkcd
   private: false
