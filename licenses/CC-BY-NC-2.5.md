@@ -9,13 +9,15 @@ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVIC
 
 ---
 
+## Creative Commons Attribution-NonCommercial 2.5 Public License
+
 _License_
 
 THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
 
 BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
 
-## <span id="1">1. Definitions
+### <span id="1">1. Definitions
 
 <ol type="a">
   <li id="1(a)">
@@ -38,12 +40,12 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 </ol>
 </span>
 
-## <span id="2">2. Fair Use Rights
+### <span id="2">2. Fair Use Rights
 
 Nothing in this license is intended to reduce, limit, or restrict any rights arising from fair use, first sale or other limitations on the exclusive rights of the copyright owner under copyright law or other applicable laws.
 </span>
 
-## <span id="3">3. License Grant
+### <span id="3">3. License Grant
 
 Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:
 </span>
@@ -64,7 +66,7 @@ Subject to the terms and conditions of this License, Licensor hereby grants You 
 
 The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. All rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights set forth in Sections <a href="#4(d)">4(d)</a> and <a href="#4(e)">4(e)</a>.
 
-## <span id="4">4. Restrictions
+### <span id="4">4. Restrictions
 
 The license granted in Section <a href="#3">3</a> above is expressly made subject to and limited by the following restrictions:
 
@@ -92,17 +94,17 @@ The license granted in Section <a href="#3">3</a> above is expressly made subjec
 </ol>
 </span>
 
-## <span id="5">5. Representations, Warranties and Disclaimer
+### <span id="5">5. Representations, Warranties and Disclaimer
 
 UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
 </span>
 
-## <span id="6">6. Limitation on Liability
+### <span id="6">6. Limitation on Liability
 
 EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 </span>
 
-## <span id="7">7. Termination
+### <span id="7">7. Termination
 
 <ol type="a">
   <li id="7(a)">
@@ -113,7 +115,7 @@ EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LI
 </ol>
 </span>
 
-## <span id="8">8. Miscellaneous
+### <span id="8">8. Miscellaneous
 
 <ol type="a">
   <li id="8(a)">
