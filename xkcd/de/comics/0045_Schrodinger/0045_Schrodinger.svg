@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="700"
+   height="217"
+   version="1.0"
+   sodipodi:docname="schroedinger.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/schloeme/public_html/xkcDE/comics/schroedinger.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective9" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:cy="163.8337"
+     inkscape:cx="373.93966"
+     inkscape:zoom="1.2279853"
+     inkscape:window-height="883"
+     inkscape:window-width="1201"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <image
+     xlink:href="schrodinger.jpg"
+     sodipodi:absref="schrodinger.jpg"
+     width="700"
+     height="217"
+     id="image11"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect2414"
+     width="109.12183"
+     height="45.19598"
+     x="30.537825"
+     y="36.623245" />
+  <text
+     xml:space="preserve"
+     style="font-size:17.75542068px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Comic Jens;-inkscape-font-specification:Comic Jens"
+     x="84.932297"
+     y="57.585632"
+     id="text2384"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan2386"
+       x="84.932297"
+       y="57.585632">Schrödingers</tspan><tspan
+       sodipodi:role="line"
+       x="84.932297"
+       y="75.341049"
+       id="tspan2388">Comic</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect2416"
+     width="146.17439"
+     height="65.9617"
+     x="187.70583"
+     y="32.958706" />
+  <text
+     xml:space="preserve"
+     style="font-size:16.55061531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Comic Jens;-inkscape-font-specification:Comic Jens"
+     x="188.53166"
+     y="43.391102"
+     id="text2390"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan2392"
+       x="188.53166"
+       y="43.391102">Das letzte Panel</tspan><tspan
+       sodipodi:role="line"
+       x="188.53166"
+       y="59.941719"
+       id="tspan2394">dieses Comics ist</tspan><tspan
+       sodipodi:role="line"
+       x="188.53166"
+       y="76.492332"
+       id="tspan2396">gleichzeitig witzig</tspan><tspan
+       sodipodi:role="line"
+       x="188.53166"
+       y="93.042953"
+       id="tspan2398">und nicht witzig.</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect2418"
+     width="17.915524"
+     height="6.5147362"
+     x="262.21814"
+     y="94.034355" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 373.37581,31.737193 L 374.19015,102.58495 L 499.59882,105.43514 L 501.63468,38.6591 L 410.0212,34.180219"
+     id="path2422" />
+  <text
+     xml:space="preserve"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Comic Jens;-inkscape-font-specification:Comic Jens"
+     x="370.5256"
+     y="43.95232"
+     id="text2400"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan2402"
+       x="370.5256"
+       y="43.95232">Bevor man es</tspan><tspan
+       sodipodi:role="line"
+       x="370.5256"
+       y="58.95232"
+       id="tspan2404">gelesen hat kann</tspan><tspan
+       sodipodi:role="line"
+       x="370.5256"
+       y="73.952316"
+       id="tspan2406">man nicht wissen,</tspan><tspan
+       sodipodi:role="line"
+       x="370.5256"
+       y="88.952316"
+       id="tspan2408">wie es letztendlich</tspan><tspan
+       sodipodi:role="line"
+       x="370.5256"
+       y="103.95232"
+       id="tspan3206">sein wird.</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect3208"
+     width="48.656937"
+     height="20.562136"
+     x="591.61945"
+     y="41.91647" />
+  <text
+     xml:space="preserve"
+     style="font-size:13.60200214px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Comic Jens;-inkscape-font-specification:Comic Jens"
+     x="590.69141"
+     y="57.780159"
+     id="text2410"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan2412"
+       x="590.69141"
+       y="57.780159">Scheiße.</tspan></text>
+</svg>

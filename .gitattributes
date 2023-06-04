@@ -10,6 +10,7 @@
 *.md            text linguist-language=Markdown diff=markdown
   mimetype      text linguist-language=Text
 *.sh            text linguist-language=Shell diff=bash eol=lf
+*.svg           text linguist-language=SVG
 *.txt           text linguist-language=Text
 *.xml           text linguist-language=XML
 *.yml           text linguist-language=YAML
