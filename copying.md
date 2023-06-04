@@ -3,6 +3,8 @@
 
 [_xkcd_](https://xkcd.com/) ([`/xkcd/en/comics/`](./xkcd/en/comics/)) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
+The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) by "Sophie, Phiip [and] Antoine" at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
+
 The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`/xkcd/de/comics/`](./xkcd/de/comics/)), _xkcDE_, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 The unofficial [Russian translation of _xkcd_](https://xkcd.ru/) ([`/xkcd/ru/comics/`](./xkcd/ru/comics/)) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
