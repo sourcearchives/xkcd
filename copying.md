@@ -3,6 +3,8 @@
 
 [_xkcd_](https://xkcd.com/) ([`/xkcd/en/comics/`](./xkcd/en/comics/)) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
+The unofficial [Spanish translation of _xkcd_](https://es.xkcd.com/) ([`/xkcd/es/comics/`](./xkcd/es/comics/)), _xkcd en español_, by [Gabriel Rodríguez Alberich](https://gabi.is/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
+
 The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) by "Sophie, Phiip [and] Antoine" at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`/xkcd/de/comics/`](./xkcd/de/comics/)), _xkcDE_, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
@@ -10,8 +12,6 @@ The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`/xkc
 The unofficial [Korean translation of _xkcd_](https://xkcdko.com/) ([`/xkcd/ko/comics/`](./xkcd/ko/comics/)), _xkcdko_, is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](./licenses/CC-BY-NC-4.0.md). `SPDX-License-Identifier: CC-BY-NC-4.0`
 
 The unofficial [Russian translation of _xkcd_](https://xkcd.ru/) ([`/xkcd/ru/comics/`](./xkcd/ru/comics/)) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
-
-The unofficial [Spanish translation of _xkcd_](https://es.xkcd.com/) ([`/xkcd/es/comics/`](./xkcd/es/comics/)), _xkcd en español_, by [Gabriel Rodríguez Alberich](https://gabi.is/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 [_xkcd: volume 0_](https://openlibrary.org/works/OL17379456W/xkcd?edition=key:/books/OL25958867M/) ([`/xkcd/en/print/xkcd_volume_0/`](./xkcd/en/print/xkcd_volume_0/)) by Randall Munroe, published by [breadpig](https://breadpig.myshopify.com/) and freely distributed online as an ebook by [OpenLibra](https://openlibra.com/en/book/xkcd-volume-0/), is licensed under [Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)](./licenses/CC-BY-NC-3.0.md). `SPDX-License-Identifier: CC-BY-NC-3.0`
 
