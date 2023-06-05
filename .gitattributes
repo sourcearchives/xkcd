@@ -4,6 +4,7 @@
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes/]
 
   codeowners    text linguist-language=CODEOWNERS
+*.csv           text linguist-language=CSV
  .gitattributes text linguist-language=Git-Attributes
  .gitignore     text linguist-language=Git-Ignore
 *.json          text linguist-language=JSON
