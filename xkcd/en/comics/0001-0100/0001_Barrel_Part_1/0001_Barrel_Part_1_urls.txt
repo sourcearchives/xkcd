@@ -1,0 +1,4 @@
+web:    https://xkcd.com/1/
+mobile: https://m.xkcd.com/1/
+image:  https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg
+json:   https://xkcd.com/1/info.0.json
