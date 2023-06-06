@@ -16,10 +16,9 @@
 *.xml           text linguist-language=XML eol=lf encoding=UTF-8 working-tree-encoding=UTF-8 git-encoding=utf-8 zos-working-tree-encoding=UTF-8
 *.yml           text linguist-language=YAML eol=lf encoding=UTF-8 working-tree-encoding=UTF-8 git-encoding=utf-8 zos-working-tree-encoding=UTF-8
 
-*.cbz           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
-*.gif           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
- .gitkeep       binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
-*.jpg           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
-*.pdf           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
-*.png           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
-*.ttf           binary encoding=BINARY working-tree-encoding=BINARY git-encoding=BINARY zos-working-tree-encoding=BINARY
+*.gif           binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
+ .gitkeep       binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
+*.jpg           binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
+*.pdf           binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
+*.png           binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
+*.ttf           binary encoding=BINARY working-tree-encoding=BINARY zos-working-tree-encoding=BINARY
