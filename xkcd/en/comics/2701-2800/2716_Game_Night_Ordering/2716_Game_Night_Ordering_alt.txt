@@ -1,0 +1,1 @@
+One good trick, if you get called on a fake service, is to build a working version of it and mention it again the next week.
