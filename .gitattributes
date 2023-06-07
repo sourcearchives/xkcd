@@ -1,4 +1,11 @@
 # SPDX-License-Identifier: CC0-1.0
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-File-Copyright-Text: No rights reserved.
+# SPDX-FileName: ./.gitattributes
+# SPDX-FileType: DOCUMENTATION
+# SPDX-FileType: TEXT
+# SPDX-FileType: SOURCE
+# SPDX-FileType: OTHER
 
 # This file contains configuration for Git based on filenames in the repository root directory: /
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes/]
