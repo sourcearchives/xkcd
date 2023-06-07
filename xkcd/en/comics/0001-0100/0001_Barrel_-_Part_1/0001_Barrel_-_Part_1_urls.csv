@@ -2,8 +2,8 @@
 3dimg,https://imgs.xkcd.com/xk3d/1/background.png,https://imgs.xkcd.com/xk3d/1/borders.png,https://imgs.xkcd.com/xk3d/1/boy.png,https://imgs.xkcd.com/xk3d/1/corners.png,https://imgs.xkcd.com/xk3d/1/sea2.png,https://imgs.xkcd.com/xk3d/1/sea3.png,https://imgs.xkcd.com/xk3d/1/sea4.png,https://imgs.xkcd.com/xk3d/1/words.png
 img1x,https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg
 img2x,
-json,https://xkcd.com/1/info.0.json
-jsonm,https://m.xkcd.com/1/info.0.json
+info,https://xkcd.com/1/info.0.json
+infom,https://m.xkcd.com/1/info.0.json
 mobile,https://m.xkcd.com/1/
 xk3d,https://xk3d.xkcd.com/1/
-web,https://xkcd.com/1/
+xkcd,https://xkcd.com/1/
