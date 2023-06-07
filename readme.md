@@ -1,4 +1,13 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!--
+SPDX-License-Identifier: CC0-1.0
+SPDX-License-Identifier: CC0-1.0
+SPDX-LicenseConcluded: CC0-1.0
+SPDX-File-Copyright-Text: No rights reserved.
+SPDX-FileName: ./readme.md
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+-->
+
 # [open mirror](https://github.com/openmirrors/): _xkcd_
 
 This is an unofficial mirror of [_xkcd_](https://xkcd.com/) and its related data by Randall Munroe, licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md).

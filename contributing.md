@@ -1,4 +1,13 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!--
+SPDX-License-Identifier: CC0-1.0
+SPDX-License-Identifier: CC0-1.0
+SPDX-LicenseConcluded: CC0-1.0
+SPDX-File-Copyright-Text: No rights reserved.
+SPDX-FileName: ./contributing.md
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+-->
+
 # [open mirror](https://github.com/openmirrors/): xkcd – contributing
 
 This repository accepts issues and pull requests from any and all users. Please submit one of those if you have noticed a problem or know how to make the repository better.

@@ -1,11 +1,11 @@
-<!-- SPDX-License-Identifier: UNLICENSED -->
-# SIL Open Font License, version 1.1
+<!-- SPDX-License-Identifier: NONE -->
+# SIL Open Font License Version 1.1
 > <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
 > `SPDX-License-Identifier: OFL-1.1`
 
 ---
 
-## Text of the SIL Open Font License, version 1.1
+## Text of the SIL Open Font License Version 1.1
 
 ### PREAMBLE
 
