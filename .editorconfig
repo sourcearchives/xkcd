@@ -1,0 +1,96 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileName: ./.editorconfig
+# SPDX-FileName: DOCUMENTATION
+# SPDX-FileType: TEXT
+# SPDX-FileType: SOURCE
+# SPDX-FileType: OTHER
+
+# This file contains configuration for EditorConfig [https://editorconfig.org/] in the repository root directory: /
+
+# don't look for more .editorconfig files in higher directories
+root = true
+
+# unset all values for all files 
+[*]
+charset                  = unset
+end_of_line              = unset
+indent_size              = unset
+indent_style             = unset
+insert_final_newline     = false
+max_line_length          = off
+tab_width                = unset
+trim_trailing_whitespace = false
+
+# .gitkeep files should always be empty
+[.gitkeep]
+indent_size              = 0
+indent_style             = space
+max_line_length          = 0
+trim_trailing_whitespace = true
+
+# all text files
+[codeowners,.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,json,md,txt,sh,svg,xml,yml}]
+charset      = utf-8
+end_of_line  = lf
+indent_style = space
+
+# configuration files
+[codeowners,.{editorconfig,git{attributes,ignore}}]
+indent_size              = 1
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+# mimetype files
+[mimetype]
+indent_size              = 0
+trim_trailing_whitespace = true
+
+# CSV (comma-separated values) files
+[*.csv]
+indent_size              = 0
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+# JSON (JavaScript Object Notation) files
+[*.json]
+indent_size          = 0
+insert_final_newline = true
+
+# Markdown files
+[*.md]
+indent_size          = 2
+insert_final_newline = true
+
+# plaintext files
+[*.txt]
+insert_final_newline = true
+
+# shell script filea
+[*.sh]
+indent_size              = 2
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+# SVG (Scalable Vector Graphics) files
+[*.svg]
+insert_final_newline = true
+
+# XML (Extensible Markup Language) files
+[*.xml]
+indent_size              = 2
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+# LibreOffice-generated XML files
+[xkcd/en/print/xkcd_volume_0/odg/**.xml]
+indent_size              = 1
+insert_final_newline     = false
+trim_trailing_whitespace = false
+
+# YAML files
+[*.yml]
+indent_size              = 2
+insert_final_newline     = true
+trim_trailing_whitespace = true

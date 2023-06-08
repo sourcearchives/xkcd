@@ -10,20 +10,18 @@
 # This file contains configuration for Git based on filenames in the repository root directory: /
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes/]
 
-codeowners,.git{attributes,ignore},mimetype,*.{csv,json,md,sh,svg,txt,xml,yml} text eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-
-  codeowners    linguist-language=CODEOWNERS
-*.csv           linguist-language=CSV
- .gitattributes linguist-language=Git-Attributes
- .gitignore     linguist-language=Git-Ignore
-*.json          linguist-language=JSON
-*.md            linguist-language=Markdown diff=markdown
-  mimetype      linguist-language=Text
-*.sh            linguist-language=Shell diff=bash
-*.svg           linguist-language=SVG
-*.txt           linguist-language=Text
-*.xml           linguist-language=XML
-*.yml           linguist-language=YAML
+  codeowners    text linguist-language=CODEOWNERS eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.csv           text linguist-language=CSV eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+ .gitattributes text linguist-language=Git-Attributes eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+ .gitignore     text linguist-language=Git-Ignore eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.json          text linguist-language=JSON eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.md            text linguist-language=Markdown diff=markdown eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+  mimetype      text linguist-language=Text eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.sh            text linguist-language=Shell diff=bash eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.svg           text linguist-language=SVG eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.txt           text linguist-language=Text eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.xml           text linguist-language=XML eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.yml           text linguist-language=YAML eol=lf encoding=UTF-8 git-encoding=utf-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 
 *.gif           binary
  .gitkeep       binary
