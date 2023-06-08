@@ -11,16 +11,26 @@
 # Information about .gitignore is available here: [https://git-scm.com/docs/gitattributes/]
 
 # filenames with common non-portable characters
-*\!*
-*\?*
-*\\*
 * *
 *#*
 *(*
 *)*
+*[*
+*]*
+*{*
+*}*
+*<*
+*>*
+*"*
+*'*
 *,*
 *;*
 *:*
+*|*
+*%*
+*!*
+*\?*
+*\\*
 
 # other potentially problematic filenames
 -*
@@ -64,5 +74,5 @@ Temporary Items
 .VolumeIcon.icns
 
 # made files
-*.cbz
-*.odg
+*.[Cc][Bb][Zz]
+*.[Oo][Dd][Gg]
