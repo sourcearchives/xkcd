@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-LicenseConcluded: CC0-1.0
-# SPDX-File-Copyright-Text: No rights reserved.
+# SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./checks.sh
 # SPDX-FileType: APPLICATION
 # SPDX-FileType: SOURCE
