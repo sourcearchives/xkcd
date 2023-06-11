@@ -1,9 +1,9 @@
-3d,
-3dimg,
-img1x,https://imgs.xkcd.com/comics/1000_comics.png
-img2x,
-json,https://xkcd.com/1000/info.0.json
-jsonm,https://m.xkcd.com/1000/info.0.json
-mobile,https://m.xkcd.com/1000/
-xk3d,
-web,https://xkcd.com/1000/
+,URL
+comic,https://xkcd.com/1000/
+comic 3D,
+comic mobile,https://m.xkcd.com/1000/
+image 3D,
+image 1x,https://imgs.xkcd.com/comics/1000_comics.png
+image 2x,
+info,https://xkcd.com/1000/info.0.json
+info,https://m.xkcd.com/1000/info.0.json
