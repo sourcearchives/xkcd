@@ -257,10 +257,10 @@ make_cbz () {
         if [ ! -s './metadata/ComicInfo.xml' ]; then comicinfo='no'; fi
         if [ ! -s './metadata/Cover.png' ]; then cover='no'; fi
         printf 'creating comic book ZIP (CBZ)...\n'
-        if [ "$mimetype" != 'no' ]; then  zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './cbz/mimetype' >/dev/null 2>&1; fi
-        if [ "$comicinfo" != 'no' ]; then zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './metadata/ComicInfo.xml' >/dev/null 2>&1; fi
-        if [ "$cover" != 'no' ]; then     zip -0Jqfz- './cbz/xkcd_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
-                                       if zip -0Jqfz- './cbz/xkcd_volume_0.cbz' $pngs >/dev/null 2>&1; then
+        if [ "$mimetype" != 'no' ]; then  zip -0Jjqfz- './cbz/xkcd_volume_0.cbz' './cbz/mimetype' >/dev/null 2>&1; fi
+        if [ "$comicinfo" != 'no' ]; then zip -0Jjqfz- './cbz/xkcd_volume_0.cbz' './metadata/ComicInfo.xml' >/dev/null 2>&1; fi
+        if [ "$cover" != 'no' ]; then     zip -0Jjqfz- './cbz/xkcd_volume_0.cbz' './metadata/Cover.png' >/dev/null 2>&1; fi
+                                       if zip -0Jjqfz- './cbz/xkcd_volume_0.cbz' $pngs >/dev/null 2>&1; then
                                           printf 'Success!\n'; exit 0
         else printf 'Something went wrong. cbz was not made.\n'; quit; exit 1
         fi
