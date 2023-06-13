@@ -8,7 +8,7 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 -->
 
-# [open mirror](https://github.com/openmirrors/): xkcd – contributing
+# [open mirror](https://github.com/openmirrors): xkcd – contributing
 
 This repository accepts issues and pull requests from any and all users. Please submit one of those if you have noticed a problem or know how to make the repository better.
 

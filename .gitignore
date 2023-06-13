@@ -8,7 +8,7 @@
 # SPDX-FileType: OTHER
 
 # This file contains files for Git to ignore in the repository root directory: /
-# Information about .gitignore is available here: [https://git-scm.com/docs/gitattributes/]
+# Information about .gitignore is available here: [https://git-scm.com/docs/gitignore]
 
 # filenames with common non-portable characters
 * *
