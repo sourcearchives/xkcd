@@ -1,0 +1,1 @@
+The floor should be slightly curved, but we haven't figured out artificial gravity yet, so for now we just added a trace intoxicating gas to the air that messes with your inner ear and gives you a sense that the ground is tilting away from you.
