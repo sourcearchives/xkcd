@@ -31,7 +31,7 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[codeowners,.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,json,md,txt,sh,svg,xml,yml}]
+[codeowners,.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,js,json,md,txt,sh,svg,xml,yml}]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
@@ -57,10 +57,15 @@ indent_size              = 0
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
+# JavaScript files
+[*.js]
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
 # JSON (JavaScript Object Notation) files
 [*.json]
-indent_size          = 0
-insert_final_newline = true
+insert_final_newline     = true
+trim_trailing_whitespace = true
 
 # Markdown files
 [*.md]
