@@ -14,6 +14,7 @@
 *.csv           text linguist-language=CSV linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitattributes text linguist-language=Git-Attributes linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitignore     text linguist-language=Git-Ignore linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.html          text linguist-language=HTML diff=html linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.js            text linguist-language=JavaScript linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.json          text linguist-language=JSON linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.md            text linguist-language=Markdown diff=markdown linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
