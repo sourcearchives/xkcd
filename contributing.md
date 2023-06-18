@@ -1,5 +1,5 @@
 <!--
-SPDX-FileContributor: contributors to [https://github.com/openmirrors/xkcd]
+SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
 SPDX-FileName: DOCUMENTATION
