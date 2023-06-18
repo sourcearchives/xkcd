@@ -1,11 +1,12 @@
-# SPDX-License-Identifier: CC0-1.0
-# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-FileContributor: contributors to [https://github.com/openmirrors/xkcd]
 # SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./.gitattributes
 # SPDX-FileType: DOCUMENTATION
 # SPDX-FileType: TEXT
 # SPDX-FileType: SOURCE
 # SPDX-FileType: OTHER
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-License-Identifier: CC0-1.0
 
 # This file contains configuration for Git based on filenames in the repository root directory: /
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes]

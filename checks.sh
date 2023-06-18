@@ -1,10 +1,11 @@
 #!/usr/bin/env sh
-# SPDX-License-Identifier: CC0-1.0
-# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-FileContributor: contributors to [https://github.com/openmirrors/xkcd]
 # SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./checks.sh
 # SPDX-FileType: APPLICATION
 # SPDX-FileType: SOURCE
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-License-Identifier: CC0-1.0
 
 # This POSIX shell script performs some checks on the repository to ensure the repository is complete and consistent.
 

@@ -1,11 +1,12 @@
 <!--
-SPDX-License-Identifier: CC0-1.0
-SPDX-LicenseConcluded: CC0-1.0
+SPDX-FileContributor: contributors to [https://github.com/openmirrors/xkcd]
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./copying.md
 SPDX-FileName: DOCUMENTATION
 SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: CC0-1.0
+SPDX-License-Identifier: CC0-1.0
 -->
 
 # [open mirror](https://github.com/openmirrors): _xkcd_ – copying
