@@ -7,7 +7,7 @@ If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or 
 <a href="https://www.xkcd.com/"><img border="0" src="./frame.jpg"></a>
 </div>
 
-<div align="center"><h3>
+<div style="text-align:center;" align="center"><h3>
 Solution to the <a href="https://www.xkcd.com/blue_eyes.html">Blue Eyes</a> puzzle
 </h3></div>
 
