@@ -32,3 +32,4 @@ These are just to give you something to think about if you enjoyed the main solu
 <div align="center"><a href="https://www.xkcd.com/"><img border="0" src="./hyphen.jpg"></a></div>
 <br>
 <div align="center">Puzzle text/solution copyright <a href="https://www.xkcd.com/">Randall Munroe</a>, 2005-2006</div>
+</blockquote>
