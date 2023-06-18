@@ -83,7 +83,6 @@ Temporary Items
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
 [._]sw[a-p]
-!*.svg
 .netrwhist
 Session.vim
 Sessionx.vim
@@ -94,9 +93,12 @@ ehthumbs.db
 ehthumbs_vista.db
 Thumbs.db
 
-# other filenames
+# Android nomedia
 .nomedia
 
 # made files
 *.[Cc][Bb][Zz]
 *.[Oo][Dd][Gg]
+
+# don't ignore SVG files (Vim section discludes them)
+!*.svg
