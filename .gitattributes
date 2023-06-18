@@ -10,7 +10,6 @@
 # This file contains configuration for Git based on filenames in the repository root directory: /
 # Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes]
 
-  codeowners    text linguist-language=CODEOWNERS linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.csv           text linguist-language=CSV linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitattributes text linguist-language=Git-Attributes linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitignore     text linguist-language=Git-Ignore linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8

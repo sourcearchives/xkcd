@@ -12,7 +12,7 @@
 # don't look for more .editorconfig files in higher directories
 root = true
 
-# unset all values for all files 
+# unset/disable all config for all files 
 [*]
 charset                  = unset
 end_of_line              = unset
@@ -31,13 +31,13 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[codeowners,.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,html,js,json,md,txt,sh,svg,xml,yml}]
+[.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,html,js,json,md,txt,sh,svg,xml,yml}]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
 
 # configuration files
-[codeowners,.{editorconfig,git{attributes,ignore}}]
+[.{editorconfig,git{attributes,ignore}}]
 indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
