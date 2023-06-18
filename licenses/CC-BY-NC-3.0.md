@@ -17,7 +17,8 @@ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS
 
 BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
 
-### <div id="1">1. Definitions
+<div id="1">
+<h3>1. Definitions</h3>
 
 <ol type="a">
   <li id="1(a)">
@@ -49,12 +50,14 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 </ol>
 </div>
 
-### <div id="2">2. Fair Dealing Rights
+<div id="2">
+<h3>2. Fair Dealing Rights</h3>
 
 Nothing in this License is intended to reduce, limit, or restrict any uses free from copyright or rights arising from limitations or exceptions that are provided for in connection with the copyright protection under copyright law or other applicable laws.
 </div>
 
-### <div id="3">3. License Grant
+<div id="3">
+<h3>3. License Grant</h3>
 
 Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:
 
@@ -75,7 +78,8 @@ Subject to the terms and conditions of this License, Licensor hereby grants You 
 The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. Subject to Section <a href="#8(f)">8(f)</a>, all rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights set forth in Section <a href="#4(d)">4(d)</a>.
 </div>
 
-### <div id="4">4. Restrictions
+<div id="4">
+<h3>4. Restrictions</h3>
 
 The license granted in Section <a href="#3">3</a> above is expressly made subject to and limited by the following restrictions:
 
@@ -105,17 +109,20 @@ The license granted in Section <a href="#3">3</a> above is expressly made subjec
 </ol>
 </div>
 
-### <div id="5">5. Representations, Warranties and Disclaimer
+<div id="5">
+<h3>5. Representations, Warranties and Disclaimer</h3>
 
 UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
 </div>
 
-### <div id="6">6. Limitation on Liability
+<div id="6">
+<h3>6. Limitation on Liability</h3>
 
 EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 </div>
 
-### <div id="7">7. Termination
+<div id="7">
+<h3>7. Termination</h3>
 
 <ol type="a">
   <li id="7(a)">
@@ -126,7 +133,8 @@ EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LI
 </ol>
 </div>
 
-### <div id="8">8. Miscellaneous
+<div id="8">
+<h3>8. Miscellaneous</h3>
 
 <ol type="a">
   <li id="8(a)">

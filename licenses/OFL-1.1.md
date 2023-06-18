@@ -7,14 +7,16 @@
 
 ## Text of the SIL Open Font License Version 1.1
 
-### <div id="1">PREAMBLE
+<div id="1">
+<h3>PREAMBLE</h3>
 
 The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
 
 The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
 </div>
 
-### <div id="2">DEFINITIONS
+<div id="2">
+<h3>DEFINITIONS</h3>
 
 "Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
 
@@ -27,7 +29,8 @@ The OFL allows the licensed fonts to be used, studied, modified and redistribute
 "Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
 </div>
 
-### <div id="3">PERMISSION & CONDITIONS
+<div id="3">
+<h3>PERMISSION & CONDITIONS</h3>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
 
@@ -44,12 +47,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 </ol>
 </div>
 
-### <div id="4">TERMINATION
+<div id="4">
+<h3>TERMINATION</h3>
 
 This license becomes null and void if any of the above conditions are not met.
 </div>
 
-### <div id="5">DISCLAIMER
+<div id="5">
+<h3>DISCLAIMER</h3>
 
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 </div>
