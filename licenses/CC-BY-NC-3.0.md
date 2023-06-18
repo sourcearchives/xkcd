@@ -17,7 +17,7 @@ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS
 
 BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
 
-### <span id="1">1. Definitions
+### <div id="1">1. Definitions
 
 <ol type="a">
   <li id="1(a)">
@@ -47,14 +47,14 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
   <li id="1(i)">
   <strong>"Reproduce"</strong> means to make copies of the Work by any means including without limitation by sound or visual recordings and the right of fixation and reproducing fixations of the Work, including storage of a protected performance or phonogram in digital form or other electronic medium.</li>
 </ol>
-</span>
+</div>
 
-### <span id="2">2. Fair Dealing Rights
+### <div id="2">2. Fair Dealing Rights
 
 Nothing in this License is intended to reduce, limit, or restrict any uses free from copyright or rights arising from limitations or exceptions that are provided for in connection with the copyright protection under copyright law or other applicable laws.
-</span>
+</div>
 
-### <span id="3">3. License Grant
+### <div id="3">3. License Grant
 
 Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:
 
@@ -73,9 +73,9 @@ Subject to the terms and conditions of this License, Licensor hereby grants You 
 </ol>
 
 The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. Subject to Section <a href="#8(f)">8(f)</a>, all rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights set forth in Section <a href="#4(d)">4(d)</a>.
-</span>
+</div>
 
-### <span id="4">4. Restrictions
+### <div id="4">4. Restrictions
 
 The license granted in Section <a href="#3">3</a> above is expressly made subject to and limited by the following restrictions:
 
@@ -103,19 +103,19 @@ The license granted in Section <a href="#3">3</a> above is expressly made subjec
   <li id="4(e)">
   Except as otherwise agreed in writing by the Licensor or as may be otherwise permitted by applicable law, if You Reproduce, Distribute or Publicly Perform the Work either by itself or as part of any Adaptations or Collections, You must not distort, mutilate, modify or take other derogatory action in relation to the Work which would be prejudicial to the Original Author's honor or reputation. Licensor agrees that in those jurisdictions (e.g. Japan), in which any exercise of the right granted in Section <a href="#3(b)">3(b)</a> of this License (the right to make Adaptations) would be deemed to be a distortion, mutilation, modification or other derogatory action prejudicial to the Original Author's honor and reputation, the Licensor will waive or not assert, as appropriate, this Section, to the fullest extent permitted by the applicable national law, to enable You to reasonably exercise Your right under Section <a href="#3(b)">3(b)</a> of this License (right to make Adaptations) but not otherwise.</li>
 </ol>
-</span>
+</div>
 
-### <span id="5">5. Representations, Warranties and Disclaimer
+### <div id="5">5. Representations, Warranties and Disclaimer
 
 UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
-</span>
+</div>
 
-### <span id="6">6. Limitation on Liability
+### <div id="6">6. Limitation on Liability
 
 EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-</span>
+</div>
 
-### <span id="7">7. Termination
+### <div id="7">7. Termination
 
 <ol type="a">
   <li id="7(a)">
@@ -124,9 +124,9 @@ EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LI
   <li id="7(b)">
   Subject to the above terms and conditions, the license granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding the above, Licensor reserves the right to release the Work under different license terms or to stop distributing the Work at any time; provided, however that any such election will not serve to withdraw this License (or any other license that has been, or is required to be, granted under the terms of this License), and this License will continue in full force and effect unless terminated as stated above.</li>
 </ol>
-</span>
+</div>
 
-### <span id="8">8. Miscellaneous
+### <div id="8">8. Miscellaneous
 
 <ol type="a">
   <li id="8(a)">
@@ -147,7 +147,7 @@ EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LI
   <li id="8(f)">
   The rights granted under, and the subject matter referenced, in this License were drafted utilizing the terminology of the Berne Convention for the Protection of Literary and Artistic Works (as amended on September 28, 1979), the Rome Convention of 1961, the WIPO Copyright Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996 and the Universal Copyright Convention (as revised on July 24, 1971). These rights and subject matter take effect in the relevant jurisdiction in which the License terms are sought to be enforced according to the corresponding provisions of the implementation of those treaty provisions in the applicable national law. If the standard suite of rights granted under applicable copyright law includes additional rights not granted under this License, such additional rights are deemed to be included in the License; this License is not intended to restrict the license of any rights under applicable law.</li>
 </ol>
-</span>
+</div>
 
 ---
 
