@@ -11,31 +11,36 @@
 # This file contains files for Git to ignore in the repository root directory: /
 # Information about .gitignore is available here: [https://git-scm.com/docs/gitignore]
 
-# filenames with common non-portable characters
+# non-portable US-ASCII printable characters
 * *
+*!*
+*"*
 *#*
+*$*
+*%*
+*&*
+*'*
 *(*
 *)*
-*[*
-*]*
-*{*
-*}*
-*<*
-*>*
-*"*
-*'*
-*,*
-*;*
-*:*
-*|*
-*%*
-*$*
-*&*
-*~*
-*!*
 *\**
+*+*
+*,*
+*:*
+*;*
+*<*
+*=*
+*>*
 *\?*
+*@*
+*[*
 *\\*
+*]*
+*^*
+*`*
+*{*
+*|*
+*}*
+*~*
 
 # other potentially problematic filenames
 -*
