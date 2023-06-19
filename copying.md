@@ -11,7 +11,7 @@ lang:         'en-US'
 # metadata
 author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
 title:        'open mirror: xkcd – copying'
-...
+---
 
 <!--
 SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
