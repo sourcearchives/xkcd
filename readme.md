@@ -9,6 +9,7 @@ SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 -->
 
+<!--
 ---
 # pandoc variables
 # ConTeXt
@@ -23,6 +24,7 @@ lang:         'en-US'
 author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
 title:        'open mirror: xkcd – readme'
 ---
+-->
 
 # [open mirror](https://github.com/openmirrors): _xkcd_ – readme
 
