@@ -6,4 +6,4 @@ Figure: ... want to browse a series of images...
 
 Figure: ... like this. 
 
-{{Title text: Points to anyone who hacks the Flickr devs' computers to make their text editors do this when you click on anything.}}n
+{{Title text: Points to anyone who hacks the Flickr devs' computers to make their text editors do this when you click on anything.}}
