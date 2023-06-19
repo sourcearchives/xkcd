@@ -1,4 +1,6 @@
 <!--
+Markdown dialect: GitHub Flavored Markdown (GFM)
+
 SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
@@ -7,9 +9,7 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
--->
 
-<!--
 ---
 # pandoc variables
 # ConTeXt
@@ -30,4 +30,4 @@ title:        'open mirror: xkcd – contributing'
 
 This repository accepts issues and pull requests from any and all users. Please submit one of those if you have noticed a problem or know how to make the repository better.
 
-If you do contribute original assets, edits, code, etc. to this repository, you must agree to dedicate your contributions to the public domain under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md) should they be merged into the repository. You must communicate your release of the materials, which you can do by, for example, including text that dedicates the materials to the public domain in your pull request or commit message.
+If you do contribute original assets, edits, code, etc. to this repository, you must agree to dedicate your contributions to the public domain under [Creative Commons Zero 1.0 Universal \(CC0 1.0\)](./licenses/CC0-1.0.md) should they be merged into the repository. You must communicate your release of the materials, which you can do by, for example, including text that dedicates the materials to the public domain in your pull request or commit message.
