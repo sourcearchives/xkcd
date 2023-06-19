@@ -4,38 +4,40 @@
 
 ---
 
-repository:
-  name: 'xkcd'
-  description: 'a mirror of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It''s all manual, so contributions are very welcome and appreciated!'
-  homepage: 'https://xkcd.com/'
-  topics:   'comic,mirror,webcomic,xkcd'
-  private: false
-  has_issues:    true
-  has_downloads: true
-  has_projects:  false
-  has_wiki:      false
-  default_branch: 'main'
-  allow_merge_commit: true
-  allow_squash_merge: false
-  allow_rebase_merge: false
-  delete_branch_on_merge:          false
-  enable_automated_security_fixes: false
-  enable_vulnerability_alerts:     false
-
 branches:
 - name: 'main'
+  enforce_admins: null
+  required_status_checks: null
+  required_linear_history: true
+  restrictions: null
   protection:
     required_pull_request_reviews:
+      dismiss_stale_reviews: false
       required_approving_review_count: 1
       require_code_owner_reviews: false
-      dismiss_stale_reviews:      false
-  enforce_admins:         null
-  required_status_checks: null
-  restrictions:           null
-  required_linear_history: true
 
-labels:     null
+labels: null
+
 milestones: null
-teams:      null
+
+repository:
+  allow_merge_commit: true
+  allow_rebase_merge: false
+  allow_squash_merge: false
+  default_branch: 'main'
+  delete_branch_on_merge: false
+  description: 'a mirror of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It''s all manual, so contributions are very welcome and appreciated!'
+  enable_automated_security_fixes: false
+  enable_vulnerability_alerts: false
+  has_downloads: true
+  has_issues:    true
+  has_projects:  false
+  has_wiki:      false
+  homepage: 'https://xkcd.com/'
+  name: 'xkcd'
+  private: false
+  topics: 'comic,mirror,webcomic,xkcd'
+
+teams: null
 
 ...
