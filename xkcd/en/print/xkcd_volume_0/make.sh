@@ -31,7 +31,7 @@ if command -v basename >/dev/null 2>&1; then
 fi
 
 info () {
-  printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
+  printf 'This shell script makes files containing the book “xkcd: volume 0” by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs, PNGs, and/or the ODG source from:
   https://github.com/openmirrors/xkcd (/xkcd/en/print/xkcd_volume_0/)
 in the same directory as this script.
@@ -139,7 +139,7 @@ png_pages () {
   p090='./pages/png/090.png' # 118 explicit
   p091='./pages/png/091.png' # variable
   p092='./pages/png/092.png' # assignments!
-  p093='./pages/png/093.png' # That's just
+  p093='./pages/png/093.png' # That’s just
   p094='./pages/png/094.png' # madness!”
   p095='./pages/png/095.png' # And you know
   p096='./pages/png/096.png' # what? I
