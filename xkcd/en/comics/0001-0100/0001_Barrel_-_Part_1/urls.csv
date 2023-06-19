@@ -1,17 +1,17 @@
-,URL
-comic,https://xkcd.com/1/
-comic 3D,https://3d.xkcd.com/1/
-comic 3D,https://xk3d.xkcd.com/1/
+            ,URL
+comic       ,https://xkcd.com/1/
+comic 3D    ,https://3d.xkcd.com/1/
+comic 3D    ,https://xk3d.xkcd.com/1/
 comic mobile,https://m.xkcd.com/1/
-image 3D,https://imgs.xkcd.com/xk3d/1/background.png
-image 3D,https://imgs.xkcd.com/xk3d/1/borders.png
-image 3D,https://imgs.xkcd.com/xk3d/1/boy.png
-image 3D,https://imgs.xkcd.com/xk3d/1/corners.png
-image 3D,https://imgs.xkcd.com/xk3d/1/sea2.png
-image 3D,https://imgs.xkcd.com/xk3d/1/sea3.png
-image 3D,https://imgs.xkcd.com/xk3d/1/sea4.png
-image 3D,https://imgs.xkcd.com/xk3d/1/words.png
-image 1x,https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg
-image 2x,
-info,https://xkcd.com/1/info.0.json
-info,https://m.xkcd.com/1/info.0.json
+image 3D    ,https://imgs.xkcd.com/xk3d/1/background.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/borders.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/boy.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/corners.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/sea2.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/sea3.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/sea4.png
+image 3D    ,https://imgs.xkcd.com/xk3d/1/words.png
+image 1x    ,https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg
+image 2x    ,
+info        ,https://xkcd.com/1/info.0.json
+info        ,https://m.xkcd.com/1/info.0.json

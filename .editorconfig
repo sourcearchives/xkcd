@@ -55,7 +55,7 @@ trim_trailing_whitespace = true
 
 # CSV (comma-separated values) files
 [*.csv]
-indent_size              = 0
+indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 

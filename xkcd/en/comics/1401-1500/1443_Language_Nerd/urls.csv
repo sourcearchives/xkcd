@@ -1,9 +1,9 @@
-,URL
-comic,https://xkcd.com/1443/
-comic 3D,
+            ,URL
+comic       ,https://xkcd.com/1443/
+comic 3D    ,
 comic mobile,https://m.xkcd.com/1443/
-image 1x,https://imgs.xkcd.com/comics/language_nerd.png
-image 2x,https://imgs.xkcd.com/comics/language_nerd_2x.png
-image 3D,
-info,https://xkcd.com/1443/info.0.json
-info,https://m.xkcd.com/1443/info.0.json
+image 1x    ,https://imgs.xkcd.com/comics/language_nerd.png
+image 2x    ,https://imgs.xkcd.com/comics/language_nerd_2x.png
+image 3D    ,
+info        ,https://xkcd.com/1443/info.0.json
+info        ,https://m.xkcd.com/1443/info.0.json
