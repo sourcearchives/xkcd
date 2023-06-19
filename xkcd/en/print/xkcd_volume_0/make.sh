@@ -131,8 +131,8 @@ png_pages () {
   p082='./pages/png/082.png' # stupid too.
   p083='./pages/png/083.png' # I was blind.
   p084='./pages/png/084.png' # I was a sheep.
-  p085='./pages/png/085.png' # "No, you
-  p086='./pages/png/086.png' # shouldn't
+  p085='./pages/png/085.png' # “No, you
+  p086='./pages/png/086.png' # shouldn’t
   p087='./pages/png/087.png' # write a
   p088='./pages/png/088.png' # 200-line shell
   p089='./pages/png/089.png' # script with
@@ -140,7 +140,7 @@ png_pages () {
   p091='./pages/png/091.png' # variable
   p092='./pages/png/092.png' # assignments!
   p093='./pages/png/093.png' # That's just
-  p094='./pages/png/094.png' # madness!"
+  p094='./pages/png/094.png' # madness!”
   p095='./pages/png/095.png' # And you know
   p096='./pages/png/096.png' # what? I
   p097='./pages/png/097.png' # believed them.
@@ -165,6 +165,7 @@ png_pages () {
   p116='./pages/png/116.png' # lunatic.
   p117='./pages/png/117.png' # Because only
   p118='./pages/png/118.png' # I see my genius.
+        # (okay, but seriously, TODO: refactor)
   if [ -s "$p001" ] && [ -s "$p002" ] && \
      [ -s "$p003" ] && [ -s "$p004" ] && \
      [ -s "$p005" ] && [ -s "$p006" ] && \

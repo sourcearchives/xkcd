@@ -10,7 +10,7 @@
 
 # This file contains configuration for EditorConfig [https://editorconfig.org/] in the repository root directory: /
 
-# don't look for more .editorconfig files in higher directories
+# don’t look for more .editorconfig files in higher directories
 root = true
 
 # unset/disable all config for all files
