@@ -1,3 +1,14 @@
+<!--
+SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
+SPDX-FileCopyrightText: No rights reserved.
+SPDX-FileName: ./contributing.md
+SPDX-FileName: DOCUMENTATION
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: CC0-1.0
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 # pandoc variables
 # ConTeXt
@@ -12,17 +23,6 @@ lang:         'en-US'
 author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
 title:        'open mirror: xkcd – contributing'
 ---
-
-<!--
-SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
-SPDX-FileCopyrightText: No rights reserved.
-SPDX-FileName: ./contributing.md
-SPDX-FileName: DOCUMENTATION
-SPDX-FileType: TEXT
-SPDX-FileType: SOURCE
-SPDX-LicenseConcluded: CC0-1.0
-SPDX-License-Identifier: CC0-1.0
--->
 
 # [open mirror](https://github.com/openmirrors): _xkcd_ – contributing
 
