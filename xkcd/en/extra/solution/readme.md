@@ -1,4 +1,6 @@
 <!-- SPDX-License-Identifier: NOASSERTION -->
+# Blue Eyes - The Hardest Logic Puzzle in the World - Solution
+
 <div style="text-align:center;" align="center">
 
 If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns,
