@@ -26,7 +26,7 @@ title:        'open mirror: xkcd – readme'
 ---
 -->
 
-# [open mirror](https://github.com/openmirrors): _xkcd_ – readme
+# open mirror: _xkcd_ – readme
 
 This is an unofficial mirror of [_xkcd_](https://xkcd.com/) and its related data by Randall Munroe, licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic \(CC BY-NC 2.5\)](./licenses/CC-BY-NC-2.5.md).
 

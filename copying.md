@@ -26,7 +26,7 @@ title:        'open mirror: xkcd – copying'
 ---
 -->
 
-# [open mirror](https://github.com/openmirrors): _xkcd_ – copying
+# open mirror: _xkcd_ – copying
 
 [_xkcd_](https://xkcd.com/) \([`./xkcd/en/comics/`](./xkcd/en/comics/)\) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic \(CC BY-NC 2.5\)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
@@ -52,4 +52,4 @@ The [Creative Commons](https://creativecommons.org/) licenses \([`/licenses/`](.
 
 The [SIL Open Font License Version 1.0](./licenses/OFL-1.1.md) by Nicolas Spalinger and Victor Gaultney at [SIL International](https://www.sil.org/) has no asserted license. `SPDX-License-Identifier: NOASSERTION`
 
-[^1]: If you wish to attribute this CC0 work, please simply link to the original GitHub repository \(<https://github.com/openmirrors/xkcd>\).
+[^1]: If you wish to attribute this CC0 work, please simply link to the original repository \(<https://github.com/openmirrors/xkcd> or <https://gitlab.com/openmirrors/xkcd>\).

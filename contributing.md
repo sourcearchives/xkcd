@@ -26,7 +26,7 @@ title:        'open mirror: xkcd – contributing'
 ---
 -->
 
-# [open mirror](https://github.com/openmirrors): _xkcd_ – contributing
+# open mirror: _xkcd_ – contributing
 
 This repository accepts issues and pull requests from any and all users. Please submit one of those if you have noticed a problem or know how to make the repository better.
 
