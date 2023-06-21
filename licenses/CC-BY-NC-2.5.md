@@ -3,9 +3,9 @@
 <!--
 Markdown dialect: GitHub Flavored Markdown
 
-SPDX-FileContributor: author: Creative Commons [https://creativecommons.org/] [https://en.wikipedia.org/wiki/Creative_Commons]
-SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
-SPDX-FileCopyrightText: No rights reserved. “Creative Commons” and “CC” are registered trademarks of Creative Commons Corporation. “Software Package Data Exchange” and “SPDX” are registered trademarks of the Linux Foundation. “Linux” is a registered trademark of Linus Torvalds.
+SPDX-FileContributor: author: Creative Commons | https://creativecommons.org/ | wikipedia_en:Creative_Commons
+SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
+SPDX-FileCopyrightText: No rights reserved. “CREATIVE COMMONS” and “CC” are registered trademarks of Creative Commons. “SOFTWARE PACKAGE DATA EXCHANGE” and “SPDX” are registered trademarks of the Linux Foundation. “LINUX” is a registered trademark of Linus Torvalds.
 SPDX-FileName: ./licenses/CC-BY-NC-2.5.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: TEXT
@@ -25,6 +25,7 @@ dir:          'ltr'
 lang:         'en-US'
 # metadata
 author:       'Creative Commons'
+date:         '2005-06'
 title:        'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)'
 ---
 -->

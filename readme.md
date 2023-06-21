@@ -3,7 +3,7 @@
 <!--
 Markdown dialect: GitHub Flavored Markdown (GFM)
 
-SPDX-FileContributor: author: gabldotink (@gabldotink) <gabl@gabl.ink>
+SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./readme.md
 SPDX-FileName: DOCUMENTATION

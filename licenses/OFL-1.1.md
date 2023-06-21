@@ -3,10 +3,10 @@
 <!--
 Markdown dialect: GitHub Flavored Markdown
 
-SPDX-FileContributor: author: Nicolas Spalinger | github:n7s | email:nicolas.spalinger@sil.org
+SPDX-FileContributor: author: Nicolas Spalinger | email:nicolas.spalinger@sil.org | github:n7s
 SPDX-FileContributor: author: Victor Gaultney | https://gaultney.org/jvgtype/
-SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
-SPDX-FileCopyrightText: © 2007 SIL International. “SIL” and “SIL International” are registered trademarks of SIL International. “Software Package Data Exchange” and “SPDX” are registered trademarks of the Linux Foundation. “Linux” is a registered trademark of Linus Torvalds.
+SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
+SPDX-FileCopyrightText: © 2007 SIL International. “SIL” and “SIL INTERNATIONAL” are registered trademarks of SIL International. “SOFTWARE PACKAGE DATA EXCHANGE” and “SPDX” are registered trademarks of the Linux Foundation. “LINUX” is a registered trademark of Linus Torvalds.
 SPDX-FileName: ./licenses/OFL-1.1.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: TEXT
@@ -31,10 +31,10 @@ title:        'SIL Open Font License Version 1.1 (OFL 1.1)'
 -->
 
 # SIL Open Font License Version 1.1 (OFL 1.1)
-> SIL text (HTML) (English): <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
-> SIL text (TXT) (English): <https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=OFL_plaintext&filename=OFL.txt>  
-> SPDX text (English): <https://spdx.org/licenses/OFL-1.1>  
-> SPDX text (English): <https://spdx.org/licenses/OFL-1.1.html>  
+> SIL text HTML English: <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
+> SIL text TXT English: <https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=OFL_plaintext&filename=OFL.txt>  
+> SPDX text English: <https://spdx.org/licenses/OFL-1.1>  
+> SPDX text English: <https://spdx.org/licenses/OFL-1.1.html>  
 > SPDX license identifier: `OFL-1.1`
 
 ---

@@ -3,7 +3,7 @@
 <!--
 Markdown dialect: GitHub Flavored Markdown (GFM)
 
-SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
+SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./copying.md
 SPDX-FileName: DOCUMENTATION

@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
-# SPDX-FileContributor: author: gabldotink | github:gabldotink | email:gabl@gabl.ink
+#
+# SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 # SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./checks.sh
 # SPDX-FileType: APPLICATION
