@@ -1,4 +1,34 @@
-<!-- SPDX-License-Identifier: NOASSERTION -->
+<div dir="ltr" lang="en-US">
+
+<!--
+Markdown dialect: GitHub Flavored Markdown
+
+SPDX-FileContributor: author: Randall Munroe [wikipedia_en:Randall_Munroe]
+SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
+SPDX-FileContributor: thanks: “some dude on the street in Boston named Joel”
+SPDX-FileCopyrightText: No rights reserved.
+SPDX-FileName: ./xkcd/en/extra/blue_eyes/readme.md
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: NOASSERTION
+SPDX-License-Identifier: NOASSERTION
+
+---
+# pandoc variables
+# ConTeXt
+includesource: true
+linkstyle:    'normal'
+pdfa:         '3b'
+urlstyle:     'normal'
+# language
+dir:          'ltr'
+lang:         'en-US'
+# metadata
+author:       'gabldotink <gabl@gabl.ink>'
+title:        'Blue Eyes - A Logic Puzzle'
+---
+-->
+
 # Blue Eyes - A Logic Puzzle
 
 <div style="text-align:center;" align="center">
@@ -16,7 +46,7 @@ or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
 
 <div style="text-align:center;" align="center">
 
-### Blue Eyes:<br>The Hardest Logic Puzzle in the World
+## Blue Eyes:<br>The Hardest Logic Puzzle in the World
 
 </div>
 
@@ -71,5 +101,7 @@ takes some effort.
 I didn't come up with the idea of this puzzle, but I've written and rewritten
 it over the the years to try to make a definitive version. The guy who told
 it to me originally was some dude on the street in Boston named Joel.
+
+</div>
 
 </div>

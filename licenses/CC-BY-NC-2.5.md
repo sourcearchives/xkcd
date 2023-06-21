@@ -1,7 +1,41 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-# Creative Commons Attribution-NonCommercial 2.5
-> <https://creativecommons.org/licenses/by-nc/2.5/>  
-> `SPDX-License-Identifier: CC-BY-NC-2.5`
+<div dir="ltr" lang="en-US">
+
+<!--
+Markdown dialect: GitHub Flavored Markdown
+
+SPDX-FileContributor: author: Creative Commons [https://creativecommons.org/] [https://en.wikipedia.org/wiki/Creative_Commons]
+SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
+SPDX-FileCopyrightText: No rights reserved. “Creative Commons” and “CC” are registered trademarks of Creative Commons Corporation. “Software Package Data Exchange” and “SPDX” are registered trademarks of the Linux Foundation. “Linux” is a registered trademark of Linus Torvalds.
+SPDX-FileName: ./licenses/CC-BY-NC-2.5.md
+SPDX-FileType: DOCUMENTATION
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: CC0-1.0
+SPDX-License-Identifier: CC0-1.0
+
+---
+# pandoc variables
+# ConTeXt
+includesource: true
+linkstyle:    'normal'
+pdfa:         '3b'
+urlstyle:     'normal'
+# language
+dir:          'ltr'
+lang:         'en-US'
+# metadata
+author:       'Creative Commons'
+title:        'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)'
+---
+-->
+
+# Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)
+> CC deed (English): <https://creativecommons.org/licenses/by-nc/2.5/>  
+> CC text (HTML) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode>  
+> CC text (TXT) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode.txt>  
+> SPDX text (English): <https://spdx.org/licenses/CC-BY-NC-2.5>  
+> SPDX text (English): <https://spdx.org/licenses/CC-BY-NC-2.5.html>  
+> SPDX license identifier: `CC-BY-NC-2.5`
 
 ---
 
@@ -13,7 +47,7 @@ DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
 
 ---
 
-## Creative Commons Attribution-NonCommercial 2.5 Public License
+## Creative Commons Attribution-NonCommercial 2.5 Generic Public License
 
 _License_
 
@@ -395,3 +429,5 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 > Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, neither party will use the trademark "Creative Commons" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.
 >
 > Creative Commons may be contacted at <https://creativecommons.org/>.
+
+</div>

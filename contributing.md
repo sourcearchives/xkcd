@@ -1,7 +1,9 @@
+<div dir="ltr" lang="en-US">
+
 <!--
 Markdown dialect: GitHub Flavored Markdown (GFM)
 
-SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
+SPDX-FileContributor: author: gabldotink (@gabldotink) <gabl@gabl.ink>
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
 SPDX-FileName: DOCUMENTATION
@@ -21,7 +23,7 @@ urlstyle:     'normal'
 dir:          'ltr'
 lang:         'en-US'
 # metadata
-author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
+author:       'gabldotink'
 title:        'open mirror: xkcd – contributing'
 ---
 -->
@@ -39,3 +41,5 @@ should they be merged into the repository. You must communicate your
 release of the materials, which you can do by, for example, including text
 that dedicates the materials to the public domain in your pull request or
 commit message.
+
+</div>

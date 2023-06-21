@@ -1,7 +1,9 @@
+<div dir="ltr" lang="en-US">
+
 <!--
 Markdown dialect: GitHub Flavored Markdown (GFM)
 
-SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
+SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./copying.md
 SPDX-FileName: DOCUMENTATION
@@ -21,7 +23,7 @@ urlstyle:     'normal'
 dir:          'ltr'
 lang:         'en-US'
 # metadata
-author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
+author:       'gabldotink'
 title:        'open mirror: xkcd – copying'
 ---
 -->
@@ -109,3 +111,5 @@ by Nicolas Spalinger and Victor Gaultney at
 [^1]: If you wish to attribute this CC0 work, please simply link
 to the original repository (<https://github.com/openmirrors/xkcd>
 or <https://gitlab.com/openmirrors/xkcd>).
+
+</div>

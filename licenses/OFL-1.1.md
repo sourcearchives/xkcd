@@ -1,11 +1,47 @@
-<!-- SPDX-License-Identifier: NOASSERTION -->
-# SIL Open Font License Version 1.1
-> <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
-> `SPDX-License-Identifier: OFL-1.1`
+<div dir="ltr" lang="en-US">
+
+<!--
+Markdown dialect: GitHub Flavored Markdown
+
+SPDX-FileContributor: author: Nicolas Spalinger | github:n7s | email:nicolas.spalinger@sil.org
+SPDX-FileContributor: author: Victor Gaultney | https://gaultney.org/jvgtype/
+SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
+SPDX-FileCopyrightText: © 2007 SIL International. “SIL” and “SIL International” are registered trademarks of SIL International. “Software Package Data Exchange” and “SPDX” are registered trademarks of the Linux Foundation. “Linux” is a registered trademark of Linus Torvalds.
+SPDX-FileName: ./licenses/OFL-1.1.md
+SPDX-FileType: DOCUMENTATION
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: NOASSERTION
+SPDX-License-Identifier: NOASSERTION
+
+---
+# pandoc variables
+# ConTeXt
+includesource: true
+linkstyle:    'normal'
+pdfa:         '3b'
+urlstyle:     'normal'
+# language
+dir:          'ltr'
+lang:         'en'
+# metadata
+author:       'Nicolas Spalinger, Victor Gaultney'
+title:        'SIL Open Font License Version 1.1 (OFL 1.1)'
+---
+-->
+
+# SIL Open Font License Version 1.1 (OFL 1.1)
+> SIL text (HTML) (English): <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
+> SIL text (TXT) (English): <https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=OFL_plaintext&filename=OFL.txt>  
+> SPDX text (English): <https://spdx.org/licenses/OFL-1.1>  
+> SPDX text (English): <https://spdx.org/licenses/OFL-1.1.html>  
+> SPDX license identifier: `OFL-1.1`
 
 ---
 
 ## Text of the SIL Open Font License Version 1.1
+
+Version 1.1 - 26 February 2007
 
 <div id="1">
 
@@ -132,5 +168,7 @@ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL,
 INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE
 THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+</div>
 
 </div>

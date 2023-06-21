@@ -1,4 +1,34 @@
-<!-- SPDX-License-Identifier: NOASSERTION -->
+<div dir="ltr" lang="en-US">
+
+<!--
+Markdown dialect: GitHub Flavored Markdown
+
+SPDX-FileContributor: author: Randall Munroe [wikipedia_en:Randall_Munroe]
+SPDX-FileContributor: formatter: gabldotink | github:gabldotink | email:gabl@gabl.ink
+SPDX-FileContributor: thanks: “some dude on the street in Boston named Joel”
+SPDX-FileCopyrightText: No rights reserved.
+SPDX-FileName: ./xkcd/en/extra/solution/readme.md
+SPDX-FileType: TEXT
+SPDX-FileType: SOURCE
+SPDX-LicenseConcluded: NOASSERTION
+SPDX-License-Identifier: NOASSERTION
+
+---
+# pandoc variables
+# ConTeXt
+includesource: true
+linkstyle:    'normal'
+pdfa:         '3b'
+urlstyle:     'normal'
+# language
+dir:          'ltr'
+lang:         'en-US'
+# metadata
+author:       'gabldotink <gabl@gabl.ink>'
+title:        'Blue Eyes - The Hardest Logic Puzzle in the World - Solution'
+---
+-->
+
 # Blue Eyes - The Hardest Logic Puzzle in the World - Solution
 
 <div style="text-align:center;" align="center">
@@ -16,7 +46,7 @@ or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
 
 <div style="text-align:center;" align="center">
 
-Solution to the [Blue Eyes](https://www.xkcd.com/blue_eyes.html) puzzle
+## Solution to the [Blue Eyes](https://www.xkcd.com/blue_eyes.html) puzzle
 
 </div>
 
@@ -99,5 +129,7 @@ But in it lies the key to answering the four questions above.
 <div style="text-align:center;" align="center">
 
 Puzzle text/solution copyright [Randall Munroe](https://www.xkcd.com/), 2005-2006
+
+</div>
 
 </div>

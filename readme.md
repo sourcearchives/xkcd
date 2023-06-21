@@ -1,7 +1,9 @@
+<div dir="ltr" lang="en-US">
+
 <!--
 Markdown dialect: GitHub Flavored Markdown (GFM)
 
-SPDX-FileContributor: author: gabldotink [@gabldotink] <gabl@gabl.ink>
+SPDX-FileContributor: author: gabldotink (@gabldotink) <gabl@gabl.ink>
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./readme.md
 SPDX-FileName: DOCUMENTATION
@@ -21,7 +23,7 @@ urlstyle:     'normal'
 dir:          'ltr'
 lang:         'en-US'
 # metadata
-author:       'gabldotink [@gabldotink] <gabl@gabl.ink>'
+author:       'gabldotink'
 title:        'open mirror: xkcd – readme'
 ---
 -->
@@ -41,3 +43,5 @@ _Warning: this comic occasionally contains strong language
 The contents of this repository do not reflect the views of any
 repository contributors. Hopefully, that’s enough to keep
 liberal arts majors from suing.
+
+</div>
