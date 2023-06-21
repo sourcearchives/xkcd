@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
+# SPDX-FileContributor: author: gabldotink | github:gabldotink | email:gabl@gabl.ink
+# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileName: ./xkcd/en/print/xkcd_volume_0/make.sh
+# SPDX-FileType: APPLICATION
+# SPDX-FileType: SOURCE
+# SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
 # This POSIX shell script is similar to a Makefile;
