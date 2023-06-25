@@ -14,7 +14,6 @@ SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 
 ---
-# pandoc variables
 # ConTeXt
 includesource: true
 linkstyle:    'normal'

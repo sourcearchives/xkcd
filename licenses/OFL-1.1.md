@@ -15,7 +15,6 @@ SPDX-LicenseConcluded: NOASSERTION
 SPDX-License-Identifier: NOASSERTION
 
 ---
-# pandoc variables
 # ConTeXt
 includesource: true
 linkstyle:    'normal'

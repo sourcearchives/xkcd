@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-#
+
 # SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 # SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./xkcd/en/print/xkcd_volume_0/make.sh
