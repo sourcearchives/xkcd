@@ -62,7 +62,7 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 
 <ol type="a">
 
-  <li id="1(a)">
+<li id="1(a)">
 
   **"Collective Work"** means a work, such as a periodical issue, anthology
   or encyclopedia, in which the Work in its entirety in unmodified form,
@@ -71,9 +71,9 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
   A work that constitutes a Collective Work will not be considered a
   Derivative Work (as defined below) for the purposes of this License.
 
-  </li>
+</li>
 
-  <li id="1(b)">
+<li id="1(b)">
 
   **"Derivative Work"** means a work based upon the Work or upon the Work
   and other pre-existing works, such as a translation, musical arrangement,
@@ -86,29 +86,29 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
   in timed-relation with a moving image ("synching") will be considered a
   Derivative Work for the purpose of this License.
   
-  </li>
+</li>
 
-  <li id="1(c)">
+<li id="1(c)">
 
   **"Licensor"** means the individual or entity that offers the Work under
   the terms of this License.
   
-  </li>
+</li>
 
-  <li id="1(d)">
+<li id="1(d)">
 
   **"Original Author"** means the individual or entity who created the Work.
 
-  </li>
+</li>
 
-  <li id="1(e)">
+<li id="1(e)">
 
   **"Work"** means the copyrightable work of authorship offered under the
   terms of this License.
 
-  </li>
+</li>
 
-  <li id="1(f)">
+<li id="1(f)">
 
   **"You"** means an individual or entity exercising rights under this
   License who has not previously violated the terms of this License with
@@ -116,7 +116,7 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
   Licensor to exercise rights under this License despite a previous
   violation.
 
-  </li>
+</li>
 
 </ol>
 
@@ -144,34 +144,34 @@ stated below:
 
 <ol type="a">
 
-  <li id="3(a)">
+<li id="3(a)">
 
   to reproduce the Work, to incorporate the Work into one or more Collective
   Works, and to reproduce the Work as incorporated in the Collective Works;
 
-  </li>
+</li>
 
-  <li id="3(b)">
+<li id="3(b)">
 
   to create and reproduce Derivative Works;
 
-  </li>
+</li>
 
-  <li id="3(c)">
+<li id="3(c)">
 
   to distribute copies or phonorecords of, display publicly, perform
   publicly, and perform publicly by means of a digital audio transmission the
   Work including as incorporated in Collective Works;
 
-  </li>
+</li>
 
-  <li id="3(d)">
+<li id="3(d)">
 
   to distribute copies or phonorecords of, display publicly, perform
   publicly, and perform publicly by means of a digital audio transmission
   Derivative Works;
 
-  </li>
+</li>
 
 </ol>
 
@@ -193,7 +193,7 @@ and limited by the following restrictions:
 
 <ol type="a">
 
-  <li id="4(a)">
+<li id="4(a)">
 
   You may distribute, publicly display, publicly perform, or publicly
   digitally perform the Work only under the terms of this License, and You
@@ -216,9 +216,9 @@ and limited by the following restrictions:
   You must, to the extent practicable, remove from the Derivative Work any
   credit as required by clause [4(c)](#4(c)), as requested.
 
-  </li>
+</li>
 
-  <li id="4(b)">
+<li id="4(b)">
 
   You may not exercise any of the rights granted to You in Section [3](#3)
   above in any manner that is primarily intended for or directed toward
@@ -229,9 +229,9 @@ and limited by the following restrictions:
   no payment of any monetary compensation in connection with the exchange of
   copyrighted works.
 
-  </li>
+</li>
 
-  <li id="4(c)">
+<li id="4(c)">
 
   If you distribute, publicly display, publicly perform, or publicly
   digitally perform the Work or any Derivative Works or Collective Works,
@@ -254,15 +254,15 @@ and limited by the following restrictions:
   authorship credit appears and in a manner at least as prominent as such
   other comparable authorship credit.
 
-  </li>
+</li>
 
-  <li id="4(d)">
+<li id="4(d)">
 
   For the avoidance of doubt, where the Work is a musical composition:
 
-  <ol type="1">
+<ol type="1">
 
-   <li id="4(d)(1)">
+<li id="4(d)(1)">
 
    **Performance Royalties Under Blanket Licenses.** Licensor reserves the
    exclusive right to collect, whether individually or via a performance
@@ -271,9 +271,9 @@ and limited by the following restrictions:
    that performance is primarily intended for or directed toward commercial
    advantage or private monetary compensation.
     
-   </li>
+</li>
 
-   <li id="4(d)(2)">
+<li id="4(d)(2)">
 
    **Mechanical Rights and Statutory Royalties.** Licensor reserves the
    exclusive right to collect, whether individually or via a music rights
@@ -284,13 +284,13 @@ and limited by the following restrictions:
    distribution of such cover version is primarily intended for or directed
    toward commercial advantage or private monetary compensation.
     
-   </li>
+</li>
 
-  </ol>
+</ol>
 
 </li>
 
-  <li id="4(e)">
+<li id="4(e)">
 
   **Webcasting Rights and Statutory Royalties.** For the avoidance of doubt,
   where the Work is a sound recording, Licensor reserves the exclusive right
@@ -301,7 +301,7 @@ and limited by the following restrictions:
   Your public digital performance is primarily intended for or directed
   toward commercial advantage or private monetary compensation.
 
-  </li>
+</li>
 
 </ol>
 
@@ -339,7 +339,7 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 <ol type="a">
 
-  <li id="7(a)">
+<li id="7(a)">
 
   This License and the rights granted hereunder will terminate automatically
   upon any breach by You of the terms of this License. Individuals or
@@ -349,9 +349,9 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
   licenses. Sections [1](#1), [2](#2), [5](#5), [6](#6), [7](#7), and [8](#8)
   will survive any termination of this License.
 
-  </li>
+</li>
 
-  <li id="7(b)">
+<li id="7(b)">
 
   Subject to the above terms and conditions, the license granted here is
   perpetual (for the duration of the applicable copyright in the Work).
@@ -362,7 +362,7 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
   under the terms of this License), and this License will continue in full
   force and effect unless terminated as stated above.
 
-  </li>
+</li>
 
 </ol>
 
@@ -374,24 +374,24 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 <ol type="a">
 
-  <li id="8(a)">
+<li id="8(a)">
 
   Each time You distribute or publicly digitally perform the Work or a
   Collective Work, the Licensor offers to the recipient a license to the Work
   on the same terms and conditions as the license granted to You under this
   License.
 
-  </li>
+</li>
 
-  <li id="8(b)">
+<li id="8(b)">
 
   Each time You distribute or publicly digitally perform a Derivative Work,
   Licensor offers to the recipient a license to the original Work on the same
   terms and conditions as the license granted to You under this License.
 
-  </li>
+</li>
 
-  <li id="8(c)">
+<li id="8(c)">
 
   If any provision of this License is invalid or unenforceable under
   applicable law, it shall not affect the validity or enforceability of the
@@ -399,17 +399,17 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
   parties to this agreement, such provision shall be reformed to the minimum
   extent necessary to make such provision valid and enforceable.
 
-  </li>
+</li>
 
-  <li id="8(d)">
+<li id="8(d)">
 
   No term or provision of this License shall be deemed waived and no breach
   consented to unless such waiver or consent shall be in writing and signed
   by the party to be charged with such waiver or consent.
   
-  </li>
+</li>
 
-  <li id="8(e)">
+<li id="8(e)">
 
   This License constitutes the entire agreement between the parties with
   respect to the Work licensed here. There are no understandings, agreements
@@ -418,7 +418,8 @@ WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
   communication from You. This License may not be modified without the mutual
   written agreement of the Licensor and You.
   
-  </li>
+</li>
+
 </ol>
 
 </div>

@@ -99,14 +99,14 @@ subject to the following conditions:
 
 <ol type="1">
 
-  <li id="3(1)">
+<li id="3(1)">
 
   Neither the Font Software nor any of its individual components, in Original
   or Modified Versions, may be sold by itself.
 
-  </li>
+</li>
 
-  <li id="3(2)">
+<li id="3(2)">
 
   Original or Modified Versions of the Font Software may be bundled,
   redistributed and/or sold with any software, provided that each copy
@@ -115,34 +115,34 @@ subject to the following conditions:
   appropriate machine-readable metadata fields within text or binary files as
   long as those fields can be easily viewed by the user.
 
-  </li>
+</li>
 
-  <li id="3(3)">
+<li id="3(3)">
   
   No Modified Version of the Font Software may use the Reserved
   Font Name(s) unless explicit written permission is granted by the
   corresponding Copyright Holder. This restriction only applies to the
   primary font name as presented to the users.
 
-  </li>
+</li>
 
-  <li id="3(4)">
+<li id="3(4)">
   
   The name(s) of the Copyright Holder(s) or the Author(s) of the Font
   Software shall not be used to promote, endorse or advertise any Modified
   Version, except to acknowledge the contribution(s) of the Copyright
   Holder(s) and the Author(s) or with their explicit written permission.
 
-  </li>
+</li>
 
-  <li id="3(5)">
+<li id="3(5)">
   
   The Font Software, modified or unmodified, in part or in whole, must be
   distributed entirely under this license, and must not be distributed under
   any other license. The requirement for fonts to remain under this license
   does not apply to any document created using the Font Software.
 
-  </li>
+</li>
 
 </ol>
 

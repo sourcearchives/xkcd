@@ -68,7 +68,7 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
 
 <ol type="a">
 
-  <li id="1(a)">
+<li id="1(a)">
 
   **"Adaptation"** means a work based upon the Work, or upon the Work and
   other pre-existing works, such as a translation, adaptation, derivative
@@ -82,9 +82,9 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   in timed-relation with a moving image ("synching") will be considered an
   Adaptation for the purpose of this License.
 
-  </li>
+</li>
 
-  <li id="1(b)">
+<li id="1(b)">
 
   **"Collection"** means a collection of literary or artistic works, such as
   encyclopedias and anthologies, or performances, phonograms or broadcasts,
@@ -97,24 +97,24 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   that constitutes a Collection will not be considered an Adaptation (as
   defined above) for the purposes of this License.
 
-  </li>
+</li>
 
-  <li id="1(c)">
+<li id="1(c)">
 
   **"Distribute"** means to make available to the public the original and
   copies of the Work or Adaptation, as appropriate, through sale or other
   transfer of ownership.
 
-  </li>
+</li>
 
-  <li id="1(d)">
+<li id="1(d)">
 
   **"Licensor"** means the individual, individuals, entity or entities that
   offer(s) the Work under the terms of this License.
 
-  </li>
+</li>
 
-  <li id="1(e)">
+<li id="1(e)">
 
   **"Original Author"** means, in the case of a literary or artistic work,
   the individual, individuals, entity or entities who created the Work or if
@@ -127,9 +127,9 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   (iii) in the case of broadcasts, the organization that transmits the
   broadcast.
 
-  </li>
+</li>
 
-  <li id="1(f)">
+<li id="1(f)">
 
   **"Work"** means the literary and/or artistic work offered under the terms
   of this License including without limitation any production in the
@@ -149,9 +149,9 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   or circus performer to the extent it is not otherwise considered a literary
   or artistic work.
 
-  </li>
+</li>
 
-  <li id="1(g)">
+<li id="1(g)">
 
   **"You"** means an individual or entity exercising rights under this
   License who has not previously violated the terms of this License with
@@ -159,9 +159,9 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   Licensor to exercise rights under this License despite a previous
   violation.
 
-  </li>
+</li>
 
-  <li id="1(h)">
+<li id="1(h)">
 
   **"Publicly Perform"** means to perform public recitations of the Work and
   to communicate to the public those public recitations, by any means or
@@ -173,16 +173,16 @@ HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
   Work, including by public digital performance; to broadcast and rebroadcast
   the Work by any means including signs, sounds or images.
 
-  </li>
+</li>
 
-  <li id="1(i)">
+<li id="1(i)">
 
   **"Reproduce"** means to make copies of the Work by any means including
   without limitation by sound or visual recordings and the right of fixation
   and reproducing fixations of the Work, including storage of a protected
   performance or phonogram in digital form or other electronic medium.
 
-  </li>
+</li>
 
 </ol>
 
@@ -210,14 +210,14 @@ stated below:
 
 <ol type="a">
 
-  <li id="3(a)">
+<li id="3(a)">
 
   to Reproduce the Work, to incorporate the Work into one or more
   Collections, and to Reproduce the Work as incorporated in the Collections;
 
-  </li>
+</li>
 
-  <li id="3(b)">
+<li id="3(b)">
 
   to create and Reproduce Adaptations provided that any such Adaptation,
   including any translation in any medium, takes reasonable steps to clearly
@@ -226,20 +226,20 @@ stated below:
   work was translated from English to Spanish," or a modification could
   indicate "The original work has been modified.";
 
-  </li>
+</li>
 
-  <li id="3(c)">
+<li id="3(c)">
 
   to Distribute and Publicly Perform the Work including as incorporated in
   Collections; and,
 
-  </li>
+</li>
 
-  <li id="3(d)">
+<li id="3(d)">
 
   to Distribute and Publicly Perform Adaptations.
 
-  </li>
+</li>
 
 </ol>
 
@@ -261,7 +261,7 @@ limited by the following restrictions:
 
 <ol type="a">
 
-  <li id="4(a)">
+<li id="4(a)">
 
   You may Distribute or Publicly Perform the Work only under the terms of
   this License. You must include a copy of, or the Uniform Resource
@@ -285,9 +285,9 @@ limited by the following restrictions:
   practicable, remove from the Adaptation any credit as required by Section
   [4(c)](#4(c)), as requested.
 
-  </li>
+</li>
 
-  <li id="4(b)">
+<li id="4(b)">
 
   You may not exercise any of the rights granted to You in Section 3 above in
   any manner that is primarily intended for or directed toward commercial
@@ -298,9 +298,9 @@ limited by the following restrictions:
   any monetary compensation in connection with the exchange of copyrighted
   works.
 
-  </li>
+</li>
 
-  <li id="4(c)">
+<li id="4(c)">
 
   If You Distribute, or Publicly Perform the Work or any Adaptations or
   Collections, You must, unless a request has been made pursuant to Section
@@ -333,15 +333,15 @@ limited by the following restrictions:
   prior written permission of the Original Author, Licensor and/or
   Attribution Parties.
 
-  </li>
+</li>
 
-  <li id="4(d)">
+<li id="4(d)">
 
   For the avoidance of doubt:
 
-  <ol type="1">
+<ol type="1">
 
-   <li id="4(d)(1)">
+<li id="4(d)(1)">
 
    **Non-waivable Compulsory License Schemes.** In those jurisdictions in
    which the right to collect royalties through any statutory or compulsory
@@ -349,9 +349,9 @@ limited by the following restrictions:
    right to collect such royalties for any exercise by You of the rights
    granted under this License;
 
-   </li>
+</li>
 
-   <li id="4(d)(2)">
+<li id="4(d)(2)">
 
    **Waivable Compulsory License Schemes.** In those jurisdictions in which
    the right to collect royalties through any statutory or compulsory
@@ -362,9 +362,9 @@ limited by the following restrictions:
    [4(b)](#4(b)) and otherwise waives the right to collect royalties
    through any statutory or compulsory licensing scheme; and,
 
-   </li>
+</li>
 
-   <li id="4(d)(3)">
+<li id="4(d)(3)">
 
    **Voluntary License Schemes.** The Licensor reserves the right to collect
    royalties, whether individually or, in the event that the Licensor is a
@@ -373,13 +373,13 @@ limited by the following restrictions:
    under this License that is for a purpose or use which is otherwise than
    noncommercial as permitted under Section [4(c)](#4(c)).
 
-   </li>
+</li>
 
-  </ol>
+</ol>
 
-  </li>
+</li>
 
-  <li id="4(e)">
+<li id="4(e)">
 
   Except as otherwise agreed in writing by the Licensor or as may be
   otherwise permitted by applicable law, if You Reproduce, Distribute or
@@ -396,7 +396,7 @@ limited by the following restrictions:
   reasonably exercise Your right under Section [3(b)](#3(b)) of this License
   (right to make Adaptations) but not otherwise.
 
-  </li>
+</li>
 
 </ol>
 
@@ -435,7 +435,7 @@ SUCH DAMAGES.
 
 <ol type="a">
 
-  <li id="7(a)">
+<li id="7(a)">
 
   This License and the rights granted hereunder will terminate automatically
   upon any breach by You of the terms of this License. Individuals or
@@ -445,9 +445,9 @@ SUCH DAMAGES.
   Sections [1](#1), [2](#2), [5](#5), [6](#6), [7](#7), and [8](#8) will
   survive any termination of this License.
 
-  </li>
+</li>
 
-  <li id="7(b)">
+<li id="7(b)">
 
   Subject to the above terms and conditions, the license granted here is
   perpetual (for the duration of the applicable copyright in the Work).
@@ -458,7 +458,7 @@ SUCH DAMAGES.
   under the terms of this License), and this License will continue in full
   force and effect unless terminated as stated above.
 
-  </li>
+</li>
 
 </ol>
 
@@ -470,23 +470,23 @@ SUCH DAMAGES.
 
 <ol type="a">
 
-  <li id="8(a)">
+<li id="8(a)">
 
   Each time You Distribute or Publicly Perform the Work or a Collection, the
   Licensor offers to the recipient a license to the Work on the same terms
   and conditions as the license granted to You under this License.
 
-  </li>
+</li>
 
-  <li id="8(b)">
+<li id="8(b)">
 
   Each time You Distribute or Publicly Perform an Adaptation, Licensor offers
   to the recipient a license to the original Work on the same terms and
   conditions as the license granted to You under this License.
 
-  </li>
+</li>
 
-  <li id="8(c)">
+<li id="8(c)">
 
   If any provision of this License is invalid or unenforceable under
   applicable law, it shall not affect the validity or enforceability of the
@@ -494,17 +494,17 @@ SUCH DAMAGES.
   parties to this agreement, such provision shall be reformed to the minimum
   extent necessary to make such provision valid and enforceable.
 
-  </li>
+</li>
 
-  <li id="8(d)">
+<li id="8(d)">
 
   No term or provision of this License shall be deemed waived and no breach
   consented to unless such waiver or consent shall be in writing and signed
   by the party to be charged with such waiver or consent.
 
-  </li>
+</li>
 
-  <li id="8(e)">
+<li id="8(e)">
 
   This License constitutes the entire agreement between the parties with
   respect to the Work licensed here. There are no understandings, agreements
@@ -513,9 +513,9 @@ SUCH DAMAGES.
   communication from You. This License may not be modified without the mutual
   written agreement of the Licensor and You.
 
-  </li>
-  
-  <li id="8(f)">
+</li>
+
+<li id="8(f)">
 
   The rights granted under, and the subject matter referenced, in this
   License were drafted utilizing the terminology of the Berne Convention for
@@ -531,7 +531,7 @@ SUCH DAMAGES.
   rights are deemed to be included in the License; this License is not
   intended to restrict the license of any rights under applicable law.
 
-  </li>
+</li>
 
 </ol>
 
