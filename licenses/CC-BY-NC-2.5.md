@@ -30,6 +30,7 @@ title:        'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC
 -->
 
 # Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)
+
 > CC deed (English): <https://creativecommons.org/licenses/by-nc/2.5/>  
 > CC text (HTML) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode>  
 > CC text (TXT) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode.txt>  
@@ -269,7 +270,7 @@ and limited by the following restrictions:
    performance or public digital performance (e.g. webcast) of the Work if
    that performance is primarily intended for or directed toward commercial
    advantage or private monetary compensation.
-    
+
 </li>
 
 <li id="4(d)(2)">
@@ -282,7 +283,7 @@ and limited by the following restrictions:
    Copyright Act (or the equivalent in other jurisdictions), if Your
    distribution of such cover version is primarily intended for or directed
    toward commercial advantage or private monetary compensation.
-    
+
 </li>
 
 </ol>

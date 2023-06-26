@@ -30,6 +30,7 @@ title:        'Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-N
 -->
 
 # Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
+
 > CC deed English: <https://creativecommons.org/licenses/by-nc/3.0/>  
 > CC text HTML English: <https://creativecommons.org/licenses/by-nc/3.0/legalcode>  
 > CC text TXT English: <https://creativecommons.org/licenses/by-nc/3.0/legalcode.txt>  
