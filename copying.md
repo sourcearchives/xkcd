@@ -1,7 +1,6 @@
 <div dir="ltr" lang="en-US">
-
 <!--
-Markdown dialect: GitHub Flavored Markdown (GFM)
+Markdown dialect: GitHub Flavored Markdown
 
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
@@ -23,11 +22,11 @@ dir:          'ltr'
 lang:         'en-US'
 # metadata
 author:       'gabldotink'
-title:        'open mirror: xkcd – copying'
+title:        'open mirror: xkcd – copying'
 ---
 -->
 
-# open mirror: _xkcd_ – copying
+# open mirror: _xkcd_ – copying
 
 [_xkcd_](https://xkcd.com/) ([`./xkcd/en/comics/`](./xkcd/en/comics/)) by
 [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed
@@ -104,7 +103,7 @@ The [Creative Commons](https://creativecommons.org/) licenses
 
 The [SIL Open Font License Version 1.0](./licenses/OFL-1.1.md)
 by Nicolas Spalinger and Victor Gaultney at
-[SIL International](https://www.sil.org/) has no asserted license.
+[SIL International](https://www.sil.org/) has no known license.
 `SPDX-License-Identifier: NOASSERTION`
 
 [^1]: If you wish to attribute this CC0 work, please simply link

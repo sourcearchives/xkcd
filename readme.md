@@ -1,7 +1,6 @@
 <div dir="ltr" lang="en-US">
-
 <!--
-Markdown dialect: GitHub Flavored Markdown (GFM)
+Markdown dialect: GitHub Flavored Markdown
 
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
@@ -23,11 +22,11 @@ dir:          'ltr'
 lang:         'en-US'
 # metadata
 author:       'gabldotink'
-title:        'open mirror: xkcd – readme'
+title:        'open mirror: xkcd – readme'
 ---
 -->
 
-# open mirror: _xkcd_ – readme
+# open mirror: _xkcd_ – readme
 
 This is an unofficial mirror of [_xkcd_](https://xkcd.com/)
 and its related data by Randall Munroe, licensed under

@@ -1,7 +1,6 @@
 <div dir="ltr" lang="en-US">
-
 <!--
-Markdown dialect: GitHub Flavored Markdown (GFM)
+Markdown dialect: GitHub Flavored Markdown
 
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
@@ -23,11 +22,11 @@ dir:          'ltr'
 lang:         'en-US'
 # metadata
 author:       'gabldotink'
-title:        'open mirror: xkcd – contributing'
+title:        'open mirror: xkcd – contributing'
 ---
 -->
 
-# open mirror: _xkcd_ – contributing
+# open mirror: _xkcd_ – contributing
 
 This repository accepts issues and pull requests from any and all users.
 Please submit one of those if you have noticed a problem or know how to make
