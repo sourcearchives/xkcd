@@ -8,7 +8,8 @@
 # SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for EditorConfig [https://editorconfig.org/] in the repository root directory: /
+# This file contains configuration for EditorConfig.
+# Information about EditorConfig is available here: [https://editorconfig.org/]
 
 # don’t look for more .editorconfig files in higher directories
 root = true
@@ -38,6 +39,12 @@ end_of_line              = lf
 indent_style             = space
 trim_trailing_whitespace = true
 
+# CSV (comma-separated values) files
+[*.csv]
+indent_size              = 1
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
 # configuration files
 [.{editorconfig,git{attributes,ignore}}]
 indent_size              = 1
@@ -47,17 +54,6 @@ trim_trailing_whitespace = true
 # EditorConfig files
 [.editorconfig]
 max_line_length = 1024
-
-# mimetype files
-[mimetype]
-indent_size              = 0
-trim_trailing_whitespace = true
-
-# CSV (comma-separated values) files
-[*.csv]
-indent_size              = 1
-insert_final_newline     = true
-trim_trailing_whitespace = true
 
 # HTML (HyperText Markup Language) files
 [*.html]
@@ -77,6 +73,11 @@ trim_trailing_whitespace = true
 [*.md]
 indent_size          = 2
 insert_final_newline = true
+
+# mimetype files
+[mimetype]
+indent_size              = 0
+trim_trailing_whitespace = true
 
 # plaintext files
 [*.txt]

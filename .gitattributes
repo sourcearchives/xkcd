@@ -8,26 +8,28 @@
 # SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for Git based on filenames in the repository root directory: /
-# Information about .gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes]
+# This file contains configuration for Git.
+# Information about gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes]
 
-*.csv           text linguist-language=CSV linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
- .gitattributes text linguist-language=Git-Attributes linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
- .gitignore     text linguist-language=Git-Ignore linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.html          text linguist-language=HTML diff=html linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.js            text linguist-language=JavaScript linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.json          text linguist-language=JSON linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.md            text linguist-language=Markdown diff=markdown linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-  mimetype      text linguist-language=Text linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.sh            text linguist-language=Shell diff=bash linguist-generated=false eol=lf encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.svg           text linguist-language=SVG eol=lf linguist-generated=false encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.txt           text linguist-language=Text eol=lf linguist-generated=false encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.xml           text linguist-language=XML eol=lf linguist-generated=false encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
-*.yml           text linguist-language=YAML eol=lf linguist-generated=false encoding=UTF-8 git-encoding=UTF-8 working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+# text files
+*.csv           -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=CSV            merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+ .gitattributes -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Git-Attributes merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+ .gitignore     -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Git-Ignore     merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.html          -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=HTML           merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.js            -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=JavaScript     merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.json          -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=JSON           merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.md            -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Markdown       merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+  mimetype      -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Text           merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.sh            -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Shell          merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.svg           -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=SVG            merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.txt           -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=Text           merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.xml           -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=XML            merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.yml           -binary diff encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-generated=false linguist-language=YAML           merge text working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 
-*.gif           binary linguist-generated=false
- .gitkeep       binary linguist-generated=false
-*.jpg           binary linguist-generated=false
-*.pdf           binary linguist-generated=false
-*.png           binary linguist-generated=false
-*.ttf           binary linguist-generated=false
+# binary files
+*.gif            binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding
+ .gitkeep        binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding
+*.jpg            binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding
+*.pdf            binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding
+*.png            binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding
+*.ttf            binary -diff -encoding    -eol   -git-encoding       linguist-generated=false -linguist-language              -merge -text -working-tree-encoding    -zos-working-tree-encoding

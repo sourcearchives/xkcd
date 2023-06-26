@@ -8,8 +8,8 @@
 # SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains files for Git to ignore in the repository root directory: /
-# Information about .gitignore is available here: [https://git-scm.com/docs/gitignore]
+# This file contains configuration for Git.
+# Information about gitignore is available here: [https://git-scm.com/docs/gitignore]
 
 # non-portable US-ASCII printable characters
 * *
