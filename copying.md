@@ -86,9 +86,9 @@ by Steve Matteson, and copyright is held by Red Hat, Inc.
 * Tahoma version 7.00 is _not_ freely licensed. It is believed that the
 digital font files’ not-for-profit inclusion in this repository for
 archival and distribution purposes of _xkcd: volume 0_, licensed under
-Creative Commons Attribution-NonCommercial 3.0 Unported, qualifies as fair use
-under copyright law of the United States of America. Tahoma is designed by
-Matthew Carter, and copyright is held by Microsoft Corporation.
+Creative Commons Attribution-NonCommercial 3.0 Unported, qualifies as fair
+use under copyright law of the United States of America. Tahoma is designed
+by Matthew Carter, and copyright is held by Microsoft Corporation.
 `SPDX-License-Identifier: NONE`
 
 Original content in this repository (e.g. commit messages, the [root](./)
