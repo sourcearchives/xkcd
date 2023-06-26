@@ -1,0 +1,78 @@
+# SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
+# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileName: ./.yamllint.yml
+# SPDX-FileType: DOCUMENTATION
+# SPDX-FileType: TEXT
+# SPDX-FileType: SOURCE
+# SPDX-FileType: OTHER
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-License-Identifier: CC0-1.0
+
+# This file contains configuration for YAMLlint.
+# Information about YAMLlint is available here: [https://github.com/adrienverge/yamllint/]
+
+# Files are not required to comply with YAMLlint’s warnings. They are simply there to help contributors find things that MIGHT be issues. Errors should generally be followed.
+
+---
+
+rules:
+  anchors:
+    level: 'warning'
+  braces:
+    level: 'warning'
+  brackets:
+    level: 'warning'
+  colons:
+    level: 'warning'
+    max-spaces-after:  -1
+    max-spaces-before:  0
+  commas:
+    level: 'warning'
+    max-spaces-after:  -1
+    max-spaces-before: -1
+    min-spaces-after:   0
+  comments:
+    ignore-shebangs: true
+    level: 'warning'
+    min-spaces-from-content: 1
+    require-starting-space: true
+  comments-indentation:
+    level: 'warning'
+  document-end:
+    level: 'warning'
+    present: true
+  document-start:
+    level: 'warning'
+    present: true
+  empty-lines:
+    level: 'warning'
+    max:       1
+    max-end:   1
+    max-start: 0
+  empty-values:
+    level: 'warning'
+  float-values: 'disable'
+  hyphens:
+    level: 'warning'
+    max-spaces-after: 1
+  indentation:
+    indent-sequences: false
+    level: 'warning'
+    spaces: 2
+  key-duplicates:
+    level: 'warning'
+  key-ordering:
+    level: 'warning'
+  line-length: 'disable'
+  new-line-at-end-of-file: 'enable'
+  new-lines: 'disable'
+  octal-values: 'disable'
+  trailing-spaces:
+    level: 'error'
+  truthy:
+    level: 'warning'
+
+yaml-files:
+- '*.yml'
+
+...

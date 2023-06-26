@@ -15,14 +15,14 @@
 branches:
 - name: 'main'
   enforce_admins: null
-  required_status_checks: null
-  required_linear_history: true
-  restrictions: null
   protection:
     required_pull_request_reviews:
       dismiss_stale_reviews: false
-      required_approving_review_count: 1
       require_code_owner_reviews: false
+      required_approving_review_count: 1
+  required_linear_history: true
+  required_status_checks: null
+  restrictions: null
 
 labels: null
 
