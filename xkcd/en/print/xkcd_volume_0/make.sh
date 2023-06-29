@@ -38,7 +38,7 @@ if command -v basename >/dev/null 2>&1; then
 fi
 
 info () {
-  printf 'This shell script makes files containing the book “xkcd: volume 0” by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
+  printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs, PNGs, and/or the ODG source from:
   https://git{hub|lab}.com/openmirrors/xkcd (/xkcd/en/print/xkcd_volume_0/)
 in the same directory as this script.
@@ -138,16 +138,16 @@ png_pages () {
   p082='./pages/png/082.png' # stupid too.
   p083='./pages/png/083.png' # I was blind.
   p084='./pages/png/084.png' # I was a sheep.
-  p085='./pages/png/085.png' # “No, you
-  p086='./pages/png/086.png' # shouldn’t
+  p085='./pages/png/085.png' # "No, you
+  p086='./pages/png/086.png' # shouldn't
   p087='./pages/png/087.png' # write a
   p088='./pages/png/088.png' # 200-line shell
   p089='./pages/png/089.png' # script with
   p090='./pages/png/090.png' # 118 explicit
   p091='./pages/png/091.png' # variable
   p092='./pages/png/092.png' # assignments!
-  p093='./pages/png/093.png' # That’s just
-  p094='./pages/png/094.png' # madness!”
+  p093='./pages/png/093.png' # That's just
+  p094='./pages/png/094.png' # madness!"
   p095='./pages/png/095.png' # And you know
   p096='./pages/png/096.png' # what? I
   p097='./pages/png/097.png' # believed them.

@@ -5,7 +5,7 @@ Markdown dialect: GitHub Flavored Markdown
 
 SPDX-FileContributor: author: Creative Commons | https://creativecommons.org/ | wikipedia_en:Creative_Commons
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
-SPDX-FileCopyrightText: No rights reserved. “CREATIVE COMMONS” and “CC” are registered trademarks of Creative Commons Corporation. “SOFTWARE PACKAGE DATA EXCHANGE”, “SPDX” and “THE LINUX FOUNDATION” are registered trademarks of the Linux Foundation. “LINUX” is a registered trademark of Linus Torvalds.
+SPDX-FileCopyrightText: No rights reserved. "CREATIVE COMMONS" and "CC" are registered trademarks of Creative Commons Corporation. "SOFTWARE PACKAGE DATA EXCHANGE", "SPDX" and "THE LINUX FOUNDATION" are registered trademarks of the Linux Foundation. "LINUX" is a registered trademark of Linus Torvalds.
 SPDX-FileName: ./licenses/CC-BY-NC-4.0.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: TEXT
