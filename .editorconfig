@@ -33,7 +33,7 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[.{editorconfig,git{attributes,ignore}},mimetype,*.{csv,html,js,json,md,txt,sh,svg,xml,yml}]
+[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.gitignore,*.html,*.js,*.json,LICENSE,*.md,mimetype,README,*.sh,*.svg,*.txt*.xml,*.yml]
 charset                  = utf-8
 end_of_line              = lf
 indent_style             = space
@@ -45,15 +45,24 @@ indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# configuration files
-[.{editorconfig,git{attributes,ignore}}]
+# EditorConfig files
+[.editorconfig]
+indent_size              = 1
+insert_final_newline     = true
+max_line_length          = 1024
+trim_trailing_whitespace = true
+
+# gitattributes files
+[.gitattributes]
 indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# EditorConfig files
-[.editorconfig]
-max_line_length = 1024
+# gitignore files
+[.gitignore]
+indent_size              = 1
+insert_final_newline     = true
+trim_trailing_whitespace = true
 
 # HTML (HyperText Markup Language) files
 [*.html]
