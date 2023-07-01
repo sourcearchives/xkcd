@@ -3,7 +3,7 @@
 <!--
 Markdown dialect: GitHub Flavored Markdown
 
-SPDX-FileContributor: author: Randall Munroe [wikipedia_en:Randall_Munroe]
+SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"
 SPDX-FileCopyrightText: © Randall Munroe.
@@ -38,7 +38,7 @@ If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or 
 
 <div align="center">
 
-[![](./frame.jpg)](https://www.xkcd.com/)
+[![](./image/01.jpg)](https://www.xkcd.com/)
 
 </div>
 
@@ -74,7 +74,7 @@ These are just to give you something to think about if you enjoyed the main solu
 
 <div align="center">
 
-[![](./hyphen.jpg)](https://www.xkcd.com/)
+[![](./image/02.jpg)](https://www.xkcd.com/)
 
 </div>
 
