@@ -58,6 +58,11 @@
 [Pp][Rr][Nn]
 [Pp][Rr][Nn].*
 
+# version control system directories
+/.git/
+/.hg/
+.svn/
+
 # macOS special files
 ._*
 .apdisk
@@ -80,7 +85,8 @@ Temporary Items
 # Vim special files
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
+[._]s[a-rt-v][a-fh-z]
+[._]s[a-rt-u]g
 [._]ss[a-gi-z]
 [._]sw[a-p]
 .netrwhist
@@ -99,6 +105,3 @@ Thumbs.db
 # made files
 *.[Cc][Bb][Zz]
 *.[Oo][Dd][Gg]
-
-# don't ignore SVG files (Vim section discludes them)
-!*.svg
