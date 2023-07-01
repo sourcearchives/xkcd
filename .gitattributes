@@ -12,6 +12,7 @@
 # Information about gitattributes is avaiable here: [https://git-scm.com/docs/gitattributes]
 
 # text files
+  checks        -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable=false linguist-generated=false -linguist-language                    linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
   CONTRIBUTING  -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable=false linguist-generated=false -linguist-language                    linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
   COPYING       -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable=false linguist-generated=false -linguist-language                    linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.csv           -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable       linguist-generated=false  linguist-language=CSV                linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
