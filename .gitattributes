@@ -29,6 +29,7 @@
 *.svg           -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable       linguist-generated=false  linguist-language=SVG                linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.txt           -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable       linguist-generated=false  linguist-language=Text               linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.xml           -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable       linguist-generated=false  linguist-language=XML                linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+ .yamllint      -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable=false linguist-generated=false -linguist-language                    linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.yml           -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 linguist-detectable       linguist-generated=false  linguist-language=YAML               linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encod
 
 # binary files

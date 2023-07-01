@@ -33,10 +33,14 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,*.md,mimetype,README,*.sh,*.svg,*.txt*.xml,*.yml]
+[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,*.md,mimetype,README,*.sh,*.svg,*.txt*.xml,.yamllint,*.yml]
 charset                  = utf-8
 end_of_line              = lf
 indent_style             = space
+
+# symbolic links
+[CONTRIBUTING,COPYING,LICENSE,README,.yamllint]
+indent_size              = 0
 trim_trailing_whitespace = true
 
 # CSV (comma-separated values) files
