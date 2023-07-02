@@ -32,7 +32,7 @@ title:        'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC
 
 # Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)
 
-> CC deed (English): <https://creativecommons.org/licenses/by-nc/2.5/>  
+> CC deed (English): <https://creativecommons.org/licenses/by-nc/2.5/deed.en>  
 > CC text (HTML) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode>  
 > CC text (TXT) (English): <https://creativecommons.org/licenses/by-nc/2.5/legalcode.txt>  
 > SPDX text (English): <https://spdx.org/licenses/CC-BY-NC-2.5>  

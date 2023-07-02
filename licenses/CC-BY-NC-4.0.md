@@ -32,8 +32,8 @@ title:        'Creative Commons Attribution-NonCommercial 4.0 International (CC�
 
 # Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-> CC deed English: <https://creativecommons.org/licenses/by-nc/4.0/>  
-> CC text HTML English: <https://creativecommons.org/licenses/by-nc/4.0/legalcode>  
+> CC deed English: <https://creativecommons.org/licenses/by-nc/4.0/deed.en>  
+> CC text HTML English: <https://creativecommons.org/licenses/by-nc/4.0/legalcode.en>  
 > CC text TXT English: <https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt>  
 > SPDX text English: <https://spdx.org/licenses/CC-BY-NC-4.0>  
 > SPDX text English: <https://spdx.org/licenses/CC-BY-NC-4.0.html>  
