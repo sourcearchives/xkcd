@@ -59,6 +59,7 @@
 [Pp][Rr][Nn].*
 
 # version control system directories
+/CVS/
 /.git/
 /.hg/
 .svn/

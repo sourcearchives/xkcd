@@ -8,7 +8,7 @@
 # SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for Mercurial.
+# This file contains configuration for Mercurial (hg).
 # Information about hgignore is available here: [https://wiki.mercurial-scm.org/.hgignore]
 
 # use regular expressions
@@ -62,6 +62,7 @@ syntax: regexp
 [Pp][Rr][Nn]\..*
 
 # version control system directories
+^CVS/.*
 ^.git/.*
 ^.hg/.*
 .svn/.*
