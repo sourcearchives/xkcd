@@ -6,13 +6,13 @@ Markdown dialect: GitHub Flavored Markdown
 SPDX-FileContributor: author: Nicolas Spalinger | email:nicolas.spalinger@sil.org | github:n7s
 SPDX-FileContributor: author: Victor Gaultney | https://gaultney.org/jvgtype/
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
-SPDX-FileCopyrightText: © 2007 SIL International. "SIL" and "SIL INTERNATIONAL" are registered trademarks of SIL International. "SOFTWARE PACKAGE DATA EXCHANGE", "SPDX" and "THE LINUX FOUNDATION" are registered trademarks of the Linux Foundation. "LINUX" is a registered trademark of Linus Torvalds.
+SPDX-FileCopyrightText: © 2007 SIL International, all rights reserved.
 SPDX-FileName: ./licenses/OFL-1.1.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
-SPDX-LicenseConcluded: NOASSERTION
-SPDX-License-Identifier: NOASSERTION
+SPDX-LicenseConcluded: NONE
+SPDX-License-Identifier: NONE
 
 ---
 # ConTeXt

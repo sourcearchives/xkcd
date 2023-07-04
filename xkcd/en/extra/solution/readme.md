@@ -6,12 +6,12 @@ Markdown dialect: GitHub Flavored Markdown
 SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"
-SPDX-FileCopyrightText: © Randall Munroe.
+SPDX-FileCopyrightText: Puzzle text/solution copyright Randall Munroe, 2005-2006
 SPDX-FileName: ./xkcd/en/extra/solution/readme.md
 SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
-SPDX-LicenseConcluded: NOASSERTION
-SPDX-License-Identifier: NOASSERTION
+SPDX-LicenseConcluded: NONE
+SPDX-License-Identifier: NONE
 
 ---
 # ConTeXt
