@@ -75,7 +75,7 @@
 .DS_Store
 .fseventsd
 .LSOverride
-__MACOSX__
+__MACOSX__/
 Network Trash Folder
 .Spotlight-V100
 .TemporaryItems
