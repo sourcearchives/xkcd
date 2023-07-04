@@ -33,7 +33,7 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt*.xml,.yamllint,*.yml]
+[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt*.xml,.yamllint,*.yml]
 charset                  = utf-8
 end_of_line              = lf
 indent_style             = space
@@ -59,6 +59,12 @@ trim_trailing_whitespace = true
 # gitattributes files
 [.gitattributes]
 indent_size              = 1
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+# git-blame-ignore-revs files
+[.git-blame-ignore-revs]
+indent_size              = 0
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
