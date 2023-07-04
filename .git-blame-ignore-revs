@@ -11,6 +11,9 @@
 # This file contains configuration for Git.
 # Information about git blame is available here: [https://git-scm.com/docs/git-blame]
 
+# empty commits (no files were changed)
+df0f8357c8cf3d8388fad68c32991b67dcff4946
+
 # phantom changes
 746323605b126e97a249835e26ac1b2e762b5bf8
 
