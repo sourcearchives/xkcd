@@ -14,10 +14,10 @@
 # These rules define how Git should handle files in the repository, as well as some additional metadata. Attributes that should apply only to your local repository can be defined in [<repo_root>/.git/info/attributes].
 
 # To view all the attributes for one file:
-#   git check-attr --all -- <file>
+#   git check-attr --all -- <path>
 
 # To view a specific attribute for one file:
-#   git check-attr <attribute> -- <file>
+#   git check-attr <attribute> -- <path>
 
 # text files
   CONTRIBUTING          -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8 -gitlab-language            linguist-detectable=false linguist-generated=false -linguist-language                   linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
