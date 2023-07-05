@@ -69,6 +69,9 @@
 [Pp][Rr][Nn]
 [Pp][Rr][Nn].*
 
+# contributors can put files in here
+.ignore/
+
 # version control system directories
 /CVS/
 /.git/
