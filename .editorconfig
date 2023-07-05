@@ -11,7 +11,9 @@
 # This file contains configuration for EditorConfig.
 # Information about EditorConfig is available here: [https://editorconfig.org/]
 
-# don’t look for more .editorconfig files in higher directories
+# This file is used by EditorConfig applications to make consistent text formatting easier.
+
+# don't look for more .editorconfig files in higher directories
 root = true
 
 # unset/disable all config for all files
