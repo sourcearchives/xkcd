@@ -12,20 +12,6 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: NONE
 SPDX-License-Identifier: NONE
-
----
-# ConTeXt
-includesource: true
-linkstyle:    'normal'
-pdfa:         '3b'
-urlstyle:     'normal'
-# language
-dir:          'ltr'
-lang:         'en-US'
-# metadata
-author:       'Randall Munroe'
-title:        'Blue Eyes - The Hardest Logic Puzzle in the World - Solution'
----
 -->
 
 # Blue Eyes - The Hardest Logic Puzzle in the World - Solution

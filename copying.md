@@ -11,20 +11,6 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
-
----
-# ConTeXt
-includesource: true
-linkstyle:    'normal'
-pdfa:         '3b'
-urlstyle:     'normal'
-# language
-dir:          'ltr'
-lang:         'en-US'
-# metadata
-author:       'gabldotink'
-title:        'open mirror: xkcd – copying'
----
 -->
 
 # open mirror: _xkcd_ – copying

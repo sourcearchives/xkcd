@@ -12,22 +12,6 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
-
----
-# ConTeXt
-includesource: true
-linkstyle:    'normal'
-pdfa:         '3b'
-urlstyle:     'normal'
-# language
-dir:          'ltr'
-lang:         'en-US'
-# metadata
-author:       'Creative Commons'
-date:         '2005-06'
-date-meta:    '2005-06'
-title:        'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)'
----
 -->
 
 # Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)

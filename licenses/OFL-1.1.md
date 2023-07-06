@@ -13,22 +13,6 @@ SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: NONE
 SPDX-License-Identifier: NONE
-
----
-# ConTeXt
-includesource: true
-linkstyle:    'normal'
-pdfa:         '3b'
-urlstyle:     'normal'
-# language
-dir:          'ltr'
-lang:         'en'
-# metadata
-author:       'Nicolas Spalinger, Victor Gaultney'
-date:         '2007-02-26'
-date-meta:    '2007-02-26'
-title:        'SIL Open Font License Version 1.1 (OFL 1.1)'
----
 -->
 
 # SIL Open Font License Version 1.1 (OFL 1.1)
