@@ -1,4 +1,4 @@
-<div dir="ltr" lang="en-US">
+<div dir="ltr" lang="en">
 
 <!--
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink

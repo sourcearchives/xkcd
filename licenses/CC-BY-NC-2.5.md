@@ -1,4 +1,4 @@
-<div dir="ltr" lang="en-US">
+<div dir="ltr" lang="en">
 
 <!--
 SPDX-FileContributor: author: Creative Commons | https://creativecommons.org/ | wikipedia_en:Creative_Commons

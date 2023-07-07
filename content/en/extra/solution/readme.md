@@ -1,4 +1,4 @@
-<div dir="ltr" lang="en-US">
+<div dir="ltr" lang="en">
 
 <!--
 SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe

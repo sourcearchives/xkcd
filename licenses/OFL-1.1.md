@@ -1,4 +1,4 @@
-<div dir="ltr" lang="en-US">
+<div dir="ltr" lang="en">
 
 <!--
 SPDX-FileContributor: author: Nicolas Spalinger | email:nicolas.spalinger@sil.org | github:n7s
