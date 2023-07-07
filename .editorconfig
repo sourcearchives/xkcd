@@ -127,7 +127,7 @@ insert_final_newline     = true
 trim_trailing_whitespace = true
 
 # LibreOffice-generated XML files
-[xkcd/en/print/xkcd_volume_0/odg/**.xml]
+[content/en/print/xkcd_volume_0/odg/**.xml]
 indent_size              = 1
 insert_final_newline     = false
 trim_trailing_whitespace = false
