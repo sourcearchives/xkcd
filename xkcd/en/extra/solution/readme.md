@@ -1,8 +1,6 @@
 <div dir="ltr" lang="en-US">
 
 <!--
-Markdown dialect: GitHub Flavored Markdown
-
 SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"

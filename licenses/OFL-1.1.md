@@ -1,8 +1,6 @@
 <div dir="ltr" lang="en-US">
 
 <!--
-Markdown dialect: GitHub Flavored Markdown
-
 SPDX-FileContributor: author: Nicolas Spalinger | email:nicolas.spalinger@sil.org | github:n7s
 SPDX-FileContributor: author: Victor Gaultney | https://gaultney.org/jvgtype/
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink

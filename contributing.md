@@ -1,8 +1,6 @@
 <div dir="ltr" lang="en-US">
 
 <!--
-Markdown dialect: GitHub Flavored Markdown
-
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
