@@ -5,14 +5,12 @@ SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"
 SPDX-FileCopyrightText: Puzzle text/solution copyright Randall Munroe, 2005-2006
-SPDX-FileName: ./xkcd/en/extra/solution/readme.md
+SPDX-FileName: ./content/en/extra/solution/readme.md
 SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
 SPDX-LicenseConcluded: NONE
 SPDX-License-Identifier: NONE
 -->
-
-# Blue Eyes - The Hardest Logic Puzzle in the World - Solution
 
 <div align="center">
 
