@@ -16,30 +16,22 @@
  */
 
 /*
- * These rules are used by Visual Studio Code to determine metadata, editor configuration, etc. All of these settings can be overridden by individual users in their "User" settings.
+ * These rules are used by Visual Studio Code to determine metadata, editor configuration, etc. These workspace settings override user settings.
  *
  * To go to the settings editor with the desktop menu:
  *    Windows/Linux: File → Preferences → Settings
  *            macOS: Code → Preferences → Settings
  *
  * To go to the settings editor with the Command Palette:
- *    Windows/Linux: [Control+Shift+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
- *            macOS: [Shift+Command+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
+ *    Windows/Linux: [Control+Shift+P] Preferences: Open Workspace Settings
+ *            macOS: [Shift+Command+P] Preferences: Open Workspace Settings
  *
  * To manually edit the settings.json file with the Command Palette:
- *    Windows/Linux: [Control+Shift+P] Preferences: Open User Settings (JSON) / Preferences: Open Workspace Settings (JSON)
- *            macOS: [Shift+Command+P] Preferences: Open User Settings (JSON) / Preferences: Open Workspace Settings (JSON)
+ *    Windows/Linux: [Control+Shift+P] Preferences: Open Workspace Settings (JSON)
+ *            macOS: [Shift+Command+P] Preferences: Open Workspace Settings (JSON)
  */
 
 {
-  // editor
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  // explorer
-  "explorer.excludeGitIgnore": false,
-  // files
-  "files.autoSave": "off",
   "files.associations": {
     "*.csv":                    "csv",
     ".gitattributes":           "properties",
