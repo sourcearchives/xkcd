@@ -33,8 +33,6 @@
 
 {
   // editor
-  "editor.accessibilityPageSize": 500,
-  "editor.fontFamily": "'Consolas','Courier New','monospace'",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
