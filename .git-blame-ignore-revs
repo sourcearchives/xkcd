@@ -14,10 +14,10 @@
 # Git commit SHA-1 hashes contained in this file are safe for git blame to ignore when showing file changes. Git won't use this file by default. Some applications, like GitHub, will automatically use it for some things.
 
 # To show the history of a file while ignoring these commits:
-#  git blame --ignore-revs-file <repo_root>/.git-blame-ignore-revs -- <path>
+#  $> git blame --ignore-revs-file <repo_root>/.git-blame-ignore-revs -- <path>
 
 # To set this file as a default ignore-revs file:
-#  git config --add --local --path blame.ignoreRevsFile <repo_root>/.git-blame-ignore-revs
+#  $> git config --add --local --path blame.ignoreRevsFile <repo_root>/.git-blame-ignore-revs
 
 # empty commits (no files were changed)
 df0f8357c8cf3d8388fad68c32991b67dcff4946

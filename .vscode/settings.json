@@ -22,13 +22,11 @@
  *    Windows/Linux: File → Preferences → Settings
  *            macOS: Code → Preferences → Settings
  *
- * To go to the settings editor with the Command Palette:
- *    Windows/Linux: [Control+Shift+P] Preferences: Open Workspace Settings
- *            macOS: [Shift+Command+P] Preferences: Open Workspace Settings
+ * To go to the workspace settings editor with the Command Palette:
+ *    > Preferences: Open Workspace Settings
  *
- * To manually edit the settings.json file with the Command Palette:
- *    Windows/Linux: [Control+Shift+P] Preferences: Open Workspace Settings (JSON)
- *            macOS: [Shift+Command+P] Preferences: Open Workspace Settings (JSON)
+ * To manually open the workspace settings.json file with the Command Palette:
+ *    > Preferences: Open Workspace Settings (JSON)
  */
 
 {

@@ -16,7 +16,7 @@
 # Files are not required to comply with YAMLlint's warnings. They are simply there to help contributors find things that MIGHT be issues. Errors should generally be followed.
 
 # To check YAML files with YAMLlint:
-#   {shell} yamllint --config-file <repo_root>/.yamllint.yml <path>
+#   $> yamllint --config-file <repo_root>/.yamllint.yml <path>
 
 rules:
   anchors:

@@ -14,7 +14,7 @@
 # Any files or directories with names that match any these patterns will be ignored by Mercurial; that is, they won't be added to be committed, published, etc. Any files that have already been added to the repository already will be treated and tracked as normal, even if they match one or more of these patterns; however, you can still remove those files in the usual way.
 
 # To remove a file or directory from the repository (ignoring it again if it should be ignored), while keeping it in your local work tree:
-#   {shell} hg remove --after --force -- <path>
+#   $> hg remove --after --force -- <path>
 
 # use regular expressions
 syntax: regexp
