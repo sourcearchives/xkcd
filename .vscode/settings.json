@@ -43,6 +43,7 @@
   "files.associations": {
     "*.csv":                    "csv",
     ".gitattributes":           "properties",
+    ".git-blame-ignore-revs":   "ignore",
     ".gitignore":               "ignore",
     ".hgignore":                "ignore",
     "*.html":                   "html",
