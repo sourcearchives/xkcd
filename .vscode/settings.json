@@ -23,8 +23,8 @@
  *            macOS: Code → Preferences → Settings
  *
  * To go to the settings editor with the Command Palette:
- *    Windows/Linux: [Control+Shift+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
- *            macOS: [Shift+Command+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
+ *    Windows/Linux: [Control+Shift+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
+ *            macOS: [Shift+Command+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
  *
  * To manually edit the settings.json file with the Command Palette:
  *    Windows/Linux: [Control+Shift+P] Preferences: Open User Settings (JSON) / Preferences: Open Workspace Settings (JSON)
