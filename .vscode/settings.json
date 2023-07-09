@@ -1,0 +1,71 @@
+/*
+ * SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
+ * SPDX-FileCopyrightText: No rights reserved.
+ * SPDX-FileName: ./.vscode/settings.json
+ * SPDX-FileType: DOCUMENTATION
+ * SPDX-FileType: TEXT
+ * SPDX-FileType: SOURCE
+ * SPDX-FileType: OTHER
+ * SPDX-LicenseConcluded: CC0-1.0
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
+/*
+ * This file contains configuration for Visual Studio Code.
+ * Information about settings.json is available here: [https://code.visualstudio.com/docs/getstarted/settings]
+ */
+
+/*
+ * These rules are used by Visual Studio Code to determine metadata, editor configuration, etc. All of these settings can be overridden by individual users in their "User" settings.
+ *
+ * To go to the settings editor with the desktop menu:
+ *    Windows/Linux: File → Preferences → Settings
+ *            macOS: Code → Preferences → Settings
+ *
+ * To go to the settings editor with the Command Palette:
+ *    Windows/Linux: [Control+Shift+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
+ *            macOS: [Shift+Command+P] Preferences: Open Settings (UI) / Preferences: Open User Settings / Preferences: Open Workspace Settings
+ *
+ * To manually edit the settings.json file with the Command Palette:
+ *    Windows/Linux: [Control+Shift+P] Preferences: Open User Settings (JSON) / Preferences: Open Workspace Settings (JSON)
+ *            macOS: [Shift+Command+P] Preferences: Open User Settings (JSON) / Preferences: Open Workspace Settings (JSON)
+ */
+
+{
+  // editor
+  "editor.accessibilityPageSize": 500,
+  "editor.fontFamily": "'Consolas','Courier New','monospace'",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // explorer
+  "explorer.excludeGitIgnore": false,
+  // files
+  "files.autoSave": "off",
+  "files.associations": {
+    "*.csv":                    "csv",
+    ".gitattributes":           "properties",
+    ".gitignore":               "ignore",
+    ".hgignore":                "ignore",
+    "*.html":                   "html",
+    "*.js":                     "javascript",
+    "*.json":                   "json",
+    "**/.vscode/settings.json": "jsonc",
+    "*.md":                     "markdown",
+    "mimetype":                 "plaintext",
+    "*.sh":                     "shellscript",
+    "*.svg":                    "svg",
+    "*.txt":                    "plaintext",
+    "*.xml":                    "xml",
+    "*.yml":                    "yaml"
+  },
+  "files.exclude": {
+    "*":            false,
+    "**/CVS":       false,
+    "**/.DS_Store": false,
+    "**/.git":      false,
+    "**/.hg":       false,
+    "**/.svn":      false,
+    "**/Thumbs.db": false
+  }
+}

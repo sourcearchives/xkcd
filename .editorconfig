@@ -1,7 +1,7 @@
 # SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 # SPDX-FileCopyrightText: No rights reserved.
 # SPDX-FileName: ./.editorconfig
-# SPDX-FileName: DOCUMENTATION
+# SPDX-FileType: DOCUMENTATION
 # SPDX-FileType: TEXT
 # SPDX-FileType: SOURCE
 # SPDX-FileType: OTHER
@@ -11,7 +11,7 @@
 # This file contains configuration for EditorConfig.
 # Information about EditorConfig is available here: [https://editorconfig.org/]
 
-# This file is used by EditorConfig applications to make consistent text formatting easier.
+# These rules are used by EditorConfig applications to make consistent text formatting easier.
 
 # don't look for more .editorconfig files in higher directories
 root = true
@@ -95,6 +95,10 @@ trim_trailing_whitespace = true
 [*.json]
 insert_final_newline     = true
 trim_trailing_whitespace = true
+
+# JSON with comments files
+[**/.vscode/settings.json]
+indent_size = 2
 
 # Markdown files
 [*.md]
