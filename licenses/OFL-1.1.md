@@ -13,10 +13,11 @@ SPDX-License-Identifier: NONE
 
 # SIL Open Font License Version 1.1 (OFL 1.1)
 
+> OSI text: <https://opensource.org/license/ofl-1-1/>  
 > SIL text: <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>  
-> SIL text: <https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=OFL_plaintext&filename=OFL.txt>  
-> SPDX text English: <https://spdx.org/licenses/OFL-1.1>  
-> SPDX text English: <https://spdx.org/licenses/OFL-1.1.html>  
+> SIL text: <https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=OFL_plaintext>  
+> SPDX text: <https://spdx.org/licenses/OFL-1.1>  
+> SPDX text: <https://spdx.org/licenses/OFL-1.1.html>  
 > SPDX license identifier: `OFL-1.1`
 
 ---
