@@ -97,7 +97,7 @@ insert_final_newline     = true
 trim_trailing_whitespace = true
 
 # JSON with comments files
-[**/.vscode/settings.json]
+[.vscode/**.json]
 indent_size = 2
 
 # Markdown files
