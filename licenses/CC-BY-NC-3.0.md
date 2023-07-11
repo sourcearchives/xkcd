@@ -12,11 +12,11 @@ SPDX-License-Identifier: CC0-1.0
 
 # Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
 
-> CC deed English: <https://creativecommons.org/licenses/by-nc/3.0/deed.en>  
-> CC text HTML English: <https://creativecommons.org/licenses/by-nc/3.0/legalcode>  
-> CC text TXT English: <https://creativecommons.org/licenses/by-nc/3.0/legalcode.txt>  
-> SPDX text English: <https://spdx.org/licenses/CC-BY-NC-3.0>  
-> SPDX text English: <https://spdx.org/licenses/CC-BY-NC-3.0.html>  
+> CC deed: <https://creativecommons.org/licenses/by-nc/3.0/deed>  
+> CC text: <https://creativecommons.org/licenses/by-nc/3.0/legalcode>  
+> CC text: <https://creativecommons.org/licenses/by-nc/3.0/legalcode.txt>  
+> SPDX text: <https://spdx.org/licenses/CC-BY-NC-3.0>  
+> SPDX text: <https://spdx.org/licenses/CC-BY-NC-3.0.html>  
 > SPDX license identifier: `CC-BY-NC-3.0`
 
 ---
