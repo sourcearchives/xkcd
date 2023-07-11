@@ -1,5 +1,3 @@
-<div dir="ltr" lang="en">
-
 <!--
 SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 SPDX-FileCopyrightText: No rights reserved.
@@ -37,5 +35,3 @@ Original content in this repository (e.g. commit messages, the [root](./) and [`
 The [Creative Commons](https://creativecommons.org/) licenses ([`/licenses/`](./licenses/)) are licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
 The [SIL Open Font License Version 1.0](./licenses/OFL-1.1.md) by Nicolas Spalinger and Victor Gaultney at [SIL International](https://www.sil.org/) has no known license. `SPDX-License-Identifier: NONE`
-
-</div>

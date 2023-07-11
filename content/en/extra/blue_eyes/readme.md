@@ -1,5 +1,3 @@
-<div dir="ltr" lang="en">
-
 <!--
 SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
@@ -55,7 +53,5 @@ I've done my best to make the wording as precise and unambiguious as possible (a
 <div align="center">
 
 I didn't come up with the idea of this puzzle, but I've written and rewritten it over the the years to try to make a definitive version. The guy who told it to me originally was some dude on the street in Boston named Joel.
-
-</div>
 
 </div>

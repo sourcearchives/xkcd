@@ -1,5 +1,3 @@
-<div dir="ltr" lang="en">
-
 <!--
 SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
 SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
@@ -63,7 +61,5 @@ These are just to give you something to think about if you enjoyed the main solu
 <div align="center">
 
 Puzzle text/solution copyright [Randall Munroe](https://www.xkcd.com/), 2005-2006
-
-</div>
 
 </div>
