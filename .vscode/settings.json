@@ -47,13 +47,4 @@
     "*.xml":                  "xml",
     "*.yml":                  "yaml"
   },
-  "files.exclude": {
-    "*":            false,
-    "**/CVS":       false,
-    "**/.DS_Store": false,
-    "**/.git":      false,
-    "**/.hg":       false,
-    "**/.svn":      false,
-    "**/Thumbs.db": false
-  }
 }
