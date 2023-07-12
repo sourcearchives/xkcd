@@ -70,9 +70,9 @@ syntax: regexp
 \.ignore/.*
 
 # version control system directories
-^CVS/.*
-^.git/.*
-^.hg/.*
+CVS/.*
+.git/.*
+.hg/.*
 .svn/.*
 
 # macOS special files
