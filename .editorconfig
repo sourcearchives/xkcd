@@ -35,13 +35,13 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 # all text files
-[CONTRIBUTING,COPYING,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt,*.xml,*.yml]
+[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,.hgignore,*.html,*.js,*.json,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt,*.xml,*.yml]
 charset                  = utf-8
 end_of_line              = lf
 indent_style             = space
 
 # symbolic links
-[CONTRIBUTING,COPYING,LICENSE,make,README]
+[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,LICENSE,make,README]
 indent_size              = 0
 trim_trailing_whitespace = true
 
@@ -141,3 +141,4 @@ trim_trailing_whitespace = false
 indent_size              = 2
 insert_final_newline     = true
 trim_trailing_whitespace = true
+
