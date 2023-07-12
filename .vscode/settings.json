@@ -39,7 +39,7 @@
     "*.html":                   "html",
     "*.js":                     "javascript",
     "*.json":                   "json",
-    "**/.vscode/settings.json": "jsonc",
+    ".vscode/**.json":          "jsonc",
     "*.md":                     "markdown",
     "mimetype":                 "plaintext",
     "*.sh":                     "shellscript",
