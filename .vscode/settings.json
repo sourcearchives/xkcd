@@ -31,22 +31,21 @@
 
 {
   "files.associations": {
-    "*.csv":                    "csv",
-    ".gitattributes":           "properties",
-    ".git-blame-ignore-revs":   "ignore",
-    ".gitignore":               "ignore",
-    ".hgignore":                "ignore",
-    "*.html":                   "html",
-    "*.js":                     "javascript",
-    "*.json":                   "json",
-    ".vscode/**.json":          "jsonc",
-    "*.md":                     "markdown",
-    "mimetype":                 "plaintext",
-    "*.sh":                     "shellscript",
-    "*.svg":                    "svg",
-    "*.txt":                    "plaintext",
-    "*.xml":                    "xml",
-    "*.yml":                    "yaml"
+    "*.csv":                  "csv",
+    ".gitattributes":         "properties",
+    ".git-blame-ignore-revs": "ignore",
+    ".gitignore":             "ignore",
+    "*.html":                 "html",
+    "*.js":                   "javascript",
+    "*.json":                 "json",
+    ".vscode/**.json":        "jsonc",
+    "*.md":                   "markdown",
+    "mimetype":               "plaintext",
+    "*.sh":                   "shellscript",
+    "*.svg":                  "svg",
+    "*.txt":                  "plaintext",
+    "*.xml":                  "xml",
+    "*.yml":                  "yaml"
   },
   "files.exclude": {
     "*":            false,
