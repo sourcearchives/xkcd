@@ -22,7 +22,7 @@ SPDX-License-Identifier: NONE
 
 ---
 
-## Text of the SIL Open Font License Version 1.1
+## text of the SIL Open Font License Version 1.1
 
 Version 1.1 - 26 February 2007
 
