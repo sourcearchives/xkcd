@@ -9,7 +9,7 @@ SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# open mirror: _xkcd_ – copying
+# open mirror: _xkcd_ – copying
 
 [_xkcd_](https://xkcd.com/) ([`./content/en/comic/`](./content/en/comic/)) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
