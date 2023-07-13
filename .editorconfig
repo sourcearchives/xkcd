@@ -13,7 +13,7 @@
 
 # These rules are used by EditorConfig applications to make consistent text formatting easier.
 
-# don't look for more .editorconfig files in higher directories
+# don’t look for more .editorconfig files in higher directories
 root = true
 
 # unset/disable all config for all files
