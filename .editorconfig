@@ -1,22 +1,22 @@
-# SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
-# SPDX-FileCopyrightText: No rights reserved.
-# SPDX-FileName: ./.editorconfig
-# SPDX-FileType: DOCUMENTATION
-# SPDX-FileType: TEXT
-# SPDX-FileType: SOURCE
-# SPDX-FileType: OTHER
-# SPDX-LicenseConcluded: CC0-1.0
-# SPDX-License-Identifier: CC0-1.0
+; SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
+; SPDX-FileCopyrightText: No rights reserved.
+; SPDX-FileName: ./.editorconfig
+; SPDX-FileType: DOCUMENTATION
+; SPDX-FileType: TEXT
+; SPDX-FileType: SOURCE
+; SPDX-FileType: OTHER
+; SPDX-LicenseConcluded: CC0-1.0
+; SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for EditorConfig.
-# Information about EditorConfig is available here: [https://editorconfig.org/]
+; This file contains configuration for EditorConfig.
+; Information about EditorConfig is available here: [https://editorconfig.org/]
 
-# These rules are used by EditorConfig applications to make consistent text formatting easier.
+; These rules are used by EditorConfig applications to make consistent text formatting easier.
 
-# don’t look for more .editorconfig files in higher directories
+; don’t look for more .editorconfig files in higher directories
 root = true
 
-# unset/disable all config for all files
+; unset/disable all config for all files
 [*]
 charset                  = unset
 end_of_line              = unset
@@ -27,110 +27,110 @@ max_line_length          = off
 tab_width                = unset
 trim_trailing_whitespace = false
 
-# .gitkeep files should always be empty
+; .gitkeep files should always be empty
 [.gitkeep]
 indent_size              = 0
 indent_style             = space
 max_line_length          = 0
 trim_trailing_whitespace = true
 
-# all text files
+; all text files
 [AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,GLOSSARY,*.html,*.js,*.json,LICENCE,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt,*.xml,*.yml]
 charset                  = utf-8
 end_of_line              = lf
 indent_style             = space
 
-# symbolic links
+; symbolic links
 [AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,GLOSSARY,LICENCE,LICENSE,make,README]
 indent_size              = 0
 trim_trailing_whitespace = true
 
-# CSV (comma-separated values) files
+; CSV (comma-separated values) files
 [*.csv]
 indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# EditorConfig files
+; EditorConfig files
 [.editorconfig]
 indent_size              = 1
 insert_final_newline     = true
 max_line_length          = 1024
 trim_trailing_whitespace = true
 
-# gitattributes files
+; gitattributes files
 [.gitattributes]
 indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# git-blame-ignore-revs files
+; git-blame-ignore-revs files
 [.git-blame-ignore-revs]
 indent_size              = 0
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# gitignore files
+; gitignore files
 [.gitignore]
 indent_size              = 1
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# HTML (HyperText Markup Language) files
+; HTML (HyperText Markup Language) files
 [*.html]
 insert_final_newline = true
 
-# JavaScript files
+; JavaScript files
 [*.js]
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# JSON (JavaScript Object Notation) files
+; JSON (JavaScript Object Notation) files
 [*.json]
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# JSON with comments files
+; JSON with comments files
 [.vscode/**.json]
 indent_size = 2
 
-# Markdown files
+; Markdown files
 [*.md]
 indent_size          = 2
 insert_final_newline = true
 
-# mimetype files
+; mimetype files
 [mimetype]
 indent_size              = 0
 trim_trailing_whitespace = true
 
-# plaintext files
+; plaintext files
 [*.txt]
 insert_final_newline = true
 
-# shell script filea
+; shell script filea
 [*.sh]
 indent_size              = 2
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# SVG (Scalable Vector Graphics) files
+; SVG (Scalable Vector Graphics) files
 [*.svg]
 insert_final_newline = true
 
-# XML (Extensible Markup Language) files
+; XML (Extensible Markup Language) files
 [*.xml]
 indent_size              = 2
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-# LibreOffice-generated XML files
+; LibreOffice-generated XML files
 [content/en/print/xkcd_volume_0/odg/**.xml]
 indent_size              = 1
 insert_final_newline     = false
 trim_trailing_whitespace = false
 
-# YAML (YAML Ain’t Markup Language) files
+; YAML (YAML Ain’t Markup Language) files
 [*.yml]
 indent_size              = 2
 insert_final_newline     = true

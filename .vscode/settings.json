@@ -32,7 +32,7 @@
 {
   "files.associations": {
     "*.csv":                  "csv",
-     ".editorconfig":         "properties"
+     ".editorconfig":         "ini",
      ".gitattributes":        "properties",
      ".git-blame-ignore-revs":"ignore",
      ".gitignore":            "ignore",
