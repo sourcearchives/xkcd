@@ -19,7 +19,7 @@ The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) ([`./cont
 
 The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`./content/de/comic/`](./content/de/comic/)), _xkcDE_, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
-The unofficial [Korean translation of _xkcd_](https://xkcdko.com/) ([`./content/ko/comic/`](./content/ko/comic/)), _xkcdko_, is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](./licenses/CC-BY-NC-4.0.md). `SPDX-License-Identifier: CC-BY-NC-4.0`
+The unofficial [Korean translation of _xkcd_](https://xkcdko.com/) ([`./content/ko/comic/`](./content/ko/comic/)), _xkcdko_, is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-NC 4.0). `SPDX-License-Identifier: CC-BY-SA-4.0`
 
 The unofficial [Russian translation of _xkcd_](https://xkcd.ru/) ([`./content/ru/comic/`](./content/ru/comic/)), _xkcd по-русски_, is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
