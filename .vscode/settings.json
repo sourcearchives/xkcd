@@ -32,15 +32,16 @@
 {
   "files.associations": {
     "*.csv":                  "csv",
-    ".gitattributes":         "properties",
-    ".git-blame-ignore-revs": "ignore",
-    ".gitignore":             "ignore",
+     ".editorconfig":         "properties"
+     ".gitattributes":        "properties",
+     ".git-blame-ignore-revs":"ignore",
+     ".gitignore":            "ignore",
     "*.html":                 "html",
     "*.js":                   "javascript",
     "*.json":                 "json",
-    ".vscode/**.json":        "jsonc",
+     ".vscode/**.json":       "jsonc",
     "*.md":                   "markdown",
-    "mimetype":               "plaintext",
+      "mimetype":             "plaintext",
     "*.sh":                   "shellscript",
     "*.svg":                  "svg",
     "*.txt":                  "plaintext",
