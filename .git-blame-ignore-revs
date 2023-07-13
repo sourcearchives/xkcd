@@ -11,7 +11,7 @@
 # This file contains configuration for Git.
 # Information about git blame is available here: [https://git-scm.com/docs/git-blame]
 
-# Git commit SHA-1 hashes contained in this file are safe for git blame to ignore when showing file changes. Git won't use this file by default. Some applications, like GitHub, will automatically use it for some things.
+# Git commit SHA-1 hashes contained in this file are safe for git blame to ignore when showing file changes. Git won’t use this file by default. Some applications, like GitHub, will automatically use it for some things.
 
 # To show the history of a file while ignoring these commits:
 #  $> git blame --ignore-revs-file <repo_root>/.git-blame-ignore-revs -- <path>

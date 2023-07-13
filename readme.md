@@ -15,9 +15,9 @@ This is an unofficial archive of [_xkcd_](https://xkcd.com/) and its related dat
 
 This repository is available:
 
-* at [GitHub, repository `openmirrors/xkcd](https://github.com/openmirrors/xkcd);
+* at [GitHub, repository `openmirrors/xkcd`](https://github.com/openmirrors/xkcd);
 * or at [GitLab, repository `openmirrors/xkcd`](https://gitlab.com/openmirrors/xkcd).
 
-_Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors)._ – xkcd.com
+_Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors)._ – xkcd.com
 
-The contents of this repository do not reflect the views of any repository contributors. Hopefully, that's enough to keep liberal arts majors from suing.
+The contents of this repository do not reflect the views of any repository contributors. Hopefully, that’s enough to keep liberal arts majors from suing.

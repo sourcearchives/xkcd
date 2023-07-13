@@ -38,7 +38,7 @@ if command -v basename >/dev/null 2>&1; then
 fi
 
 info () {
-  printf 'This shell script makes files containing the book "xkcd: volume 0" by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
+  printf 'This shell script makes files containing the book “xkcd: volume 0” by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs and/or PNGs from one of the following repositories:
   https://github.com/openmirrors/xkcd (/content/en/print/xkcd_volume_0/)
   https://gitlab.com/openmirrors/xkcd (/content/en/print/xkcd_volume_0/)
@@ -139,16 +139,16 @@ png_pages () {
   p082='./pages/png/082.png' # stupid too.
   p083='./pages/png/083.png' # I was blind.
   p084='./pages/png/084.png' # I was a sheep.
-  p085='./pages/png/085.png' # "No, you
-  p086='./pages/png/086.png' # shouldn't
+  p085='./pages/png/085.png' # “No, you
+  p086='./pages/png/086.png' # shouldn’t
   p087='./pages/png/087.png' # write a
   p088='./pages/png/088.png' # 200-line shell
   p089='./pages/png/089.png' # script with
   p090='./pages/png/090.png' # 118 explicit
   p091='./pages/png/091.png' # variable
   p092='./pages/png/092.png' # assignments!
-  p093='./pages/png/093.png' # That's just
-  p094='./pages/png/094.png' # madness!"
+  p093='./pages/png/093.png' # That’s just
+  p094='./pages/png/094.png' # madness!”
   p095='./pages/png/095.png' # And you know
   p096='./pages/png/096.png' # what? I
   p097='./pages/png/097.png' # believed them.
@@ -254,7 +254,7 @@ png_pages () {
        $p108 $p109 $p110 $p111 $p112 $p113
        $p114 $p115 $p116 $p117 $p118"
        png_pages_success='yes'
-     else printf 'One or more of the required PNG files does not exist, or is empty. '"$target"' cannot be made.\n'; exit 1; fi
+     else printf 'One or more of the required PNG files does not exist, or is empty. %s cannot be made.\n' "$target"; exit 1; fi
 }
 
 make_cbz () {
