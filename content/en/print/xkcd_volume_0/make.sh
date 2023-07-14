@@ -40,7 +40,7 @@ fi
 info () {
   printf 'This shell script makes files containing the book “xkcd: volume 0” by Randall Munroe. The book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported.
 NOTE: Before running this script, make sure you have the required PDFs and/or PNGs from the following repository:
-  https://github.com/openmirrors/xkcd (/content/en/print/xkcd_volume_0/)
+  https://github.com/sourcearchives/xkcd (/content/en/print/xkcd_volume_0/)
 in the same directory as this script.
 
 usage: %s cbz

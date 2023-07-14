@@ -9,13 +9,10 @@ SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# open mirror: _xkcd_ – glossary
+# _xkcd_ archive – glossary
 
 This repository uses some uncommon terms and acronyms.
 
-* **GitLab**® – A self-hosted application which provides tools to manage and develop Git source code repositories. In this repository, it usually refers to GitLab’s official online instance, [gitlab.com](https://gitlab.com/).
-  * official website: [GitLab](https://about.gitlab.com)
-  * Wikipedia (English): [GitLab](https://en.wikipedia.org/GitLab)
 * **GitHub**® – A website which provides hosting Git source code repositories and services to manage and develop them, owned by Microsoft.
   * official website: [GitHub](https://github.com/)
   * Wikipedia (English): [GitHub](https://en.wikipedia.org/wiki/GitHub)

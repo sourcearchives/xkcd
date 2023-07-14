@@ -10,7 +10,7 @@
 # SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
-# This file contains configuration for this repository on GitHub [https://github.com/openmirrors/xkcd].
+# This file contains configuration for this repository on GitHub [https://github.com/sourcearchives/xkcd].
 
 branches:
 - name: 'main'
@@ -34,7 +34,7 @@ repository:
   allow_squash_merge: false
   default_branch: 'main'
   delete_branch_on_merge: false
-  description: 'A mirror of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It’s all manual, so contributions are very welcome and appreciated!'
+  description: 'An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It’s all manual, so contributions are very welcome and appreciated!'
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
   has_downloads: true
