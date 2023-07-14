@@ -15,7 +15,7 @@ SPDX-License-Identifier: CC0-1.0
 
 The unofficial [Spanish translation of _xkcd_](https://es.xkcd.com/) ([`./content/es/comic/`](./content/es/comic/)), _xkcd en español_, by [Gabriel Rodríguez Alberich](https://gabi.is/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
-The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) ([`./content/fr/comic/`](./content/fr/comic/)) by "Sophie, Phiip [and] Antoine" at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
+The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) ([`./content/fr/comic/`](./content/fr/comic/)) by “Sophie, Phiip [and] Antoine” at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`./content/de/comic/`](./content/de/comic/)), _xkcDE_, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
