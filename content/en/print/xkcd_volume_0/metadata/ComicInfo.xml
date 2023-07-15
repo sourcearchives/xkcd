@@ -2,13 +2,14 @@
 
 <!--
 # SPDX-FileContributor: author: gabldotink | github:gabldotink | email:gabl@gabl.ink
-# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
+# SPDX-FileCopyrightText: data: No rights reserved. summary text: © 2009 Randall Munroe, breadpig
 # SPDX-FileName: ./content/en/print/xkcd_volume_0/metadata/ComicInfo.xml
 # SPDX-FileType: TEXT
 # SPDX-FileType: SOURCE
 # SPDX-FileType: OTHER
-# SPDX-LicenseConcluded: CC0-1.0
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-LicenseConcluded: CC0-1.0 AND CC-BY-NC-3.0
+# SPDX-License-Identifier: CC0-1.0 AND CC-BY-NC-3.0
 -->
 
 <ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">
@@ -16,17 +17,7 @@
   <Series>xkcd</Series>
   <Number>1</Number>
   <Count>1</Count>
-  <!--
-  SPDX-SnippetBegin
-  SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
-  SPDX-FileCopyrightText: © 2009 Randall Munroe, breadpig
-  SPDX-LicenseConcluded: CC-BY-NC-3.0
-  SPDX-License-Identifier: CC-BY-NC-3.0
-  -->
   <Summary>This book is a collection of strips from xkcd, a free webcomic. I want to get that out of the way so you don't feel betrayed later when you realize you paid for a book of things that you could get for free on the Internet. I like books a lot, so I've put this one together from my webcomic (and added some annotations and other tidbits), but that's really no excuse for poor economic sense on your part. Still, if you've purchased this book, I suppose it's too late for regrets. Let's gloss over this incident and move on to the story of xkcd.</Summary>
-  <!--
-  SPDX-SnippetEnd
-  -->
   <Notes>The elements in this file are ordered according to the schema (URL above). Elements with an empty, irrelevant or unknown value are omitted.</Notes>
   <Year>2009</Year>
   <Writer>Randall Munroe</Writer>
