@@ -13,25 +13,25 @@
 -->
 
 <ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">
-  <Title>xkcd: volume 0</Title>
-  <Series>xkcd</Series>
-  <Number>1</Number>
-  <Count>1</Count>
-  <Summary>This book is a collection of strips from xkcd, a free webcomic. I want to get that out of the way so you don't feel betrayed later when you realize you paid for a book of things that you could get for free on the Internet. I like books a lot, so I've put this one together from my webcomic (and added some annotations and other tidbits), but that's really no excuse for poor economic sense on your part. Still, if you've purchased this book, I suppose it's too late for regrets. Let's gloss over this incident and move on to the story of xkcd.</Summary>
-  <Notes>The elements in this file are ordered according to the schema (URL above). Elements with an empty, irrelevant or unknown value are omitted.</Notes>
-  <Year>2009</Year>
-  <Writer>Randall Munroe</Writer>
-  <Penciller>Randall Munroe</Penciller>
-  <Inker>Randall Munroe</Inker>
-  <Colorist>Randall Munroe</Colorist>
-  <Letterer>Randall Munroe</Letterer>
-  <CoverArtist>Randall Munroe</CoverArtist>
-  <Publisher>breadpig</Publisher>
-  <Genre>Comedy,Romance</Genre>
-  <Web>https://openlibrary.org/works/OL17379456W/xkcd</Web>
-  <PageCount>118</PageCount>
-  <LanguageISO>en-US</LanguageISO>
-  <Format>Digital</Format>
   <BlackAndWhite>No</BlackAndWhite>
+  <Colorist>Randall Munroe</Colorist>
+  <Count>1</Count>
+  <CoverArtist>Randall Munroe</CoverArtist>
+  <Format>Digital</Format>
+  <Genre>Comedy,Romance</Genre>
+  <Inker>Randall Munroe</Inker>
+  <LanguageISO>en</LanguageISO>
+  <Letterer>Randall Munroe</Letterer>
   <Manga>No</Manga>
+  <Notes>Elements defined in the schema (URL above) with an empty, irrelevant or unknown value are omitted from this file.</Notes>
+  <Number>1</Number>
+  <PageCount>118</PageCount>
+  <Penciller>Randall Munroe</Penciller>
+  <Publisher>breadpig</Publisher>
+  <Series>xkcd</Series>
+  <Summary>This book is a collection of strips from xkcd, a free webcomic. I want to get that out of the way so you don't feel betrayed later when you realize you paid for a book of things that you could get for free on the Internet. I like books a lot, so I've put this one together from my webcomic (and added some annotations and other tidbits), but that's really no excuse for poor economic sense on your part. Still, if you've purchased this book, I suppose it's too late for regrets. Let's gloss over this incident and move on to the story of xkcd.</Summary>
+  <Title>xkcd: volume 0</Title>
+  <Writer>Randall Munroe</Writer>
+  <Web>https://openlibrary.org/works/OL17379456W/xkcd</Web>
+  <Year>2009</Year>
 </ComicInfo>
