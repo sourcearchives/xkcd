@@ -4,8 +4,8 @@ SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabld
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./licenses/CC-BY-NC-3.0.md
 SPDX-FileType: DOCUMENTATION
-SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
+SPDX-FileType: TEXT
 SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 -->

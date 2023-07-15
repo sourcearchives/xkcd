@@ -5,8 +5,8 @@ SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabld
 SPDX-FileCopyrightText: © 2007 SIL International, all rights reserved.
 SPDX-FileName: ./licenses/OFL-1.1.md
 SPDX-FileType: DOCUMENTATION
-SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
+SPDX-FileType: TEXT
 SPDX-LicenseConcluded: NONE
 SPDX-License-Identifier: NONE
 -->

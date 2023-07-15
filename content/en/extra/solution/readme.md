@@ -4,8 +4,8 @@ SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabld
 SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"
 SPDX-FileCopyrightText: Puzzle text/solution copyright Randall Munroe, 2005-2006
 SPDX-FileName: ./content/en/extra/solution/readme.md
-SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
+SPDX-FileType: TEXT
 SPDX-LicenseConcluded: NONE
 SPDX-License-Identifier: NONE
 -->

@@ -3,8 +3,8 @@ SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldoti
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
 SPDX-FileName: DOCUMENTATION
-SPDX-FileType: TEXT
 SPDX-FileType: SOURCE
+SPDX-FileType: TEXT
 SPDX-LicenseConcluded: CC0-1.0
 SPDX-License-Identifier: CC0-1.0
 -->
