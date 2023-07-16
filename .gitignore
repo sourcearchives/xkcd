@@ -98,7 +98,8 @@ Temporary Items
 .VolumeIcon.icns
 
 # Vim special files
-[._]*.s[a-v][a-z]
+[._]*.s[a-v][a-fh-z]
+[._]*.s[a-u]g
 [._]*.sw[a-p]
 [._]s[a-rt-v][a-fh-z]
 [._]s[a-rt-u]g
