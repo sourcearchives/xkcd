@@ -108,7 +108,7 @@ trim_trailing_whitespace = true
 [*.txt]
 insert_final_newline = true
 
-; shell script filea
+; shell script files
 [*.sh]
 indent_size              = 2
 insert_final_newline     = true
