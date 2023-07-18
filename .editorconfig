@@ -35,13 +35,13 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 ; all text files
-[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,GLOSSARY,*.html,*.js,*.json,LICENCE,LICENSE,make,*.md,mimetype,README,*.sh,*.svg,*.txt,*.xml,*.yml]
+[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,GLOSSARY,*.html,*.js,*.json,LICENCE,LICENSE,*.md,mimetype,README,*.svg,*.txt,*.xml,*.yml]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
 
 ; symbolic links
-[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,GLOSSARY,LICENCE,LICENSE,make,README]
+[AUTHORS,CONTRIBUTING,CONTRIBUTORS,COPYING,COPYRIGHT,GLOSSARY,LICENCE,LICENSE,README]
 indent_size              = 0
 trim_trailing_whitespace = true
 
@@ -107,12 +107,6 @@ trim_trailing_whitespace = true
 ; plaintext files
 [*.txt]
 insert_final_newline = true
-
-; shell script files
-[*.sh]
-indent_size              = 2
-insert_final_newline     = true
-trim_trailing_whitespace = true
 
 ; SVG (Scalable Vector Graphics) files
 [*.svg]
