@@ -13,7 +13,7 @@
 # This file contains configuration for this repository on GitHub [https://github.com/sourcearchives/xkcd].
 
 branches:
-- name: 'main'
+- name: 'master'
   enforce_admins: null
   protection:
     required_pull_request_reviews:
