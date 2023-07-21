@@ -1,0 +1,29 @@
+---
+
+# SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
+# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileName: ./.github/funding.yml
+# SPDX-FileName: DOCUMENTATION
+# SPDX-FileType: OTHER
+# SPDX-FileType: SOURCE
+# SPDX-FileType: TEXT
+# SPDX-LicenseConcluded: CC0-1.0
+# SPDX-License-Identifier: CC0-1.0
+
+# This file contains configuration for this repository on GitHub [https://github.com/sourcearchives/xkcd].
+
+# This information is for supporting xkcd, not this repository.
+
+# the xkcd store is indefinitely closed
+# custom: 'https://store.xkcd.com/'
+
+# xkcd: volume 0
+custom: 'https://www.bookfinder.com/search/?ac=qr&keywords=9780615314464&st=sh'
+
+# Randall Munroe used to have Bitcoin information at xkcd.com, now removed. The addresses can still be found if one looks for them
+# custom: 'https://xkcd.com/bitcoin/'
+
+# What If?, Thing Explainer, How To, What If? 2
+custom: 'https://xkcd.com/books/'
+
+...
