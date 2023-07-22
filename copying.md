@@ -30,8 +30,8 @@ The typefaces embedded in [_xkcd: volume 0_](./content/en/print/xkcd_volume_0/) 
 * Liberation Serif is licensed under the [SIL Open Font License Version 1.1 (OFL 1.1)](./licenses/OFL-1.1.md). Liberation Serif is designed by Steve Matteson, and copyright is held by Red Hat, Inc. `SPDX-License-Identifier: OFL-1.1`
 * Tahoma is _not_ freely licensed. It is believed that the digital font files’ not-for-profit inclusion in this repository for archival and distribution purposes of _xkcd: volume 0_, licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, qualifies as fair use under copyright law of the United States of America. Tahoma is designed by Matthew Carter, and copyright is held by Microsoft Corporation. `SPDX-License-Identifier: NONE`
 
-Original content in this repository (e.g. commit messages, the [root](./) and [`.github`](./.github/) directories) is licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
+Original content in this repository (e.g. commit messages, the [root](./) and [`./.github/`](./.github/) directories) is licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
-The [Creative Commons](https://creativecommons.org/) licenses ([`/licenses/`](./licenses/)) are licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
+The [Creative Commons](https://creativecommons.org/) licenses ([`./licenses/`](./licenses/)) are licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
 The [SIL Open Font License Version 1.0](./licenses/OFL-1.1.md) by Nicolas Spalinger and Victor Gaultney is copyright of [SIL International](https://www.sil.org/), all rights reserved. Implicitly, the document may be distributed for the purposes of identifying and licensing this repository’s font files. `SPDX-License-Identifier: NONE`
