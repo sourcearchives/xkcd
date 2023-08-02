@@ -1,4 +1,4 @@
----
+%YAML 1.2
 
 # SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 # SPDX-FileCopyrightText: No rights reserved.
@@ -17,6 +17,8 @@
 
 # To check YAML files with YAMLlint:
 #   $> yamllint --config-file <repo_root>/.yamllint.yml <path>
+
+---
 
 rules:
   anchors:

@@ -1,4 +1,4 @@
----
+%YAML 1.2
 
 # SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
 # SPDX-FileCopyrightText: No rights reserved.
@@ -13,6 +13,8 @@
 # This file contains configuration for this repository on GitHub [https://github.com/sourcearchives/xkcd].
 
 # This information is for supporting xkcd, not this repository.
+
+---
 
 # the xkcd store is indefinitely closed
 # custom: 'https://store.xkcd.com/'
