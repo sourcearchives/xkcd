@@ -1,15 +1,15 @@
 <?xml encoding="UTF-8" version="1.0"?>
 
 <!--
-# SPDX-FileContributor: author: gabldotink | github:gabldotink | email:gabl@gabl.ink
-# SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
-# SPDX-FileCopyrightText: data: No rights reserved. summary text: © 2009 Randall Munroe, breadpig
-# SPDX-FileName: ./content/en/print/xkcd_volume_0/metadata/ComicInfo.xml
-# SPDX-FileType: OTHER
-# SPDX-FileType: SOURCE
-# SPDX-FileType: TEXT
-# SPDX-LicenseConcluded: CC0-1.0 AND CC-BY-NC-3.0
-# SPDX-License-Identifier: CC0-1.0 AND CC-BY-NC-3.0
+SPDX-FileContributor: author: original
+SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
+SPDX-FileCopyrightText: data: No rights reserved. summary text: © 2009 Randall Munroe, breadpig
+SPDX-FileName: ./content/en/print/xkcd_volume_0/metadata/ComicInfo.xml
+SPDX-FileType: OTHER
+SPDX-FileType: SOURCE
+SPDX-FileType: TEXT
+SPDX-LicenseConcluded: CC0-1.0 AND CC-BY-NC-3.0
+SPDX-License-Identifier: CC0-1.0 AND CC-BY-NC-3.0
 -->
 
 <ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">

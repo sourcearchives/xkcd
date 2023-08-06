@@ -1,7 +1,7 @@
 <!--
-SPDX-FileContributor: author: Nicolas Spalinger | email:nicolas.spalinger@sil.org | github:n7s
-SPDX-FileContributor: author: Victor Gaultney | https://gaultney.org/jvgtype/
-SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
+SPDX-FileContributor: author: Nicolas Spalinger
+SPDX-FileContributor: author: Victor Gaultney
+SPDX-FileContributor: formatter: original
 SPDX-FileCopyrightText: © 2007 SIL International, all rights reserved.
 SPDX-FileName: ./licenses/OFL-1.1.md
 SPDX-FileType: DOCUMENTATION

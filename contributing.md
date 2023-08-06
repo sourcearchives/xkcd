@@ -1,5 +1,5 @@
 <!--
-SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
+SPDX-FileContributor: author: original
 SPDX-FileCopyrightText: No rights reserved.
 SPDX-FileName: ./contributing.md
 SPDX-FileName: DOCUMENTATION

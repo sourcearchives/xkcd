@@ -1,7 +1,7 @@
 <!--
-SPDX-FileContributor: author: Randall Munroe | wikipedia_en:Randall_Munroe
-SPDX-FileContributor: formatter: gabldotink | email:gabl@gabl.ink | github:gabldotink
-SPDX-FileContributor: thanks: "some dude on the street in Boston named Joel"
+SPDX-FileContributor: author: Randall Munroe
+SPDX-FileContributor: formatter: gabldotink
+SPDX-FileContributor: thanks: “some dude on the street in Boston named Joel”
 SPDX-FileCopyrightText: Puzzle text/solution copyright Randall Munroe, 2005-2006
 SPDX-FileName: ./content/en/extra/blue_eyes/readme.md
 SPDX-FileType: SOURCE
