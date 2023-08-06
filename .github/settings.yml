@@ -1,7 +1,7 @@
 %YAML 1.2
 
-# SPDX-FileContributor: author: original
-# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileContributor: author: contributors
+# SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
 # SPDX-FileName: ./.github/settings.yml
 # SPDX-FileName: DOCUMENTATION
 # SPDX-FileType: OTHER
@@ -34,9 +34,9 @@ repository:
   allow_merge_commit: true
   allow_rebase_merge: true
   allow_squash_merge: false
-  default_branch: 'main'
+  default_branch: 'master'
   delete_branch_on_merge: false
-  description: 'An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It’s all manual, so contributions are very welcome and appreciated!'
+  description: 'An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It’s mostly manual, so contributions are very welcome and appreciated!'
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
   has_downloads: true

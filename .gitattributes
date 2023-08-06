@@ -1,5 +1,5 @@
-# SPDX-FileContributor: author: original
-# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileContributor: author: contributors
+# SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
 # SPDX-FileName: ./.gitattributes
 # SPDX-FileType: DOCUMENTATION
 # SPDX-FileType: OTHER
@@ -31,6 +31,7 @@
  .vscode/**.json        -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=json       linguist-detectable       linguist-generated=false  linguist-language=JSON-with-Comments              linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.md                    -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=markdown   linguist-detectable       linguist-generated=false  linguist-language=Markdown                        linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
   mimetype              -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=plaintext  linguist-detectable       linguist-generated=false  linguist-language=Text                            linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
+*.sh                    -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=shell      linguist-detectable       linguist-generated=false  linguist-language=Shell                           linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.svg                   -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=xml        linguist-detectable       linguist-generated=false  linguist-language=SVG                             linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.txt                   -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=plaintext  linguist-detectable       linguist-generated=false  linguist-language=Text                            linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
 *.xml                   -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=xml        linguist-detectable       linguist-generated=false  linguist-language=XML                             linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8

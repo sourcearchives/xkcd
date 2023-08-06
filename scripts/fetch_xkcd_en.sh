@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# SPDX-FileContributor: author: gabldotink | email:gabl@gabl.ink | github:gabldotink
-# SPDX-FileCopyrightText: No rights reserved.
+# SPDX-FileContributor: author: contributors
+# SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
 # SPDX-FileName: ./scripts/fetch.sh
 # SPDX-FileType: APPLICATION
 # SPDX-FileType: SOURCE

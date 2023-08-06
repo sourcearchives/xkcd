@@ -2,7 +2,7 @@
 SPDX-FileContributor: author: Nicolas Spalinger
 SPDX-FileContributor: author: Victor Gaultney
 SPDX-FileContributor: formatter: original
-SPDX-FileCopyrightText: © 2007 SIL International, all rights reserved.
+SPDX-FileCopyrightText: “© 2007 SIL International, all rights reserved.”
 SPDX-FileName: ./licenses/OFL-1.1.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: SOURCE

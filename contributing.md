@@ -1,6 +1,6 @@
 <!--
-SPDX-FileContributor: author: original
-SPDX-FileCopyrightText: No rights reserved.
+SPDX-FileContributor: author: contributors
+SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
 SPDX-FileName: ./contributing.md
 SPDX-FileName: DOCUMENTATION
 SPDX-FileType: SOURCE

@@ -1,5 +1,5 @@
-; SPDX-FileContributor: author: original
-; SPDX-FileCopyrightText: No rights reserved.
+; SPDX-FileContributor: author: contributors
+; SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
 ; SPDX-FileName: ./.editorconfig
 ; SPDX-FileType: DOCUMENTATION
 ; SPDX-FileType: OTHER
@@ -35,7 +35,7 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 ; all text files
-[*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.svg,*.txt,*.xml,*.yml]
+[*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,*.svg,*.txt,*.xml,*.yml]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
@@ -102,6 +102,12 @@ trim_trailing_whitespace = true
 ; plaintext files
 [*.txt]
 insert_final_newline = true
+
+; shell script files
+[*.sh]
+indent_size              = 2
+insert_final_newline     = true
+trim_trailing_whitespace = true
 
 ; SVG (Scalable Vector Graphics) files
 [*.svg]

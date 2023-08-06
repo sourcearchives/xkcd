@@ -1,7 +1,7 @@
 <!--
 SPDX-FileContributor: author: Creative Commons
-SPDX-FileContributor: formatter: original
-SPDX-FileCopyrightText: No rights reserved.
+SPDX-FileContributor: formatter: contributors
+SPDX-FileCopyrightText: text: © 2005 Creative Commons. No rights reserved. formatting: © 2023 contributors. No rights reserved.
 SPDX-FileName: ./licenses/CC-BY-NC-2.5.md
 SPDX-FileType: DOCUMENTATION
 SPDX-FileType: SOURCE
