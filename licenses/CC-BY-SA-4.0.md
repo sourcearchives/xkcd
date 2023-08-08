@@ -1,14 +1,4 @@
-<!--
-SPDX-FileContributor: author: Creative Commons
-SPDX-FileContributor: formatter: contributors
-SPDX-FileCopyrightText: text: © 2013 Creative Commons. No rights reserved. formatting: © 2023 contributors. No rights reserved.
-SPDX-FileName: ./licenses/CC-BY-SA-4.0.md
-SPDX-FileType: DOCUMENTATION
-SPDX-FileType: SOURCE
-SPDX-FileType: TEXT
-SPDX-LicenseConcluded: CC0-1.0
-SPDX-License-Identifier: CC0-1.0
--->
+<!-- SPDX-License-Identifier: CC0-1.0 -->
 
 # Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 

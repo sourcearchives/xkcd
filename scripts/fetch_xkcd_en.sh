@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-# SPDX-FileContributor: author: contributors
-# SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
-# SPDX-FileName: ./scripts/fetch.sh
-# SPDX-FileType: APPLICATION
-# SPDX-FileType: SOURCE
-# SPDX-FileType: TEXT
-# SPDX-LicenseConcluded: CC0-1.0
 # SPDX-License-Identifier: CC0-1.0
 
 # THIS SCRIPT DOES NOT WORK YET.

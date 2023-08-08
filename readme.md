@@ -1,13 +1,4 @@
-<!--
-SPDX-FileContributor: author: contributors
-SPDX-FileCopyrightText: © 2023 contributors. No rights reserved.
-SPDX-FileName: ./readme.md
-SPDX-FileName: DOCUMENTATION
-SPDX-FileType: SOURCE
-SPDX-FileType: TEXT
-SPDX-LicenseConcluded: CC0-1.0
-SPDX-License-Identifier: CC0-1.0
--->
+<!-- SPDX-License-Identifier: CC0-1.0 -->
 
 # _xkcd_ archive – readme
 

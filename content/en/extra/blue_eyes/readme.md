@@ -1,14 +1,4 @@
-<!--
-SPDX-FileContributor: author: Randall Munroe
-SPDX-FileContributor: formatter: contributors
-SPDX-FileContributor: thanks: “some dude on the street in Boston named Joel”
-SPDX-FileCopyrightText: text: “Puzzle text/solution copyright Randall Munroe, 2005-2006” formatting: © 2023 contributors. No rights reserved.
-SPDX-FileName: ./content/en/extra/blue_eyes/readme.md
-SPDX-FileType: SOURCE
-SPDX-FileType: TEXT
-SPDX-LicenseConcluded: NONE
-SPDX-License-Identifier: NONE
--->
+<!-- SPDX-License-Identifier: NONE -->
 
 <div align="center">
 
