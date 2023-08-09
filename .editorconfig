@@ -19,8 +19,8 @@ max_line_length          = off
 tab_width                = unset
 trim_trailing_whitespace = false
 
-; .gitkeep files should always be empty
-[.gitkeep]
+; .empty files should always be empty
+[.empty,.working]
 indent_size              = 0
 indent_style             = space
 max_line_length          = 0
