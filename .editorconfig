@@ -19,7 +19,7 @@ max_line_length          = off
 tab_width                = unset
 trim_trailing_whitespace = false
 
-; .empty files should always be empty
+; placeholder files should always be empty
 [.empty,.working]
 indent_size              = 0
 indent_style             = space
