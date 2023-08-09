@@ -6,11 +6,11 @@
 
 The unofficial [Spanish translation of _xkcd_](https://es.xkcd.com/) ([`./content/es/comic/`](./content/es/comic/)), _xkcd en español_, by [Gabriel Rodríguez Alberich](https://gabi.is/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
-The unofficial [French translation of _xkcd_](https://xkcd.lapin.org/) ([`./content/fr/comic/`](./content/fr/comic/)) by “Sophie, Phiip [and] Antoine” at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
+The unofficial [French translation of _xkcd_](https://web.archive.org/web/20230415184416/https://xkcd.lapin.org/) ([`./content/fr/comic/`](./content/fr/comic/)) by “Sophie, Phiip [and] Antoine” at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 The unofficial [German translation of _xkcd_](https://xkcde.dapete.net/) ([`./content/de/comic/`](./content/de/comic/)), _xkcDE_, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
-The unofficial [Korean translation of _xkcd_](https://xkcdko.com/) ([`./content/ko/comic/`](./content/ko/comic/)), _xkcdko_, is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./licenses/CC-BY-SA-4.0.md). `SPDX-License-Identifier: CC-BY-NC-2.5 AND CC-BY-SA-4.0`
+The unofficial [Korean translation of _xkcd_](https://web.archive.org/web/20221127111821/https://xkcdko.com/) ([`./content/ko/comic/`](./content/ko/comic/)), _xkcdko_, is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./licenses/CC-BY-SA-4.0.md). `SPDX-License-Identifier: CC-BY-NC-2.5 AND CC-BY-SA-4.0`
 
 The unofficial [Russian translation of _xkcd_](https://xkcd.ru/) ([`./content/ru/comic/`](./content/ru/comic/)), _xkcd по-русски_, is licensed under [Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
