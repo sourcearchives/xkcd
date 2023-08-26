@@ -1,7 +1,5 @@
 <?xml encoding="UTF-8" version="1.0"?>
 
-<!-- SPDX-License-Identifier: CC0-1.0 AND CC-BY-NC-3.0 -->
-
 <ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">
   <BlackAndWhite>No</BlackAndWhite>
   <Colorist>Randall Munroe</Colorist>

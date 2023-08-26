@@ -1,5 +1,3 @@
-<!-- SPDX-License-Identifier: NONE -->
-
 # SIL Open Font License Version 1.1 (OFL 1.1)
 
 > OSI text: <https://opensource.org/license/ofl-1-1/>  

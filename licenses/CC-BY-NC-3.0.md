@@ -1,5 +1,3 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-
 # Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)
 
 > CC deed: <https://creativecommons.org/licenses/by-nc/3.0/deed>  

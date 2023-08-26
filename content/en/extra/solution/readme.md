@@ -1,5 +1,3 @@
-<!-- SPDX-License-Identifier: NONE -->
-
 <div align="center">
 
 If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
