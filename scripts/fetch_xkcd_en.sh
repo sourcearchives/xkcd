@@ -7,7 +7,7 @@
 # too many arguments?
 if [ "$1"  = '' ] || [ "$2"  = '' ] ||
    [ "$3"  = '' ] || [ "$4" != '' ];then
-  printf 'usage: ./scripts/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n' "$0"
+  printf 'usage: ./scripts/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n'
   exit 1
 fi
 
