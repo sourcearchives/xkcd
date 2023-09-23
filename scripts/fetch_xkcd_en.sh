@@ -1,37 +1,34 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # SPDX-License-Identifier: CC0-1.0
 
-# THIS SCRIPT DOES NOT WORK YET.
-# do not use it.
+# this does not currently get 2x comics or irregular ones
 
 # too many arguments?
-if [[ "$2" != '' ]] ; then
-  printf 'usage: %s <fourdigitnumber>\n' "$0"
+if [ "$1"  = '' ] || [ "$2"  = '' ] ||
+   [ "$3"  = '' ] || [ "$4" != '' ];then
+  printf 'usage: ./scripts/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n' "$0"
   exit 1
 fi
 
-# argument an integer?
-if [[ ! "$1" =~ '^[0-9][0-9][0-9][0-9]*$' ]]; then
-  printf 'usage: %s <fourdigitnumber>\n' "$0"
-  exit 1
-fi
+comic_path='./content/en/comic/'"$2"'/'"$3"
 
-printf 'fetching English xkcd: '"$1"'\n'
+mkdir -p "$comic_path"
 
-if command -v curl ; then : ;
-else printf 'curl is required and not installed\n' ; exit 1
-fi
+curl 'https://xkcd.com/'"$1"'/info.0.json > "$comic_path"'/info.json'
 
-if curl --fail-with-body --silent 'https://xkcd.com/'"$1"'/' >/dev/null ; then
-  printf 'comic exists\n'
-else printf 'comic does not exist\n'
-     exit 1
-fi
+jq --compact-output --monochrome-output --sort-keys . "$comic_path"'/info.json' > "$comic_path"'/info.json.2'
 
-if command -v jq ; then : ;
-else printf 'jq is required and not installed\n' ; exit 1
-fi
+cat "$comic_path"'/info.json.2' > "$comic_path"'/info.json'
 
-curl --silent 'https://xkcd.com/'"$1"'/info.0.json' | \
-jq -cMS . > ../content/en/comic/"$(cut -c 1-2 $1)"99/$1/info.json
+rm "$comic_path"'/info.json.2'
+
+jq --raw-output '.title' > "$comic_path"'/title.txt'
+jq --raw-output '.alt' > "$comic_path"'/alt.txt'
+jq --raw-output '.transcript' > "$comic_path"'/transcript.txt'
+
+curl `jq --raw-output '.img'` > "$comic_path"'/1x.png'
+
+if [ ! -s "$comic_path"'/transcript.txt' ];then
+  rm "$comic_path"'/transcript.txt'
+done
