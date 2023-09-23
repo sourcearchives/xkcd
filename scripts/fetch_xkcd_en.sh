@@ -15,7 +15,7 @@ comic_path='./content/en/comic/'"$2"'/'"$3"
 
 mkdir -p "$comic_path"
 
-curl 'https://xkcd.com/'"$1"'/info.0.json > "$comic_path"'/info.json'
+curl 'https://xkcd.com/'"$1"'/info.0.json' > "$comic_path"'/info.json'
 
 jq --compact-output --monochrome-output --sort-keys . "$comic_path"'/info.json' > "$comic_path"'/info.json.2'
 
