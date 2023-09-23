@@ -1,0 +1,5 @@
+Narrator: Sometimes, when I first wake up, I am caught in the horrible grip of perspective.
+[[A person sitting up in bed]]
+Person: It may be a jewel of open source, but Firefox is JUST A BROWSER. It shows WEBPAGES. What the hell is WRONG with us?
+Narrator: Fortunately, this subsides quickly.
+{{alt text: I wonder what I was dreaming to prompt that. I hope it wasn't the Richard Stallman Cirque de Soleil thing again.}}
