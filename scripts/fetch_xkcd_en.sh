@@ -23,7 +23,7 @@ cat "$comic_path"'/info.json.2' > "$comic_path"'/info.json'
 
 rm "$comic_path"'/info.json.2'
 
-jq --raw-output '.title' "$comic_path"'/info.json > "$comic_path"'/title.txt'
+jq --raw-output '.title' "$comic_path"'/info.json' > "$comic_path"'/title.txt'
 jq --raw-output '.alt' "$comic_path"'/info.json' > "$comic_path"'/alt.txt'
 jq --raw-output '.transcript' "$comic_path"'/info.json' > "$comic_path"'/transcript.txt'
 
