@@ -31,4 +31,4 @@ curl `jq --raw-output '.img'` > "$comic_path"'/1x.png'
 
 if [ ! -s "$comic_path"'/transcript.txt' ];then
   rm "$comic_path"'/transcript.txt'
-done
+fi
