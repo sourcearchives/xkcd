@@ -27,7 +27,7 @@ jq --raw-output '.title' > "$comic_path"'/title.txt'
 jq --raw-output '.alt' > "$comic_path"'/alt.txt'
 jq --raw-output '.transcript' > "$comic_path"'/transcript.txt'
 
-curl `jq --raw-output '.img'` > "$comic_path"'/1x.png'
+curl "`jq --raw-output '.img'`" > "$comic_path"'/1x.png'
 
 if [ ! -s "$comic_path"'/transcript.txt' ];then
   rm "$comic_path"'/transcript.txt'
