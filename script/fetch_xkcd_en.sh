@@ -36,6 +36,9 @@ jq --raw-output '.title' "$c"'/info.json' > "$c"'/title.txt'
 printf 'extracting %s/alt.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.alt' "$c"'/info.json' > "$c"'/alt.txt'
 
+printf 'extracting %s/link.txt from %s/info.json' "$c" "$c"
+jq --raw-output '.link' "$c"'/info.json' > "$c"'/link.txt'
+
 printf 'extracting %s/transcript.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
 
@@ -44,7 +47,12 @@ i="`jq --raw-output '.img' \"$c\"'/info.json'`"
 printf 'downloading %s to %s/1x.png\n' "$i" "$c"
 curl "$i" > "$c"'/1x.png'
 
-if [ ! -s "$c"'/transcript.txt' ];then
-  printf 'removing %s/transcript.txt, as it is empty\n' "$c"
+if [ "`cat \"$c\"'/link.txt'`" = "`printf '\n'`" ];then
+  printf 'removing %s/link.txt\n' "$c"
+  rm "$c"'/link.txt'
+fi
+
+if [ "`cat \"$c\"'/transcript.txt'`" = "`printf '\n'`" ];then
+  printf 'removing %s/transcript.txt\n' "$c"
   rm "$c"'/transcript.txt'
 fi
