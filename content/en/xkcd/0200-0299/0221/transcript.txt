@@ -1,0 +1,8 @@
+int getRandomNumber()
+{
+  return 4; 
+ chosen by fair dice roll.
+               
+ guarenteed to be random.
+}
+{{title text: RFC 1149.5 specifies 4 as the standard IEEE-vetted random number.}}
