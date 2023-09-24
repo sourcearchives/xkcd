@@ -1,0 +1,14 @@
+Start
+ |
+The 90's?
+ 
+          \
+No       Yes
+ |           |
+Stop      Stop
+           
+       \
+Hammertime  Collaborate
+                       |
+                    Listen
+{{alt: Freestyle rapping is basically applied Markov chains.}}
