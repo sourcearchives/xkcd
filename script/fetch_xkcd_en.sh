@@ -6,6 +6,8 @@
 #                                   (or: sh ./script/fetch_xkcd_en.sh )
 # this does not currently get 2x comics or irregular ones
 
+export POSIXLY_CORRECT
+
 # too many arguments?
 if [ "$1"  = '' ] || [ "$2"  = '' ] ||
    [ "$3"  = '' ] || [ "$4" != '' ];then
@@ -13,7 +15,7 @@ if [ "$1"  = '' ] || [ "$2"  = '' ] ||
   exit 1
 fi
 
-c='./content/en/xkcd/'"$2"'/'"$3"
+export c='./content/en/xkcd/'"$2"'/'"$3"
 
 printf 'creating %s\n' "$c"
 mkdir -p "$c"
@@ -42,7 +44,7 @@ jq --raw-output '.link' "$c"'/info.json' > "$c"'/link.txt'
 printf 'extracting %s/transcript.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
 
-i="`jq --raw-output '.img' \"$c\"'/info.json'`"
+export i="`jq --raw-output '.img' \"$c\"'/info.json'`"
 
 printf 'downloading %s to %s/1x.png\n' "$i" "$c"
 curl "$i" > "$c"'/1x.png'
