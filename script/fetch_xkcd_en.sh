@@ -15,22 +15,15 @@ if [ "$1"  = '' ] || [ "$2"  = '' ] ||
   exit 1
 fi
 
-export c='./content/en/xkcd/'"$2"'/'"$3"
+c='./content/en/xkcd/'"$2"'/'"$3"
+export c
 
 printf 'creating %s\n' "$c"
 mkdir -p "$c"
 
-printf 'downloading https://xkcd.com/%s/info.0.json to %s/info.json\n' "$1" "$c"
-curl 'https://xkcd.com/'"$1"'/info.0.json' > "$c"'/info.json'
-
-printf 'formatting %s/info.json to %s/info.json.2\n' "$c" "$c"
-jq --compact-output --monochrome-output --sort-keys '.' "$c"'/info.json' > "$c"'/info.json.2'
-
-printf 'copying %s/info.json.2 to %s/info.json\n' "$c" "$c"
-cat "$c"'/info.json.2' > "$c"'/info.json'
-
-printf 'removing %s/info.json.2\n' "$c"
-rm "$c"'/info.json.2'
+printf 'downloading and formatting https://xkcd.com/%s/info.0.json to %s/info.json\n' "$1" "$c"
+curl 'https://xkcd.com/'"$1"'/info.0.json' | \
+jq --compact-output --monochrome-output --sort-keys '.' - > "$c"'/info.json'
 
 printf 'extracting %s/title.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.title' "$c"'/info.json' > "$c"'/title.txt'
@@ -44,7 +37,8 @@ jq --raw-output '.link' "$c"'/info.json' > "$c"'/link.txt'
 printf 'extracting %s/transcript.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
 
-export i="`jq --raw-output '.img' \"$c\"'/info.json'`"
+i="`jq --raw-output '.img' \"$c\"'/info.json'`"
+export i
 
 printf 'downloading %s to %s/1x.png\n' "$i" "$c"
 curl "$i" > "$c"'/1x.png'
