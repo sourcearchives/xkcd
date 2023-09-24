@@ -22,7 +22,7 @@ printf 'creating %s\n' "$c"
 mkdir -p "$c"
 
 printf 'downloading and formatting https://xkcd.com/%s/info.0.json to %s/info.json\n' "$1" "$c"
-curl 'https://xkcd.com/'"$1"'/info.0.json' | \
+curl 'https://xkcd.com/'"$1"'/info.0.json' --output - | \
 jq --compact-output --monochrome-output --sort-keys '.' - > "$c"'/info.json'
 
 printf 'extracting %s/title.txt from %s/info.json\n' "$c" "$c"
@@ -41,7 +41,7 @@ i="`jq --raw-output '.img' \"$c\"'/info.json'`"
 export i
 
 printf 'downloading %s to %s/1x.png\n' "$i" "$c"
-curl "$i" > "$c"'/1x.png'
+curl "$i" --output "$c"'/1x.png'
 
 if [ "`cat \"$c\"'/link.txt'`" = "`printf '\n'`" ];then
   printf 'removing %s/link.txt\n' "$c"
