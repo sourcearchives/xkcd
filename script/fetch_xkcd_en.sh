@@ -13,7 +13,7 @@ if [ "$1"  = '' ] || [ "$2"  = '' ] ||
   exit 1
 fi
 
-c='./content/en/comic/'"$2"'/'"$3"
+c='./content/en/xkcd/'"$2"'/'"$3"
 
 printf 'creating %s\n' "$c"
 mkdir -p "$c"
