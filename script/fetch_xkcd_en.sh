@@ -25,14 +25,17 @@ printf 'downloading and formatting https://xkcd.com/%s/info.0.json to %s/info.js
 curl 'https://xkcd.com/'"$1"'/info.0.json' --output - | \
 jq --compact-output --monochrome-output --sort-keys '.' - > "$c"'/info.json'
 
-printf 'extracting %s/title.txt from %s/info.json\n' "$c" "$c"
-jq --raw-output '.title' "$c"'/info.json' > "$c"'/title.txt'
-
 printf 'extracting %s/alt.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.alt' "$c"'/info.json' > "$c"'/alt.txt'
 
 printf 'extracting %s/link.txt from %s/info.json' "$c" "$c"
 jq --raw-output '.link' "$c"'/info.json' > "$c"'/link.txt'
+
+printf 'extracting %s/news.html from %s/info.json' "$c" "$c"
+jq --raw-output '.news' "$c"'/info.json' > "$c"'/news.html'
+
+printf 'extracting %s/title.txt from %s/info.json\n' "$c" "$c"
+jq --raw-output '.title' "$c"'/info.json' > "$c"'/title.txt'
 
 printf 'extracting %s/transcript.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
@@ -46,6 +49,11 @@ curl "$i" --output "$c"'/1x.png'
 if [ "`cat \"$c\"'/link.txt'`" = "`printf '\n'`" ];then
   printf 'removing %s/link.txt\n' "$c"
   rm "$c"'/link.txt'
+fi
+
+if [ "`cat \"$c\"'/news.html'`" = "`printf '\n'`" ];then
+  printf 'removing %s/news.html\n' "$c"
+  rm "$c"'/news.html'
 fi
 
 if [ "`cat \"$c\"'/transcript.txt'`" = "`printf '\n'`" ];then
