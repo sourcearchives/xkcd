@@ -40,23 +40,23 @@ jq --raw-output '.title' "$c"'/info.json' > "$c"'/title.txt'
 printf 'extracting %s/transcript.txt from %s/info.json\n' "$c" "$c"
 jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
 
-i="`jq --raw-output '.img' \"$c\"'/info.json'`"
+i="$(jq --raw-output '.img' "$c"'/info.json')"
 export i
 
 printf 'downloading %s to %s/1x.png\n' "$i" "$c"
 curl "$i" --output "$c"'/1x.png'
 
-if [ "`cat \"$c\"'/link.txt'`" = "`printf '\n'`" ];then
+if [ "$(cat "$c"'/link.txt')" = "$(printf '\n')" ];then
   printf 'removing %s/link.txt\n' "$c"
   rm "$c"'/link.txt'
 fi
 
-if [ "`cat \"$c\"'/news.html'`" = "`printf '\n'`" ];then
+if [ "$(cat "$c"'/news.html')" = "$(printf '\n')" ];then
   printf 'removing %s/news.html\n' "$c"
   rm "$c"'/news.html'
 fi
 
-if [ "`cat \"$c\"'/transcript.txt'`" = "`printf '\n'`" ];then
+if [ "$(cat "$c"'/transcript.txt')" = "$(printf '\n')`" ];then
   printf 'removing %s/transcript.txt\n' "$c"
   rm "$c"'/transcript.txt'
 fi
