@@ -8,7 +8,7 @@
 
 export POSIXLY_CORRECT
 
-# too many arguments?
+# too many / not enough arguments?
 if [ "$1"  = '' ] || [ "$2"  = '' ] ||
    [ "$3"  = '' ] || [ "$4" != '' ];then
   printf 'usage: ./script/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n'
