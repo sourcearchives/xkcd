@@ -8,14 +8,28 @@
 
 export POSIXLY_CORRECT
 
-# incorrect arguments?
-if [ "$1"  = '' ] || [ "$2"  = '' ] ||
-   [ "$3"  = '' ] || [ "$4" != '' ];then
-  printf 'usage: ./script/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n'
+if [ "$1"  = '' ]||
+   [ "$2"  = '' ]||
+   [ "$3" != '' ];then
+  printf 'usage: ./script/fetch_xkcd_en.sh <unpadded number> <range directory>\n'
   exit 1
 fi
 
-c='./content/en/xkcd/'"$2"'/'"$3"
+if   [ "${#1}" = 1 ];then
+  p='000'
+  export p
+elif [ "${#1}" = 2 ];then
+  p='00'
+  export p
+elif [ "${#1}" = 3 ];then
+  p='000'
+  export p
+else
+  p=''
+  export p
+fi
+
+c='./content/en/xkcd/'"$2"'/'"$p""$1"
 export c
 
 mkdir -p "$c"
@@ -50,4 +64,4 @@ if [ "$(cat "$c"'/transcript.txt')" = "$(printf '\n')" ];then
   rm "$c"'/transcript.txt'
 fi
 
-printf '%s\n' "$c"
+printf 'Done! There may have been errors.\n%s/\n' "$c"
