@@ -8,7 +8,7 @@
 
 export POSIXLY_CORRECT
 
-# too many / not enough arguments?
+# incorrect arguments?
 if [ "$1"  = '' ] || [ "$2"  = '' ] ||
    [ "$3"  = '' ] || [ "$4" != '' ];then
   printf 'usage: ./script/fetch_xkcd_en.sh <url number> <range directory> <comic directory>\n'
@@ -56,7 +56,7 @@ if [ "$(cat "$c"'/news.html')" = "$(printf '\n')" ];then
   rm "$c"'/news.html'
 fi
 
-if [ "$(cat "$c"'/transcript.txt')" = "$(printf '\n')`" ];then
+if [ "$(cat "$c"'/transcript.txt')" = "$(printf '\n')" ];then
   printf 'removing %s/transcript.txt\n' "$c"
   rm "$c"'/transcript.txt'
 fi
