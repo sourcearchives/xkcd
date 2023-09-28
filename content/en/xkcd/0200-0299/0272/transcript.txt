@@ -1,0 +1,9 @@
+Salesman: Interested in updating your antivirus software?
+Customer: Oh, I wouldn't need any of that.
+{{In a spiky speech bubble}}
+I RUN LINUX.
+<<Flip>>
+{{Customer does a backflip onto a motorcycle}}
+{{Customer performs a wheelie on the motorcycle}}
+{{Customer does a hard, donut turn on the motorcycle, kicking up dirt into the salesman's face}}
+{{Customer speeds off on the motorcycle, leaving the salesman in a cloud of black exhaust}}
