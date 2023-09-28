@@ -1,0 +1,10 @@
+{{Online Package Tracking}}
+{{_Pros_: Convenient, Useful}}
+{{_Cons_: Makes You Crazy}}
+[[A person is sitting at a computer.]]
+<<refresh>>
+Person: Aww, still in Memphis.
+<<refresh>>
+Person: Aww, still in Memphis.
+<<refresh>>
+Person: Aww, still in Memphis.
