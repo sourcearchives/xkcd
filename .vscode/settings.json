@@ -21,21 +21,21 @@
 
 {
   "files.associations": {
-    "*.csv":                  "csv",
-     ".editorconfig":         "ini",
-     ".gitattributes":        "properties",
-     ".git-blame-ignore-revs":"ignore",
-     ".gitignore":            "ignore",
-    "*.html":                 "html",
-    "*.js":                   "javascript",
-    "*.json":                 "json",
-     ".vscode/**.json":       "jsonc",
-    "*.md":                   "markdown",
-      "mimetype":             "plaintext",
-    "*.sh":                   "shellscript",
-    "*.svg":                  "svg",
-    "*.txt":                  "plaintext",
-    "*.xml":                  "xml",
-    "*.yml":                  "yaml"
-  },
+     ".editorconfig":  "ini",
+     ".empty":         "plaintext",
+     ".gitattributes": "properties",
+     ".gitignore":     "ignore",
+    "*.html":          "html",
+    "*.js":            "javascript",
+    "*.json":          "json",
+     ".vscode/**.json":"jsonc",
+    "*.md":            "markdown",
+      "mimetype":      "plaintext",
+    "*.sh":            "shellscript",
+    "*.svg":           "svg",
+    "*.txt":           "plaintext",
+     ".working":       "plaintext",
+    "*.xml":           "xml",
+    "*.yml":           "yaml"
+  }
 }
