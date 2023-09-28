@@ -1,0 +1,10 @@
+A God's Lament
+Some said the world should be in Perl;
+Some said in Lisp.
+Now, having given both a whirl,
+I held with those who favored Perl.
+But I fear we passed to men
+A disappointing founding myth,
+And should we write it all again,
+I'd end it with
+A close-paren.
