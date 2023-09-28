@@ -1,0 +1,10 @@
+[[Elevator panel, with a Certificate of Inspection and five floor buttons, numbered 1â4. The fifth button is unlabeled.]]
+[Person thinks]
+[Person writes something on a small piece of paper]
+[Person tapes it onto the panel]
+[[Elevator panel, with the same Certificate and buttons, and with the piece of paper labeling the fifth button âZeppelinâ.]]
+[Person presses the new âZeppelinâ button]
+[Elevator moves]
+Elevator: *Ding*
+[Person is looking out the door of a Zeppelin. The Zeppelin is flying over a green landscape with many lakes.]
+{{Title text: Quick, try it with 'LOVE'.}}
