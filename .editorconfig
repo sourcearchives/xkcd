@@ -27,16 +27,10 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 ; all text files
-[*.csv,.editorconfig,.gitattributes,.git-blame-ignore-revs,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,*.svg,*.txt,*.xml,*.yml]
+[.editorconfig,.gitattributes,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,*.svg,*.txt,*.xml,*.yml]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
-
-; CSV (comma-separated values) files
-[*.csv]
-indent_size              = 1
-insert_final_newline     = true
-trim_trailing_whitespace = true
 
 ; EditorConfig files
 [.editorconfig]
@@ -48,12 +42,6 @@ trim_trailing_whitespace = true
 ; gitattributes files
 [.gitattributes]
 indent_size              = 1
-insert_final_newline     = true
-trim_trailing_whitespace = true
-
-; git-blame-ignore-revs files
-[.git-blame-ignore-revs]
-indent_size              = 0
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
