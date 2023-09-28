@@ -50,7 +50,10 @@ jq --raw-output '.transcript' "$c"'/info.json' > "$c"'/transcript.txt'
 i="$(jq --raw-output '.img' "$c"'/info.json')"
 export i
 
-curl "$i" --output "$c"'/1x.png'
+e="${i#.*}"
+export e
+
+curl "$i" --output "$c"'/1x.'"$e"
 
 if [ "$(cat "$c"'/link.txt')" = "$(printf '\n')" ];then
   rm "$c"'/link.txt'
