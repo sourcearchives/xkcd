@@ -22,7 +22,7 @@ elif [ "${#1}" = 2 ];then
   p='00'
   export p
 elif [ "${#1}" = 3 ];then
-  p='000'
+  p='0'
   export p
 else
   p=''
