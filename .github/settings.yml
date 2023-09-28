@@ -28,17 +28,17 @@ repository:
   allow_squash_merge: false
   default_branch: 'master'
   delete_branch_on_merge: false
-  description: 'An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. It’s mostly manual, so contributions are very welcome and appreciated!'
+  description: 'An incomplete archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.'
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
   has_downloads: true
   has_issues:    true
-  has_projects:  false
-  has_wiki:      false
+  has_projects: false
+  has_wiki:     false
   homepage: 'https://xkcd.com/'
   name: 'xkcd'
   private: false
-  topics: 'comic,mirror,webcomic,xkcd'
+  topics: 'comic,webcomic,xkcd'
 
 teams: null
 
