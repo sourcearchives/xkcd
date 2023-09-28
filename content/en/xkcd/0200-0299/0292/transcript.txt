@@ -1,0 +1,8 @@
+[[Man sits at computer, thinking]]
+Man: I could restructure the program's flow - or use one little 'GOTO' instead.
+Man: Eh, screw good practice. How bad can it be?
+Text on computer: goto main_sub3;
+<<Compile>>
+[[Panel passes in which man simply looks at the computer]]
+[[A raptor jumps into the panel and attacks the man at the computer]]
+{{title text: Neal Stephenson thinks it's cute to name his labels 'dengo'}}
