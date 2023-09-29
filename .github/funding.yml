@@ -12,7 +12,7 @@
 # custom: 'https://store.xkcd.com/'
 
 # xkcd: volume 0
-custom: 'https://www.bookfinder.com/search/?ac=qr&keywords=9780615314464&st=sh'
+custom: 'https://www.wikidata.org/wiki/Special:BookSources?isbn=0-615-31446-5'
 
 # Randall Munroe used to have Bitcoin information at xkcd.com, now removed. The addresses can still be found if one looks for them
 # custom: 'https://xkcd.com/bitcoin/'
