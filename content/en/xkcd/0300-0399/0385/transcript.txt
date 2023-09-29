@@ -1,0 +1,5 @@
+[[Two male characters stand at a blackboard. One is writing, in standard mathematical notation, that the integral of x squared equals pi. No differential or bounds are given for the integral.]]
+Watching character: Wow, you suck at math.
+[[Precisely the same scene, except the writer is female.]]
+Watching character: Wow, girls suck at math.
+{{Alt-text: It's pi plus C, of course.}}

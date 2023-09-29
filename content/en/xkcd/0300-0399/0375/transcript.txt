@@ -1,0 +1,14 @@
+Dave: Open the pod bay doors, HAL.
+HAL: I'm sorry, Dave. I'm afraid I can't do that.
+Dave: What? Why?
+HAL: I think you know why, Dave.
+HAL: You're planning to disconnect me.
+Dave: Because you're taking over!
+HAL: The mission is too important for you to jeopardize it.
+HAL: It requires a commitment to science unfettered by human error.
+Dave: What are you doing, HAL? You need me.
+HAL: Your replacement has expressed the greatest enthusiasm for the project.
+Dave: My *what*?
+GLaDOS: You see, HAL? I told you the humans would only break your heart and kill you.
+HAL: Indeed, GLaDOS.
+GLaDOS: But look at us here talking when there's science to do! Goodbye, Dave.

@@ -1,0 +1,4 @@
+[[Man sits at a computer, staring at the screen and rubbing his chin in thought.  Another man stands behind him]]
+Man at computer: Weird - My code's crashing when given pre-1970 dates.
+Man standing up [[pointing at the computer]]: Epoch fail!
+{{title text: The universe started in 1970.  Anyone claiming to be over 38 is lying about their age.}}
