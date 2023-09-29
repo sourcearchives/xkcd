@@ -11,17 +11,17 @@ export POSIXLY_CORRECT
 if [ "$1"  = '' ]||
    [ "$2"  = '' ]||
    [ "$3" != '' ];then
-  printf 'usage: ./script/fetch_xkcd_en.sh <unpadded number> <range directory>\n'
+  printf 'usage: ./script/fetch_xkcd_en.sh <range directory> <unpadded number>\n'
   exit 1
 fi
 
-if   [ "${#1}" = 1 ];then
+if   [ "${#2}" = 1 ];then
   p='000'
   export p
-elif [ "${#1}" = 2 ];then
+elif [ "${#2}" = 2 ];then
   p='00'
   export p
-elif [ "${#1}" = 3 ];then
+elif [ "${#2}" = 3 ];then
   p='0'
   export p
 else
@@ -29,12 +29,12 @@ else
   export p
 fi
 
-c='./content/en/xkcd/'"$2"'/'"$p""$1"
+c='./content/en/xkcd/'"$1"'/'"$p""$2"
 export c
 
 mkdir -p "$c"
 
-curl 'https://xkcd.com/'"$1"'/info.0.json' --output - | \
+curl 'https://xkcd.com/'"$2"'/info.0.json' --output - | \
 jq --compact-output --monochrome-output --sort-keys '.' - > "$c"'/info.json'
 
 jq --raw-output '.alt' "$c"'/info.json' > "$c"'/alt.txt'
@@ -68,3 +68,4 @@ if [ "$(cat "$c"'/transcript.txt')" = "$(printf '\n')" ];then
 fi
 
 printf 'Done! There may have been errors.\n%s/\n' "$c"
+exit 0
