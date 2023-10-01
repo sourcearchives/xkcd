@@ -1,0 +1,17 @@
+; SPDX-License-Identifier: CC0-1.0
+
+; This file contains configuration for Git.
+; Information about gitconfig is available here: [https://git-scm.com/docs/git-config]
+
+; To include this file in your local configuration:
+;  $> git config --local --no-type include.path <repo_root>/.gitconfig
+
+[core]
+commentChar      = auto
+eol              = lf
+
+[gitweb]
+description      = An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.
+
+[init]
+defaultBranch    = master

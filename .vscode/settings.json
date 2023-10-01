@@ -24,6 +24,7 @@
      ".editorconfig":  "ini",
      ".empty":         "plaintext",
      ".gitattributes": "properties",
+     ".gitconfig":     "ini",
      ".gitignore":     "ignore",
     "*.html":          "html",
     "*.js":            "javascript",
