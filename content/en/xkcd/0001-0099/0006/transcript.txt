@@ -1,6 +1,5 @@
 Narrator: When self-reference, irony, and meta-humor go too far
-Narrator:
-A CAUTIONARY TALE
+Narrator: A CAUTIONARY TALE
 Man 1: This statement wouldn't be funny if not for irony!
 Man 1: ha ha
 Man 2: ha ha, I guess.
