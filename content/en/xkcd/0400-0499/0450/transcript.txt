@@ -1,0 +1,5 @@
+[[The narrator stands on a beach at night, staring out across the moonlit ocean]]
+Narrator: THE SEA ALWAYS MAKES ME REALIZE
+Narrator: HOW SMALL I REALLY AM.
+Narrator: I SHOULD GET ONE OF THOSE PUMPS.
+{{Tooltip: And then a second one, to drain the ocean.}}

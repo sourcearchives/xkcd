@@ -1,0 +1,6 @@
+[[Bar Graph]]
+Number of google results for:
+"I _____ have kissed her" (or him)
+Shouldn't: 1,213
+Should: 10,230
+{{title text: And nothing for 'I'm glad I saw Epic Movie.'}}

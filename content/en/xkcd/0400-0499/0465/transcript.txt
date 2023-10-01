@@ -1,0 +1,14 @@
+[[Reporter and a Scientist are facing each other, sitting in chairs.]]
+Reporter:  So, Quantum Teleportation-
+Scientist:  The name is misleading.  It's a particle statistics thing.
+Reporter:  So it's not like Star Trek?  That's boring.
+Scientist:  Okay, I'm sick of this.  Every time there's a paper on Quantum Teleportation, you reporters write the same disappointed story.
+[[Scientist leaves seat and moves behind it]]
+Reporter:  But-
+[[Scientist has gone to device that was behind him and was out of the scope of the three previous panels.]]
+Scientist:  Talk to someone else.  I'm going to the Bahamas.  <<Click>>
+[[The Scientist switches a device on.]]
+[[Device labeled "TELEPORTER" is switched from "Quantum" to "Regular".]]
+<<VRMMM>>
+{{The scientist is beamed up in classic Star Trek fashion}}
+{{alt-text: Science should be exactly as cool as the headlines sound. Like the "RUSSIANS CUT APART AND REASSEMBLE DOGS" thing}}
