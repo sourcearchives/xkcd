@@ -1,0 +1,16 @@
+Guy with hat: <<park>>
+Guy with hat: <<knock knock>>
+Guy with hat: hi
+Train girl: hi
+Guy with hat: I give up. you win. I have to know who you are.
+Guy with hat: We understand each other. I can't let that slip away.
+Train girl: <<beep>>
+<<BOOM>>
+Guy with hat: What was that?!
+Train girl: Remote mines under your car.
+Guy with hat: Oh, those? I moved them to your garage before knocking.
+Train girl: Touché
+Guy with hat: ...This relationship is going to be tricky.
+Train girl: There's still time to leave and find a non-crazy girl.
+Guy with hat: Not even slightly interested.
+{{Alt text: 'Pick you up at eight?' 'Nine. I've got to re-mine the driveway.'}}
