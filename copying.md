@@ -19,7 +19,7 @@ The unofficial [Russian translation of _xkcd_](https://xkcd.ru/) ([`./content/ru
 The typefaces embedded in [_xkcd: volume 0_](./content/en/print/xkcd_volume_0/) are Liberation Serif and Tahoma. Some other fonts are also used in the book, whose machine-readable licenses do not permit embedding into documents.
 
 * Liberation Serif is licensed under the [SIL Open Font License Version 1.1 (OFL 1.1)](./licenses/OFL-1.1.md). Liberation Serif is designed by Steve Matteson, and copyright is held by Red Hat, Inc. `SPDX-License-Identifier: OFL-1.1`
-* Tahoma is _not_ freely licensed. It is believed that the digital font files’ not-for-profit inclusion in this repository for archival and distribution purposes of _xkcd: volume 0_, licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, qualifies as fair use under copyright law of the United States of America. Tahoma is designed by Matthew Carter, and copyright is held by Microsoft Corporation. `SPDX-License-Identifier: NONE`
+* Tahoma is a proprietary font. It is believed that the digital font files’ not-for-profit inclusion in this repository for archival and distribution purposes of _xkcd: volume 0_, licensed under Creative Commons Attribution-NonCommercial 3.0 Unported, qualifies as fair use under copyright law of the United States of America. Tahoma is designed by Matthew Carter, and copyright is held by Microsoft Corporation. `SPDX-License-Identifier: NONE`
 
 Original content in this repository (e.g. commit messages, the [root](./) and [`./.github/`](./.github/) directories) is licensed under [Creative Commons Zero 1.0 Universal (CC0 1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
