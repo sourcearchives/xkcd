@@ -1,0 +1,19 @@
+[[A cheerleader stands in front of crowded bleachers.]]
+[[The cheerleader is waving pompoms.]]
+Cheerleader: Lakeview High is the best!
+Crowd: Yeah!
+Someone: Wait, why?
+
+Cheerleader: What?
+Voice: A guy on the North High football team helped me rebuild my deck.
+Voice: It seems ungrateful to presume we're better.
+
+Voice: I mean, school districts are just based on zip codes.
+Voice #2: Their principal donated a kidney to my dad.
+
+Voice: I'm texting with my friend there now. He says it's okay, and we're invited to their events if we want.
+Voice: But he sounded kind of hurt.
+Voice #2: Why are we doing this, rally, again?
+[[The cheerleader looks dejected.]]
+
+{{Title text: You know, pep rallies weirded me out in high school, and they've only gotten creepier in retrospect.}}
