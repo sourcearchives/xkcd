@@ -1,0 +1,5 @@
+[[Bar graph title: Usefulness to career success]]
+900 hours of classes [[small bar]]
+400 hours of homework [[small bar]]
+One weekend messing with Perl [[huge bar]]
+{{title text: And the ten minutes striking up a conversation with that strange kid in homeroom sometimes matters more than every other part of high school combined.}}

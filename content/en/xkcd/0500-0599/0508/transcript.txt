@@ -1,0 +1,5 @@
+Man: So does the carpet match the drapes?
+Woman: Yes but not the upholstery.
+[[Woman walks away]]
+[[Man looks confused]]
+{{title text: Wait, What?}}
