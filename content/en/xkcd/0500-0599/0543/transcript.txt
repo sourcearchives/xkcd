@@ -1,0 +1,4 @@
+[[shows an adaptation of the sierpinski triangle fractal, using hearts instead of triangles]]
+center:  Happy valentine's day
+bottom right:  -xkcd
+{{Title text:   Especially you mouseover -text readers.  You're the best.  <3}}

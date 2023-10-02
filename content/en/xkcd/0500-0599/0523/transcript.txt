@@ -1,0 +1,5 @@
+[[A man is pointing at a line graph at a specific point where it slopes down. The Y Axis shows that as Y increases, Love increases.]]
+Man: "Our relationship entered its decline at this point."
+Woman[[Outside of panel]]: "That's when you started graphing everything."
+Man: "Coincidence!"
+{{title text: 'There is also a spike on the Fourier transformation at the one month mark where--'  'You want to stop talking right now.'}}
