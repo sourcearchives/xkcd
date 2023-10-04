@@ -1,0 +1,7 @@
+[[A man and woman are standing on a cliff overlooking a forest of gorgeous orange foliage. She's holding up a camera, and he has the case.]]
+
+Man: Instead of driving all this way, we could've just taken our summer pictures and messed with the "hue" slider in Photoshop."
+Woman: Hush.
+Camera: <<click>>
+
+{{Title text: And I could replace you with older pictures of you, from back when you looked happy.}}
