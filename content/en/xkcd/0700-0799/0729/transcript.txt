@@ -1,0 +1,24 @@
+[[A human points a laser pointer at the floor. A black cat crouches, staring at the red dot.]]
+
+[[The cat pounces.]]
+
+[[The cat lands with its paw on the dot, claws out.]]
+
+[[The cat tugs on the dot.]]
+<<tug tug>>
+
+[[The human looks at and tries to use the laser pointer, which is no longer emitting a beam.]]
+Human: ?? <<click click>>
+[[The cat nibbles on the red laser dot.]]
+Cat: <<lick? nom nom>>
+
+[[The cat arches, emitting red shock lines.]]
+
+[[The cat shoots lasers out of its eyes at the human, who is covered in a bright red glow.]]
+<<FWOOSH>>
+Human: AUGH!
+((The right side of the panel is the end of a thought bubble ...))
+
+[[The black cat, sleeping, has dreamed the entire strip.]]
+
+{{Title text: It's a lasing cat-vity!}}
