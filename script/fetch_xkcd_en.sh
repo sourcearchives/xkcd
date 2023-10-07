@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# SPDX-License-Identifier: CC0-1.0
-
 # run this script from the repository root: ./script/fetch_xkcd_en.sh
 #                                  ( or: sh ./script/fetch_xkcd_en.sh )
 # this does not currently get 2x comics or irregular ones
