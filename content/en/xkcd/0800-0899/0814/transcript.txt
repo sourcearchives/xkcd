@@ -1,0 +1,10 @@
+[[Man is talking to woman. Woman holds up a diode.]]
+Man: We need to talk.
+Woman: Okay, but first hold the end of this diode.
+[[They hold the diode]]
+Man: You hurt my feelings yesterday.
+Woman: You embarassedme with my family last weekend.
+[[They are still holding the diode between them]]
+Man: I'm sorry.
+
+{{Title text: And the worst part is you won't apologize.}}
