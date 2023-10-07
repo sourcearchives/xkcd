@@ -1,0 +1,15 @@
+[[A man stands next to a woman holding a clipboard, she gestures to a comfy-looking chair.]]
+Man: Did my genetic tests come back?
+Woman: Yeah. Sit down.
+Man: Is it bad news? What are my risk factors?
+
+[[The man is now sitting in the chair awaiting her answer. The woman looks down at the clipboard.]]
+Woman: We can't be sure about this, but we've analyzed genes on several of your chromosomes and it's ard to avoid the conclusion:
+
+[[The woman puts down the clipboard and looks at the man as she delivers her news. The man puts his hands to his face in dismay.]]
+Woman: At some point, your parents had sex.
+Man: Oh God!
+Woman: Stay calm! It's possible it was just once!
+Man: I... I need to be alone.
+
+{{Title text: There's still a chance you were conceived via IVF. But we've checked your mom's college yearbook photos, and whether or not she and your father had sex, it's clear that ... listen, I know this is hard for you.}}
