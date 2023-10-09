@@ -5,11 +5,11 @@
 ;  $> git config --local --no-type include.path <repo_root>/.gitconfig
 
 [core]
-commentChar      = auto
-eol              = lf
+commentChar   = auto
+eol           = lf
 
 [gitweb]
-description      = An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.
+description   = An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.
 
 [init]
-defaultBranch    = master
+defaultBranch = master
