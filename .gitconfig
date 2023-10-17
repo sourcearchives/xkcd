@@ -2,7 +2,7 @@
 ; Information about gitconfig is available here: [https://git-scm.com/docs/git-config]
 
 ; To include this file in your local configuration:
-;  $> git config --local --no-type include.path <repo_root>/.gitconfig
+;  $> git config --local include.path <repo_root>/.gitconfig
 
 [core]
 commentChar   = auto
