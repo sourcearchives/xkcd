@@ -26,7 +26,7 @@ repository:
   allow_squash_merge: false
   default_branch: 'master'
   delete_branch_on_merge: false
-  description: 'An incomplete archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.'
+  description: 'An incomplete archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc. test'
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
   has_downloads: true
