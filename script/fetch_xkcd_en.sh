@@ -2,7 +2,9 @@
 
 # run this script from the repository root: ./script/fetch_xkcd_en.sh
 #                                  ( or: sh ./script/fetch_xkcd_en.sh )
-# this does not currently get 2x comics or irregular ones
+# review the comics yourself manually first
+
+set -x
 
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
@@ -59,7 +61,12 @@ e="${i##*.}"
 readonly e
 export e
 
+m="$(printf '%s' "$i" | sed "s/\.$e//g")"
+readonly m
+export m
+
 curl "$i" --output "$c/1x.$e"
+curl --fail "$m_2x.$e" --output "$c/2x.$e"
 
 n='
 ' # (newline)
