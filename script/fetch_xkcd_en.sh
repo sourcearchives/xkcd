@@ -68,8 +68,7 @@ export m
 curl "$i" --output "$c/1x.$e"
 curl --fail "$m""_2x.$e" --output "$c/2x.$e"
 
-n='
-' # (newline)
+n="$(printf '\n')"
 readonly n
 export n
 
