@@ -66,7 +66,7 @@ readonly m
 export m
 
 curl "$i" --output "$c/1x.$e"
-curl --fail "$m_2x.$e" --output "$c/2x.$e"
+curl --fail "$m""_2x.$e" --output "$c/2x.$e"
 
 n='
 ' # (newline)
