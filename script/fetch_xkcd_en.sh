@@ -16,15 +16,19 @@ fi
 
 if   [ "${#2}" = 1 ];then
   p=000
+  readonly p
   export p
 elif [ "${#2}" = 2 ];then
   p=00
+  readonly p
   export p
 elif [ "${#2}" = 3 ];then
   p=0
+  readonly p
   export p
 else
   p=''
+  readonly p
   export p
 fi
 
@@ -48,22 +52,29 @@ jq --raw-output .title "$c/info.json" > "$c/title.txt"
 jq --raw-output .transcript "$c/info.json" > "$c/transcript.txt"
 
 i="$(jq --raw-output .img "$c/info.json")"
+readonly i
 export i
 
 e="${i##*.}"
+readonly e
 export e
 
 curl "$i" --output "$c/1x.$e"
 
-if [ "$(cat "$c/link.txt")" = "$(printf '\n')" ];then
+n='
+' # (newline)
+readonly n
+export n
+
+if [ "$(cat "$c/link.txt")" = "$n" ];then
   rm "$c/link.txt"
 fi
 
-if [ "$(cat "$c/news.html")" = "$(printf '\n')" ];then
+if [ "$(cat "$c/news.html")" = "$n" ];then
   rm "$c/news.html"
 fi
 
-if [ "$(cat "$c/transcript.txt")" = "$(printf '\n')" ];then
+if [ "$(cat "$c/transcript.txt")" = "$n" ];then
   rm "$c/transcript.txt"
 fi
 
