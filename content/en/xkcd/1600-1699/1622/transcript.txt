@@ -1,0 +1,18 @@
+[[Two people walk toward a large control panel.]]
+Person 1: Over here we have the Universe Control Panel. These dials, for example, control Christmas.
+
+[[A close-up on a dial. It is labeled "Santa enters houses through..." and has the following settings: chimney, open window, kitchen faucet, cat flap, toilet, shower drain, mail slot, heating vents, bathroom mirror, pores of your skin.]]
+
+[[The second person trips.]]
+Person 2: Whoops!
+<<trip>>
+
+[[They catch themselves on a dial, accidentally moving it.]]
+<<click click>>
+
+[[Person 2 stares at the dial.]]
+Person 2: What was the Santa dial set to before?
+Person 1: I forget.
+Person 2: I'll just guess.
+
+{{Title text: SOUND DOGS MAKE: [BARKING] [HISSING] [LIGHTSABER NOISES] [FLUENT ENGLISH] [SWEARING]}}
