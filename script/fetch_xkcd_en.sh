@@ -53,7 +53,7 @@ jq --raw-output .title "$c/info.json" > "$c/title.txt"
 
 jq --raw-output .transcript "$c/info.json" > "$c/transcript.txt"
 
-i="$(jq --raw-output .img "$c/info.json")"
+i="`jq --raw-output .img \"$c/info.json\"`"
 readonly i
 export i
 
@@ -61,26 +61,26 @@ e="${i##*.}"
 readonly e
 export e
 
-m="$(printf '%s' "$i" | sed "s/\.$e//g")"
+m="`printf '%s' \"$i\" | sed \"s/\.$e//g\"`"
 readonly m
 export m
 
 curl "$i" --output "$c/1x.$e"
 curl --fail "$m""_2x.$e" --output "$c/2x.$e"
 
-n="$(printf '\n')"
+n="`printf '\n'`"
 readonly n
 export n
 
-if [ "$(cat "$c/link.txt")" = "$n" ];then
+if [ "`cat \"$c/link.txt\"`" = "$n" ];then
   rm "$c/link.txt"
 fi
 
-if [ "$(cat "$c/news.html")" = "$n" ];then
+if [ "`cat \"$c/news.html\"`" = "$n" ];then
   rm "$c/news.html"
 fi
 
-if [ "$(cat "$c/transcript.txt")" = "$n" ];then
+if [ "`cat \"$c/transcript.txt\"`" = "$n" ];then
   rm "$c/transcript.txt"
 fi
 
