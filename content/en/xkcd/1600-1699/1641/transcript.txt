@@ -1,0 +1,11 @@
+[[A person stands by the stove with a cooking pot in one hand and a recipe in the other.]]
+Recipe: ...and add sugar to taste.
+
+[[They put the pot on the stove and stare at it in confusion.]]
+Person: ??
+
+[[They walk away from the stove.]]
+
+[[The person comes back with a hand truck stacked with three giant boxes labeled 'SUGAR'.]]
+
+{{Title text: Look, recipe, if I knew how much was gonna taste good, I wouldn't need you.}}
