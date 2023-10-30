@@ -1,8 +1,8 @@
 #!/bin/sh
+# shellcheck disable=SC1112
 
-# run this script from the repository root: ./script/fetch_xkcd_en.sh
-#                                  ( or: sh ./script/fetch_xkcd_en.sh )
-# review the comics yourself manually first
+# run this script from the repository root: ./script/get_xkcd.sh
+#                                  ( or: sh ./script/get_xkcd.sh )
 
 set -x
 
@@ -12,7 +12,12 @@ export POSIXLY_CORRECT
 if [ "$1"  = '' ]||
    [ "$2"  = '' ]||
    [ "$3" != '' ];then
-  printf 'usage: ./script/fetch_xkcd_en.sh <range directory> <unpadded number>\n'
+  printf \
+'usage: ./script/get_xkcd.sh 0000-0000 0000
+Please run this script from the repository root.
+This script downloads data and creates files for the English xkcd comic number you provide.
+It automatically handles 1x and 2x images; info.json; title.txt, alt.txt, transcript.txt, link.txt, and news.html.
+It currently doesn’t do anything past that. You might want to check the comics you’re downloading first for potential issues.\n'
   exit 1
 fi
 
@@ -38,10 +43,11 @@ c="./content/en/xkcd/$1/$p$2"
 readonly c
 export c
 
-mkdir -p "$c"
+mkdir "$c" || \
+printf 'Couldn’t create directory %s\u00A0. Make sure that ./content/en/xkcd/%s/ already exists.\n' "$c" "$1"
 
-curl "https://xkcd.com/$2/info.0.json" --output - | \
-jq --compact-output --monochrome-output --sort-keys '.' - > "$c/info.json"
+curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
+printf '\n' >> "$c/info.json"
 
 jq --raw-output .alt "$c/info.json" > "$c/alt.txt"
 
@@ -84,5 +90,8 @@ if [ "`cat \"$c/transcript.txt\"`" = "$n" ];then
   rm "$c/transcript.txt"
 fi
 
-printf 'Done!\nThis script does not include error checking, so you may want to check yourself.\n%s\n' "$c"
+printf \
+'Done.
+You might want to check the command output and/or output directory for errors.
+%s/\n' "$c"
 exit 0
