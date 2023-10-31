@@ -44,5 +44,5 @@ find . -type f -path "./content/en/xkcd/$1/$p$2/info.json" \
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
-%s\n' "./content/en/xkcd/$2/$p$1/info.json"
+%s\n' "./content/en/xkcd/$1/$p$2/info.json"
 exit 0
