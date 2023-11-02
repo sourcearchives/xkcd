@@ -3,8 +3,6 @@
 # run this script from the repository root: ./script/reset_infojson.sh
 #                                  ( or: sh ./script/reset_infojson.sh )
 
-set -x
-
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
@@ -16,8 +14,11 @@ if [ "$1"  = '' ]||
 Please run this script from the repository root.
 This script re-downloads the info.json of the English xkcd comic number you provide and adds a newline to the end of the file, replacing any custom formatting.
 This intentionally does not include any xk3d JSON files.\n'
+  set -x
   exit 1
 fi
+
+set -x
 
 if   [ "${#2}" = 1 ];then
   p=000

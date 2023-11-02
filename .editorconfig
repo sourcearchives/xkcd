@@ -25,7 +25,7 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 ; all text files
-[.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,*.svg,*.txt,*.xml,*.yml]
+[.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,.shellcheckrc,*.svg,*.txt,*.xml,*.yml]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
@@ -90,6 +90,12 @@ insert_final_newline = true
 ; shell script files
 [*.sh]
 indent_size              = 2
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+; ShellCheck config files
+[.shellcheckrc]
+indent_size              = 0
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
