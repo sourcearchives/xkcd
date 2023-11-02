@@ -9,7 +9,6 @@ export POSIXLY_CORRECT
 if [ "$1"     = '' ]||
    [ "${#1}" !=  9 ]||
    [ "$2"     = '' ]||
-   [ "${#2}" !=  4 ]||
    [ "$3"    != '' ];then
   printf \
 'usage: ./script/reset_infojson.sh 0000-0000 0000
