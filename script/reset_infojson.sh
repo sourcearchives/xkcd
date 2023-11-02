@@ -37,12 +37,16 @@ else
   export p
 fi
 
-find . -type f -path "./content/en/xkcd/$1/$p$2/info.json" \
+c="./content/en/xkcd/$1/$p$2"
+readonly c
+export c
+
+find . -type f -path "$c/info.json" \
        -exec curl "https://xkcd.com/$2/info.0.json" --output '{}' ';' \
        -exec sh -c 'printf "\n" >> "$1"' shell '{}' ';'
 
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
-%s\n' "./content/en/xkcd/$1/$p$2/info.json"
+%s\n' "$c"
 exit 0

@@ -24,6 +24,7 @@
      ".gitattributes": "properties",
      ".gitconfig":     "ini",
      ".gitignore":     "ignore",
+     ".shellcheckrc":  "properties",
     "*.html":          "html",
     "*.js":            "javascript",
     "*.json":          "json",

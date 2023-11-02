@@ -1,5 +1,4 @@
 #!/bin/sh
-# shellcheck disable=SC1112
 
 # run this script from the repository root: ./script/get_xkcd.sh
 #                                  ( or: sh ./script/get_xkcd.sh )
