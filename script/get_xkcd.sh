@@ -6,17 +6,20 @@
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
-if [ "$1"    = '' ]||
-   [ "${#1}" != 9  ]||
-   [ "$2"    = '' ]||
-   [ "${#2}" != 4  ]||
-   [ "$3"   != '' ];then
+if [ "$1"     = '' ]||
+   [ "${#1}" !=  9 ]||
+   [ "$2"     = '' ]||
+   [ "${#2}" !=  4 ]||
+   [ "$3"    != '' ];then
   printf \
 'usage: ./script/get_xkcd.sh 0000-0000 0000
 Please run this script from the repository root.
-This script downloads data and creates files for the English xkcd comic number you provide.
-It automatically handles 1x and 2x images; info.json; title.txt, alt.txt, transcript.txt, link.txt, and news.html.
-It currently doesn’t do anything past that. You might want to check the comics you’re downloading first for potential issues.\n'
+This script downloads data and creates files for the English xkcd comic number
+you provide.
+It automatically handles 1x and 2x images; info.json; title.txt, alt.txt,
+transcript.txt, link.txt, and news.html.
+It currently doesn’t do anything past that. You might want to check the
+comics you’re downloading first for potential issues.\n'
   set -x
   exit 1
 fi
@@ -46,7 +49,8 @@ readonly c
 export c
 
 mkdir "$c" || \
-printf 'Couldn’t create directory %s . Make sure that ./content/en/xkcd/%s already exists.\n' "$c" "$1"
+printf 'Couldn’t create directory %s .
+Make sure that ./content/en/xkcd/%s already exists.\n' "$c" "$1"
 
 curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
 printf '\n' >> "$c/info.json"
