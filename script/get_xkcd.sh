@@ -48,7 +48,7 @@ readonly c
 export c
 
 mkdir "$c" || \
-printf 'Couldn’t create directory %s .
+printf 'Couldn’t create directory %s .
 Make sure that ./content/en/xkcd/%s already exists.\n' "$c" "$1"
 
 curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
