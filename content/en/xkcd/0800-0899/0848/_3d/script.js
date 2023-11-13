@@ -1,1 +1,0 @@
-$(function() { omgitsin3d({"parallax_layers": [{"src": "848/3d.png", "z": 60, "o": 1}], "alt_text": "The LINACs in the glasses frames can barely manage one MeV. You should've gone to the screening at CERN."}) })
