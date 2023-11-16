@@ -58,17 +58,17 @@ Make sure that ./content/en/xkcd/%s already exists.\n' "$c" "$1"
 curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
 printf '\n' >> "$c/info.json"
 
-jq --raw-output -- .alt "$c/info.json" > "$c/alt.txt"
+jq --raw-output .alt "$c/info.json" > "$c/alt.txt"
 
-jq --raw-output -- .link "$c/info.json" > "$c/link.txt"
+jq --raw-output .link "$c/info.json" > "$c/link.txt"
 
-jq --raw-output -- .news "$c/info.json" > "$c/news.html"
+jq --raw-output .news "$c/info.json" > "$c/news.html"
 
-jq --raw-output -- .title "$c/info.json" > "$c/title.txt"
+jq --raw-output .title "$c/info.json" > "$c/title.txt"
 
-jq --raw-output -- .transcript "$c/info.json" > "$c/transcript.txt"
+jq --raw-output .transcript "$c/info.json" > "$c/transcript.txt"
 
-i="$(jq --raw-output -- .img "$c/info.json")"
+i="$(jq --raw-output .img "$c/info.json")"
 readonly i
 export i
 
