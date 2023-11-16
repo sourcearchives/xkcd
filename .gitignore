@@ -13,35 +13,36 @@
 #   $> git rm --cached -- <path>
 
 # non-portable US-ASCII printable characters
-* *
-*!*
-*"*
-*#*
-*$*
-*%*
-*&*
-*'*
-*(*
-*)*
-*\**
-*+*
-*,*
-*:*
-*;*
-*<*
-*=*
-*>*
-*\?*
-*@*
-*\[*
-*\\*
-*]*
-*^*
-*`*
-*{*
-*|*
-*}*
-*~*
+# commented out for now due to some xk3d image filenames
+# * *
+# *!*
+# *"*
+# *#*
+# *$*
+# *%*
+# *&*
+# *'*
+# *(*
+# *)*
+# *\**
+# *+*
+# *,*
+# *:*
+# *;*
+# *<*
+# *=*
+# *>*
+# *\?*
+# *@*
+# *\[*
+# *\\*
+# *]*
+# *^*
+# *`*
+# *{*
+# *|*
+# *}*
+# *~*
 
 # other potentially problematic filenames
 -*
