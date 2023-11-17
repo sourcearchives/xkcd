@@ -1,0 +1,1 @@
+{"parallax_layers": [{"src": "278/black_hat_support_frame.png", "c": "frames"}, {"src": "278/black_hat_support_corners.png", "c": "corners"}, {"src": "278/black_hat_support_text.png", "c": "text"}, {"src": "278/black_hat_support_no_text.png", "c": "drawings"}], "alt_text": "So as not to leave you hanging -- it was a problem with select() calls."}

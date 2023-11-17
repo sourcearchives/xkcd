@@ -1,0 +1,1 @@
+{"parallax_layers": [{"src": "224/lisp_frame.png", "c": "frames"}, {"src": "224/lisp_corners.png", "c": "corners"}, {"src": "224/lisp_text.png", "c": "text"}, {"src": "224/lisp_no_text.png", "c": "drawings"}], "alt_text": "We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself."}
