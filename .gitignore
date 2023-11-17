@@ -13,36 +13,35 @@
 #   $> git rm --cached -- <path>
 
 # non-portable US-ASCII printable characters
-# commented out for now due to some xk3d image filenames
-# * *
-# *!*
-# *"*
-# *#*
-# *$*
-# *%*
-# *&*
-# *'*
-# *(*
-# *)*
-# *\**
-# *+*
-# *,*
-# *:*
-# *;*
-# *<*
-# *=*
-# *>*
-# *\?*
-# *@*
-# *\[*
-# *\\*
-# *]*
-# *^*
-# *`*
-# *{*
-# *|*
-# *}*
-# *~*
+* *
+*!*
+*"*
+*#*
+*$*
+*%*
+*&*
+*'*
+*(*
+*)*
+*\**
+*+*
+*,*
+*:*
+*;*
+*<*
+*=*
+*>*
+*\?*
+*@*
+*\[*
+*\\*
+*]*
+*^*
+*`*
+*{*
+*|*
+*}*
+*~*
 
 # other potentially problematic filenames
 -*
@@ -61,13 +60,13 @@
 [Pp][Rr][Nn].*
 
 # contributors can put files in here
-.ignore/
+.ignore
 
 # version control system directories
-CVS/
-.git/
-.hg/
-.svn/
+CVS
+.git
+.hg
+.svn
 
 # macOS special files
 ._*
@@ -80,11 +79,9 @@ CVS/
 .DS_Store
 .fseventsd
 .LSOverride
-__MACOSX__/
-Network Trash Folder
+__MACOSX__
 .Spotlight-V100
 .TemporaryItems
-Temporary Items
 .Trashes
 .VolumeIcon.icns
 
@@ -113,6 +110,6 @@ Thumbs.db
 # Android nomedia
 .nomedia
 
-# made files
+# built files
 *.[Cc][Bb][Zz]
 *.[Oo][Dd][Gg]
