@@ -19,7 +19,7 @@ fi
 
 set -x
 
-curl --fail "https://3d.xkcd.com/$2/" || \
+curl --head --fail "https://3d.xkcd.com/$2/" || \
 printf \
 'Couldn’t find xk3d %s.
 Make sure it exists and that you’re connected to the internet.\n' "$2"
@@ -63,6 +63,10 @@ for i in $(jq --raw-output ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/_3d/
 done
 
 jq --raw-output .converted_by "$c/_3d/comic.json" > "$c/_3d/converted_by.txt"
+
+if [ "$(cat "$c/_3d/converted_by.txt")" = null ];then
+  rm "$c/_3d/converted_by.txt"
+fi
 
 printf \
 'Done.

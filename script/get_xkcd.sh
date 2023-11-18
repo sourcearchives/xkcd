@@ -23,7 +23,7 @@ fi
 
 set -x
 
-curl --fail "https://xkcd.com/$2/" || \
+curl --head --fail "https://xkcd.com/$2/" || \
 printf \
 'Couldn’t find xkcd %s.
 Make sure it exists and that you’re connected to the internet.\n' "$2"
