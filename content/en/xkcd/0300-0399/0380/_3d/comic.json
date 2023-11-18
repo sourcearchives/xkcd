@@ -1,0 +1,1 @@
+{"parallax_layers": [{"src": "380/emoticon_frame.png", "c": "frames"}, {"src": "380/emoticon_corners.png", "c": "corners"}, {"src": "380/emoticon_text.png", "c": "text"}, {"src": "380/emoticon_no_text.png", "c": "drawings"}], "alt_text": "U+FDD0 is actually Unicode for the eye of the basilisk, though for safety reasons no font actually renders it."}

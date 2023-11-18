@@ -1,0 +1,1 @@
+{"parallax_layers": [{"src": "315/braille_frame.png", "c": "frames"}, {"src": "315/braille_corners.png", "c": "corners"}, {"src": "315/braille_text.png", "c": "text"}, {"src": "315/braille_no_text.png", "c": "drawings"}], "alt_text": "The only big difference I've seen is in colors.  Where the regular text reads 'press red button', the braille reads 'press two-inch button'."}
