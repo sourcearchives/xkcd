@@ -7,9 +7,6 @@
 # typograhpic quotation marks (‘’“”) should be used in human-read text
 disable=SC1112
 
-# use `subshell` instead of $(subshell)
-disable=SC2006
-
 # we put variables in single quotes on purpose
 disable=SC2016
 
