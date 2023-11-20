@@ -8,6 +8,9 @@
 commentChar   = auto
 eol           = lf
 
+[feature]
+manyFiles     = true
+
 [gitweb]
 description   = An archive of the webcomic xkcd, including comics, title text, transcripts, JSON, etc.
 
