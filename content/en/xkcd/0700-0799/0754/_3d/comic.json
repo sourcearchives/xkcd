@@ -1,0 +1,1 @@
+{"parallax_layers": [{"src": "754/dependencies_frame.png", "c": "frames"}, {"src": "754/dependencies_corners.png", "c": "corners"}, {"src": "754/dependencies_text.png", "c": "text"}, {"src": "754/dependencies_no_text.png", "c": "drawings"}], "alt_text": "The prereqs for CPSC 357, the class on package management, are CPSC 432, CPSC 357, and glibc2.5 or later."}
