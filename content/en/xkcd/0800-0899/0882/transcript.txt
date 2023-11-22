@@ -64,4 +64,4 @@ Only 5% chance of coincidence!
   Scientists...
 
 {{Title text: 'So, uh, we did the green study again and got no link. It was probably a--' 'RESEARCH CONFLICTED ON GREEN JELLY BEAN
-ACNE LINK; MORE STUDY RECOMMENDED!'}}"
+ACNE LINK; MORE STUDY RECOMMENDED!'}}
