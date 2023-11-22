@@ -1,0 +1,3 @@
+(An unmatched left parenthesis creates an unresolved tension that will stay with you all day.
+
+{{Title text: Brains aside, I wonder how many poorly-written xkcd.com-parsing scripts will break on this title (or \;;"''{<<[' this mouseover text."}}
