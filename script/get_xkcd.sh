@@ -3,6 +3,10 @@
 # run this script from the repository root: ./script/get_xkcd.sh
 #                                  ( or: sh ./script/get_xkcd.sh )
 
+LC_ALL=C
+readonly LC_ALL
+export LC_ALL
+
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
