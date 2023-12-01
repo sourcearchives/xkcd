@@ -33,7 +33,7 @@ repository:
   has_issues:    true
   has_projects: false
   has_wiki:     false
-  homepage: 'https://xkcd.com/'
+  homepage: 'https://xkcd.com'
   name: 'xkcd'
   private: false
   topics: 'comic,webcomic,xkcd'
