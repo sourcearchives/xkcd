@@ -2,15 +2,7 @@
 
 If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
 
-</div>
-
-<div align="center">
-
 [![](./image/01.jpg)](https://www.xkcd.com/)
-
-</div>
-
-<div align="center">
 
 ## Blue Eyes:<br>The Hardest Logic Puzzle in the World
 
@@ -20,9 +12,9 @@ A group of people with assorted eye colors live on an island. They are all perfe
 
 On this island there are 100 blue-eyed people, 100 brown-eyed people, and the Guru (she happens to have green eyes). So any given blue-eyed person can see 100 people with brown eyes and 99 people with blue eyes (and one with green), but that does not tell him his own eye color; as far as he knows the totals could be 101 brown and 99 blue. Or 100 brown, 99 blue, and he could have red eyes.
 
-The Guru is allowed to speak once (let's say at noon), on one day in all their endless years on the island.  Standing before the islanders, she says the following:
+The Guru is allowed to speak once (let's say at noon), on one day in all their endless years on the island. Standing before the islanders, she says the following:
 
-**"I can see someone who has blue eyes."**
+<b>"I can see someone who has blue eyes."</b>
 
 Who leaves the island, and on what night?
 
@@ -35,10 +27,6 @@ I've done my best to make the wording as precise and unambiguious as possible (a
 <div align="center">
 
 [![](./image/02.jpg)](https://www.xkcd.com/)
-
-</div>
-
-<div align="center">
 
 I didn't come up with the idea of this puzzle, but I've written and rewritten it over the the years to try to make a definitive version. The guy who told it to me originally was some dude on the street in Boston named Joel.
 

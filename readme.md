@@ -1,4 +1,4 @@
-# _xkcd_ archive &ndash;&nbsp;readme
+# _xkcd_ archive<br>&mdash;&nbsp;readme
 
 This is an unofficial archive of [_xkcd_](https://xkcd.com/) and its related data by Randall Munroe, licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). Original content in this repository is dedicated to the public domain under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). See [`copying.md`](./copying.md) for more information.
 
