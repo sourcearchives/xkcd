@@ -1,0 +1,1 @@
+Their signature play is the three-point combinator, a recursive offense which is guaranteed not to halt and continues accumulating points until the buzzer.
