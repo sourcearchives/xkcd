@@ -1,0 +1,66 @@
+
+<script language="JavaScript" type="text/javascript"> 
+if (!com) var com={};
+if (!com.smbcgc) com.smbcgc={};
+com.smbcgc = {
+  mouseDownIsBad: false,
+  getBlock: function(name) {
+    if (document.getElementById) {
+      return document.getElementById(name);
+    } else if (document.all) {
+      return document.all[name];
+    } else if (document.layers) {
+      return document.layers[name];
+    }
+  },
+ 
+  getStyle: function(name) {
+    return com.smbcgc.getBlock(name).style;  
+  },
+ 
+  showBlock: function(name) {
+    com.smbcgc.getStyle(name).display="";
+  },
+ 
+  hideBlock: function(name) {
+    com.smbcgc.getStyle(name).display="none";
+  },
+ 
+  captureMousePosition: function(event) {
+    mouseThing = event.touches ? event.touches[0] : event
+    if (mouseThing.pageX || mouseThing.pageY) {
+      posx = mouseThing.pageX;
+      posy = mouseThing.pageY;
+    } else if (mouseThing.clientX || mouseThing.clientY) {
+      posx = mouseThing.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+      posy = mouseThing.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+    } else {
+      posx = 0;
+      posy = 0;
+    }
+    return [posx, posy];
+  },
+ 
+  onSMBCMapClick: function(event,name,isMouseDown) {
+    if(isMouseDown && (event.touches || com.smbcgc.mouseDownIsBad)) { return; }
+    if(event.touches) { com.smbcgc.mouseDownIsBad = true; }
+ 
+    pos = com.smbcgc.captureMousePosition(event);
+    var posx = pos[0];
+    var posy = pos[1];
+ 
+    com.smbcgc.getBlock("popupDiv").innerHTML = "<img src='//imgs.xkcd.com/comics/guest_comic_week_zach_weiner_smbc_"+name+".png'>";
+ 
+    var tx = posx-80;
+    var ty = posy-100;
+    tx = tx<0?0:tx;
+    ty = ty<0?0:ty;
+    com.smbcgc.getStyle("popupDiv").left = tx+"px";
+    com.smbcgc.getStyle("popupDiv").top  = ty+"px";
+    com.smbcgc.showBlock("popupDiv");
+  }
+};
+</script> 
+ 
+<div id=popupDiv style='position:absolute; z-index:10; display:none' onMouseDown='com.smbcgc.hideBlock("popupDiv")'></div>
+
