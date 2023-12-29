@@ -111,9 +111,8 @@ trim_trailing_whitespace = true
 
 ; LibreOffice-generated XML files
 [content/en/print/xkcd_volume_0/odg/**.xml]
-indent_size              = 1
+indent_size              = 0
 insert_final_newline     = false
-trim_trailing_whitespace = false
 
 ; YAML (YAML Ain’t Markup Language) files
 [*.yml]
