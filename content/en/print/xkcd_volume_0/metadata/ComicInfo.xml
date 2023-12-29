@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/main/schema/v2.0/ComicInfo.xsd">
+<ComicInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="http://raw.githubusercontent.com/anansi-project/comicinfo/75d00db57927bf6776717fc1060cb7f594186cb3/schema/v2.0/ComicInfo.xsd">
   <BlackAndWhite>No</BlackAndWhite>
   <Colorist>Randall Munroe</Colorist>
   <Count>1</Count>
