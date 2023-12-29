@@ -19,6 +19,7 @@
 
 {
   "files.associations": {
+    "*.css":           "css",
      ".editorconfig":  "ini",
      ".empty":         "plaintext",
      ".gitattributes": "properties",

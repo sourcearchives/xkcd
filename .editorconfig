@@ -25,10 +25,14 @@ max_line_length          = 0
 trim_trailing_whitespace = true
 
 ; all text files
-[.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,.shellcheckrc,*.svg,*.txt,*.xml,*.yml]
+[*.css,.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,.shellcheckrc,*.svg,*.txt,*.xml,*.yml]
 charset      = utf-8
 end_of_line  = lf
 indent_style = space
+
+; CSS (Cascading Style Sheets) files
+[*.css]
+insert_final_newline = true
 
 ; EditorConfig files
 [.editorconfig]
@@ -62,7 +66,6 @@ insert_final_newline = true
 ; JavaScript files
 [*.js]
 insert_final_newline     = true
-trim_trailing_whitespace = true
 
 ; JSON (JavaScript Object Notation) files
 [*.json]

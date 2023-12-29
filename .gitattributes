@@ -10,6 +10,7 @@
 #   $> git check-attr <attribute> -- <path>
 
 # text files
+*.css                   -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=css        linguist-detectable       linguist-generated=false  linguist-language=CSS                             linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .editorconfig          -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=ini        linguist-detectable       linguist-generated=false  linguist-language=EditorConfig                    linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitattributes         -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=properties linguist-detectable       linguist-generated=false  linguist-language=Git-Attributes                  linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
  .gitconfig             -binary delta        diff  encoding=UTF-8 eol=lf git-encoding=UTF-8  gitlab-language=ini        linguist-detectable       linguist-generated=false  linguist-language=Git-Config                      linguist-vendored=false   merge  text  working-tree-encoding=UTF-8 zos-working-tree-encoding=UTF-8
