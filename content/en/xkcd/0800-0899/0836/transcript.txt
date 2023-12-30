@@ -17,4 +17,3 @@ work
 , bitches.
 
 {{Title text: At least, with p<0.05 confidence.}}
-
