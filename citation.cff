@@ -1,9 +1,0 @@
-%YAML 1.2
-cff-version: '1.2.0'
-title: '𝘹𝘬𝘤𝘥 archive'
-message: 'this file is a test for now.'
-type: 'dataset'
-authors:
-- given-names: 'Gabriel'
-  name-suffix: '“gabldotink”'
-  email: 'gabl@gabl.ink'
