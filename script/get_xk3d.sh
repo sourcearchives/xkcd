@@ -8,9 +8,10 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 if [ "${#1}" !=  9 ]||
-   [ "$3"    != '' ];then
+   [ "$#"    !=  2 ]||
+   [ "$2"     = '' ];then
   printf \
-'usage: ./script/get_xkcd.sh 0000-0000 [0/00/000/0000]
+'usage: ./script/get_xkcd.sh [0000-0000] [0/00/000/0000]
 Please run this script from the repository root.
 This script downloads data and creates files for the xk3d comic number
 you provide.\n'
@@ -22,7 +23,7 @@ set -x
 
 curl --head --fail "https://3d.xkcd.com/$2/" || \
 printf \
-'Couldn’t find xk3d %s.
+'Couldn’t find xk3d %s online.
 Make sure it exists and that you’re connected to the internet.\n' "$2"
 
 if   [ "${#2}" = 1 ];then
@@ -43,14 +44,14 @@ else
   export p
 fi
 
-c="./content/en/xkcd/$1/$p$2"
+c="./content/en/xkcd/comic/$1/$p$2"
 readonly c
 export c
 
 mkdir "$c/_3d" || \
 printf \
 'Couldn’t create directory %s/_3d .
-Make sure that ./content/en/xkcd/%s/%s already exists.\n' "$c" "$1" "$2"
+Make sure that %s already exists.\n' "$c" "$c"
 mkdir "$c/_3d/image"
 
 curl "https://3d.xkcd.com/$2/" | \

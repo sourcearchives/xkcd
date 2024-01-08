@@ -8,7 +8,8 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 if [ "${#1}" !=  9 ]||
-   [ "$3"    != '' ];then
+   [ "$#"    !=  2 ]||
+   [ "$2"     = '' ];then
   printf \
 'usage: ./script/reset_infojson.sh 0000-0000 [0/00/000/0000]
 Please run this script from the repository root.
@@ -40,7 +41,7 @@ else
   export p
 fi
 
-c="./content/en/xkcd/$1/$p$2"
+c="./content/en/xkcd/comic/$1/$p$2"
 readonly c
 export c
 

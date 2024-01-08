@@ -8,9 +8,10 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 if [ "${#1}" !=  9 ]||
-   [ "$3"    != '' ];then
+   [ "$#"    ==  2 ]||
+   [ "$2"     = '' ];then
   printf \
-'usage: ./script/get_xkcd.sh 0000-0000 [0/00/000/0000]
+'usage: ./script/get_xkcd.sh [0000-0000] [0/00/000/0000]
 Please run this script from the repository root.
 This script downloads data and creates files for the English xkcd comic number
 you provide.
@@ -26,7 +27,7 @@ set -x
 
 curl --head --fail "https://xkcd.com/$2/" || \
 printf \
-'Couldn’t find xkcd %s.
+'Couldn’t find xkcd %s online.
 Make sure it exists and that you’re connected to the internet.\n' "$2"
 
 if   [ "${#2}" = 1 ];then
@@ -47,14 +48,14 @@ else
   export p
 fi
 
-c="./content/en/xkcd/$1/$p$2"
+c="./content/en/xkcd/comic/$1/$p$2"
 readonly c
 export c
 
 mkdir "$c" || \
 printf \
 'Couldn’t create directory %s .
-Make sure that ./content/en/xkcd/%s already exists.\n' "$c" "$1"
+Make sure that %s already exists.\n' "$c" "$c"
 
 curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
 printf '\n' >> "$c/info.json"

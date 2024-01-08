@@ -37,8 +37,8 @@ insert_final_newline = true
 
 ; EditorConfig files
 [.editorconfig]
-indent_size              = 1
-max_line_length          = 1024
+indent_size     = 1
+max_line_length = 1024
 
 ; gitattributes files
 [.gitattributes]
@@ -47,7 +47,7 @@ trim_trailing_whitespace = true
 
 ; gitconfig files
 [.gitconfig]
-indent_size              = 1
+indent_size = 1
 
 ; gitignore files
 [.gitignore]
@@ -103,4 +103,4 @@ trim_trailing_whitespace = true
 
 ; YAML (YAML Ain’t Markup Language) files
 [*.yml]
-indent_size              = 2
+indent_size = 2
