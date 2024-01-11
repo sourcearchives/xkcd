@@ -1,0 +1,1 @@
+xkcdko는 Apple IIGS에서 Javascript로 구현된 Pentium 3±1에서 실행되는 Netscape Navigator 4.0 이하에 최적화되어있습니다. 광고 차단 프로그램을 활성화하고, 고온 건조를 해제하고, 기기를 비행기 모드에서 해제한 후 선박 모드로 설정해 주십시오. 보안을 위해, 브라우징 동안 Caps Lock을 켜두십시오.
