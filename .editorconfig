@@ -28,7 +28,6 @@ trim_trailing_whitespace = true
 [*.css,.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,.shellcheckrc,*.svg,*.txt,*.xml,*.yml]
 charset              = utf-8
 end_of_line          = lf
-indent_style         = space
 insert_final_newline = true
 
 ; CSS (Cascading Style Sheets) files
@@ -37,17 +36,15 @@ insert_final_newline = true
 
 ; EditorConfig files
 [.editorconfig]
-indent_size     = 1
 max_line_length = 1024
 
 ; gitattributes files
 [.gitattributes]
-indent_size              = 1
-trim_trailing_whitespace = true
+; none
 
 ; gitconfig files
 [.gitconfig]
-indent_size = 1
+; none
 
 ; gitignore files
 [.gitignore]
@@ -71,7 +68,7 @@ indent_size = 2
 
 ; Markdown files
 [*.md]
-indent_size = 2
+; none
 
 ; mimetype files
 [mimetype]
@@ -85,12 +82,10 @@ trim_trailing_whitespace = true
 
 ; shell script files
 [*.sh]
-indent_size              = 2
-trim_trailing_whitespace = true
+; none
 
 ; ShellCheck config files
 [.shellcheckrc]
-indent_size              = 0
 trim_trailing_whitespace = true
 
 ; SVG (Scalable Vector Graphics) files
