@@ -1,0 +1,1 @@
+When comparing hypotheses with Bayesian methods, the similar 'clickbayes factor' can account for some harder-to-quantify priors.
