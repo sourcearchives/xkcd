@@ -8,7 +8,7 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 if [ "${#1}" !=  9 ]||
-   [ "$#"    ==  2 ]||
+   [ "$#"     =  2 ]||
    [ "$2"     = '' ];then
   printf \
 'usage: ./script/get_xkcd.sh [0000-0000] [0/00/000/0000]
