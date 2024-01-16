@@ -80,6 +80,10 @@ trim_trailing_whitespace = true
 [*.txt]
 ; none
 
+; prefix.txt should be prepended to a string
+[prefix.txt]
+insert_final_newline = false
+
 ; shell script files
 [*.sh]
 ; none
