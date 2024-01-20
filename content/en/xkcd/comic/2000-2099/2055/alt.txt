@@ -1,0 +1,1 @@
+Bluetooth is actually named for the tenth-century Viking king Harald "Bluetooth" Gormsson, but the protocol developed by Harald was a wireless charging standard unrelated to the modern Bluetooth except by name.
