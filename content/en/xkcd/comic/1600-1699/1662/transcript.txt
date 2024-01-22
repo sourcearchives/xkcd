@@ -1,0 +1,4 @@
+[[We see an aeroplane.]]
+Captain: This is your captain speaking. Gonna be honest - I just woke up and have no idea where I am. Looks like a Boeing of some kind? Oh hey, it says the flight number here. Okay, I'm gonna check Flightaware to figure out where we're going. Anyone know how to get on the wifi? 
+
+{{Title text: Oh dang, you have to pay? Hey, has anyone else paid already? If so, can I borrow your phone for a sec?}}
