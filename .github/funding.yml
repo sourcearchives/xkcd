@@ -2,20 +2,20 @@
 
 # This file contains configuration for this repository on GitHub [https://github.com/sourcearchives/xkcd].
 
-# This information is for supporting xkcd, not this repository.
+# This information is for supporting ‘xkcd’, not this repository.
 
 ---
 
-# the xkcd store is indefinitely closed
+# the ‘xkcd’ store is indefinitely closed
 # custom: 'https://store.xkcd.com/'
 
-# xkcd: volume 0
+# ‘xkcd: volume 0’
 custom: 'https://www.wikidata.org/wiki/Special:BookSources?isbn=0-615-31446-5'
 
 # Randall Munroe used to have Bitcoin information at xkcd.com, now removed. The addresses can still be found if one looks for them
 # custom: 'https://xkcd.com/bitcoin/'
 
-# What If?, Thing Explainer, How To, What If? 2
+# ‘What If?’, ‘Thing Explainer’, ‘How To’, ‘What If? 2’
 custom: 'https://xkcd.com/books/'
 
 ...

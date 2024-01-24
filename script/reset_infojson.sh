@@ -13,10 +13,10 @@ if [ "${#1}" !=  9 ]||
   printf \
 'usage: ./script/reset_infojson.sh 0000-0000 [0/00/000/0000]
 Please run this script from the repository root.
-This script re-downloads the info.json of the English xkcd comic number you
+This script re-downloads the info.json of the English ‘xkcd’ comic number you
 provide and adds a newline to the end of the file, replacing any custom
 formatting.
-This intentionally does not include any xk3d JSON files.\n'
+This intentionally does not include any ‘xk3d’ JSON files.\n'
   set -x
   exit 1
 fi
