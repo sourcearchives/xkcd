@@ -54,6 +54,10 @@ max_line_length = 1024
 [*.html]
 ; none
 
+; image_prefix.txt should be prepended to a string
+[image_prefix.txt]
+insert_final_newline = false
+
 ; JavaScript files
 [*.js]
 ; none
@@ -79,10 +83,6 @@ trim_trailing_whitespace = true
 ; plaintext files
 [*.txt]
 ; none
-
-; image_prefix.txt should be prepended to a string
-[image_prefix.txt]
-insert_final_newline = false
 
 ; shell script files
 [*.sh]
