@@ -59,8 +59,9 @@
 [Pp][Rr][Nn]
 [Pp][Rr][Nn].*
 
-# contributors can put files in here
+# arbitrary files
 .ignore
+tmp
 
 # version control system directories
 CVS
