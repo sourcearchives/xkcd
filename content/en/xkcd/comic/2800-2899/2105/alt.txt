@@ -1,0 +1,1 @@
+In retrospect, I shouldn't have used each layer of the OSI model as one of my horcruxes.
