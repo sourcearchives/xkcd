@@ -28,25 +28,19 @@ set -x
 curl --head --fail "https://xkcd.com/$2/" || \
 printf \
 'Couldn’t find ‘xkcd’ %s online.
-Make sure it exists and that you’re connected to the internet.\n' "$2"
+Make sure it exists and that you’re connected to the Internet.\n' "$2"
 
 if   [ "${#2}" = 1 ];then
   p=000
-  readonly p
-  export p
 elif [ "${#2}" = 2 ];then
   p=00
-  readonly p
-  export p
 elif [ "${#2}" = 3 ];then
   p=0
-  readonly p
-  export p
 else
   p=''
-  readonly p
-  export p
 fi
+readonly p
+export p
 
 c="./content/en/xkcd/comic/$1/$p$2"
 readonly c

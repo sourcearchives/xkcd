@@ -34,6 +34,6 @@ Operated on no files.\n'
   exit 1
 fi
 
-printf 'Done. Operated on files below.
+printf 'Done. Operated on files:
 %s\n' "$c/info.json"
 exit 0

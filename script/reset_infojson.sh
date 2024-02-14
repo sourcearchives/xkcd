@@ -25,21 +25,15 @@ set -x
 
 if   [ "${#2}" = 1 ];then
   p=000
-  readonly p
-  export p
 elif [ "${#2}" = 2 ];then
   p=00
-  readonly p
-  export p
 elif [ "${#2}" = 3 ];then
   p=0
-  readonly p
-  export p
 else
   p=''
-  readonly p
-  export p
 fi
+readonly p
+export p
 
 c="./content/en/xkcd/comic/$1/$p$2"
 readonly c
