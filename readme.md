@@ -1,6 +1,6 @@
 # <i>xkcd</i> archive &ndash;&nbsp;readme
 
-The <i>xkcd</i> archive collects material related to <i>xkcd</i>, either under “free” licenses or fair use. <i>xkcd</i> by Randall Munroe is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&zwj;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). Original content in this repository is released to the public domain under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). In addition, the [`/script/`](./script/) directory is licensed under the zero-clause BSD license (0BSD). Other files may have different terms; see [`copying.md`](./copying.md).
+The <i>xkcd</i> archive collects material related to <i>xkcd</i>. <i>xkcd</i> by Randall Munroe is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&zwj;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). Original content in this repository is released to the public domain under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). In addition, the [`/script/`](./script/) directory is licensed under the zero-clause BSD license (0BSD). Other files may have different terms; see [`copying.md`](./copying.md).
 
 Neither this repository nor its contributors are officially affiliated with Randall Munroe or <i>xkcd</i>.
 
