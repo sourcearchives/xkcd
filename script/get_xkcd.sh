@@ -11,7 +11,7 @@ if [ "${#1}" !=  9 ]||
    [ "$#"    !=  2 ]||
    [ "$2"     = '' ];then
   printf \
-'usage: ./script/get_xkcd.sh [0000-0000] [0/00/000/0000]
+'usage: ./script/get_xkcd.sh <0000-0000> <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the English ‘xkcd’ comic number
 you provide.

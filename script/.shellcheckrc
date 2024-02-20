@@ -1,5 +1,5 @@
 # This file contains configuration for ShellCheck.
-# Information about ShellCheck is available here: [https://github.com/koalaman/shellcheck]
+# Information about ShellCheck is available at https://github.com/koalaman/shellcheck
 
 # To lint shell script files with ShellCheck:
 #   $> shellcheck *.sh

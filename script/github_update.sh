@@ -10,7 +10,7 @@ export POSIXLY_CORRECT
 if [ "$#" !=  1 ]||
    [ "$1"  = '' ];then
   printf \
-'usage: ./script/github_update.sh owner/repo
+'usage: ./script/github_update.sh <owner/repo>
 Please run this script from the repository root so that it doesn’t get confused about file paths.
 
 This script updates the GitHub API JSON for the repository name you provide.
