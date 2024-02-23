@@ -38,5 +38,7 @@
      ".working":       "plaintext",
     "*.xml":           "xml",
     "*.yml":           "yaml"
-  }
+  },
+ "files.encoding":"utf8",
+ "files.eol":"\n"
 }
