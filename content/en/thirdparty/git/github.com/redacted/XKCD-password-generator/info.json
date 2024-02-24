@@ -82,11 +82,11 @@
   "has_wiki": true,
   "has_pages": false,
   "has_discussions": false,
-  "forks_count": 185,
+  "forks_count": 181,
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 5,
+  "open_issues_count": 6,
   "license": {
     "key": "bsd-3-clause",
     "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -101,11 +101,11 @@
 
   ],
   "visibility": "public",
-  "forks": 185,
-  "open_issues": 5,
+  "forks": 181,
+  "open_issues": 6,
   "watchers": 1287,
   "default_branch": "master",
   "temp_clone_token": null,
-  "network_count": 185,
+  "network_count": 181,
   "subscribers_count": 39
 }
