@@ -114,3 +114,6 @@ Thumbs.db
 # built files
 *.[Cc][Bb][Zz]
 *.[Oo][Dd][Gg]
+
+# don’t ignore anything in external Git repos
+!content/en/external/git/**/refs/**
