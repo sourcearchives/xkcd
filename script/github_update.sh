@@ -21,7 +21,7 @@ fi
 
 set -x
 
-c="./content/en/thirdparty/git/github.com/$1"
+c="./content/en/external/git/github.com/$1"
 readonly c
 export c
 
