@@ -28,7 +28,7 @@ export c
 if [ -f "$c/info.json" ];then
   curl --request GET \
        --url "https://api.github.com/repos/$1" \
-       --header 'X-GitHub-Api-Version: 2022-11-28'
+       --header 'X-GitHub-Api-Version: 2022-11-28' \
        --output "$c/info.json"
 else
   printf '[error] Couldn’t find file: %s\n' "$c/info.json"
