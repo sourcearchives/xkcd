@@ -60,8 +60,7 @@
 [Pp][Rr][Nn].*
 
 # arbitrary files
-.ignore
-tmp
+.dev
 
 # version control system directories
 CVS
