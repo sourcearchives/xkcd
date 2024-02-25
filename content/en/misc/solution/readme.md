@@ -1,6 +1,6 @@
 <div align="center">
 
-If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
+If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, <a href="https://www.xkcd.com/">xkcd</a>).
 
 [![](./image/01.jpg)](https://www.xkcd.com/)
 
@@ -10,7 +10,7 @@ If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or 
 
 The answer is that on the 100th day, all 100 blue-eyed people will leave. It's pretty convoluted logic and it took me a while to believe the solution, but here's a rough guide to how to get there.  Note -- while the text of the puzzle is very carefully worded to be as clear and unambiguous as possible (thanks to countless discussions with confused readers), this solution is pretty thrown-together. It's correct, but the explanation/wording might not be the best. If you're really confused by something, let me know.
 
-If you consider the case of just one blue-eyed person on the island, you can show that he obviously leaves the first night, because he knows he's the only one the Guru could be talking about. He looks around and sees no one else, and knows he should leave. So: **[THEOREM 1]** If there is one blue-eyed person, he leaves the first night.
+If you consider the case of just one blue-eyed person on the island, you can show that he obviously leaves the first night, because he knows he's the only one the Guru could be talking about. He looks around and sees no one else, and knows he should leave. So: <b>[THEOREM 1]</b> If there is one blue-eyed person, he leaves the first night.
 
 If there are two blue-eyed people, they will each look at the other. They will each realize that "<b>if</b> I don't have blue eyes <b>[HYPOTHESIS 1]</b>, <b>then</b> that guy is the only blue-eyed person. And <b>if</b> he's the only person, by <b>THEOREM 1</b> he will leave tonight." They each wait and see, and when neither of them leave the first night, each realizes "My <b>HYPOTHESIS 1</b> was incorrect. I must have blue eyes." And each leaves the second night.
 
@@ -22,7 +22,7 @@ This induction can continue all the way up to <b>THEOREM 99</b>, which each pers
 
 Before you email me to argue or question: This solution is correct. My explanation may not be the clearest, and it's very difficult to wrap your head around (at least, it was for me), but the facts of it are accurate. I've talked the problem over with many logic/math professors, worked through it with students, and analyzed from a number of different angles. The answer is correct and proven, even if my explanations aren't as clear as they could be.
 
-User lolbifrons on reddit posted [an inductive proof](https://www.reddit.com/r/AskReddit/comments/khhpl/reddit_what_is_your_favorite_riddle/c2kdlr6).
+User lolbifrons on reddit posted <a href="https://www.reddit.com/r/AskReddit/comments/khhpl/reddit_what_is_your_favorite_riddle/c2kdlr6">an inductive proof</a>.
 
 If you're satisfied with this answer, here are a couple questions that may force you to further explore the structure of the puzzle:
 
@@ -36,6 +36,6 @@ These are just to give you something to think about if you enjoyed the main solu
 
 [![](./image/02.jpg)](https://www.xkcd.com/)
 
-Puzzle text/solution copyright [Randall Munroe](https://www.xkcd.com/), 2005-2006
+Puzzle text/solution copyright <a href="https://www.xkcd.com/">Randall Munroe</a>, 2005-2006
 
 </div>
