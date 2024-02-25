@@ -4,7 +4,7 @@ If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or 
 
 [![](./image/01.jpg)](https://www.xkcd.com/)
 
-## Blue Eyes:<br>The Hardest Logic Puzzle in the World
+<h1>Blue Eyes:<br>The Hardest Logic Puzzle in the World</h1>
 
 </div>
 
