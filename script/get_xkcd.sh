@@ -25,7 +25,7 @@ fi
 
 set -x
 
-curl --head --fail "https://xkcd.com/$2/" || \
+curl --head --fail "https://xkcd.com/$2/" ||
 printf \
 'Couldn’t find ‘xkcd’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$2"
@@ -46,7 +46,7 @@ c="./content/en/xkcd/comic/$1/$p$2"
 readonly c
 export c
 
-mkdir "$c" || \
+mkdir "$c" ||
 printf \
 'Couldn’t create directory %s .
 Make sure that %s already exists.\n' "$c" "$c"
