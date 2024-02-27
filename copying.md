@@ -1,10 +1,6 @@
-<h1>
+# <i>xkcd</i> archive &ndash;&nbsp;copying
 
-<i>xkcd</i> archive &ndash;&nbsp;copying
-
-</h1>
-
-<i>Warning: this file is not entirely up-to-date. The information that exists here should be accurate, but some is yet to be added.</i>
+<i>Notice: this file is not entirely up-to-date. The information that exists here should be accurate, but some is yet to be added.</i>
 
 [<i>xkcd</i>](https://xkcd.com/) ([`/content/en/xkcd/comic/`](./content/en/xkcd/comic/)) by [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe) is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&zwj;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
