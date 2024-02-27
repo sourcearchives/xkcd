@@ -1,4 +1,8 @@
-<h1><i>xkcd</i> archive &ndash;&nbsp;copying</h1>
+<h1>
+
+<i>xkcd</i> archive &ndash;&nbsp;copying
+
+</h1>
 
 <i>Warning: this file is not entirely up-to-date. The information that exists here should be accurate, but some is yet to be added.</i>
 
