@@ -9,7 +9,7 @@
 
 ## text of the SIL&nbsp;Open Font License Version&nbsp;1.1
 
-Version&nbsp;1.1&nbsp;&ndash; 26&nbsp;February 2007
+Version&nbsp;1.1 &ndash;&nbsp;26&nbsp;February 2007
 
 <div id="1">
 

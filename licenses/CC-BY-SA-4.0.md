@@ -1,4 +1,4 @@
-# Creative Commons Attribution-ShareAlike&nbsp;4.0 International (CC&nbsp;BY-&zwj;SA&nbsp;4.0)
+# Creative Commons Attribution-ShareAlike&nbsp;4.0 International (CC&nbsp;BY-&NoBreak;SA&nbsp;4.0)
 
 > CC&nbsp;deed: <https://creativecommons.org/licenses/by-sa/4.0/deed>\
 > CC&nbsp;text: <https://creativecommons.org/licenses/by-sa/4.0/legalcode>\
@@ -35,7 +35,7 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 
 <li id="1(c)">
 
-  <b>BY-&zwj;SA&nbsp;Compatible License</b> means a license listed at [creativecommons.org/compatiblelicenses](https://creativecommons.org/compatiblelicenses), approved by Creative Commons as essentially the equivalent of this Public License.
+  <b>BY-&NoBreak;SA&nbsp;Compatible License</b> means a license listed at [creativecommons.org/compatiblelicenses](https://creativecommons.org/compatiblelicenses), approved by Creative Commons as essentially the equivalent of this Public License.
 
 </li>
 
@@ -329,7 +329,7 @@ Your exercise of the Licensed Rights is expressly made subject to the following 
 
 <li id="3(b)(1)">
 
-  The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-&zwj;SA&nbsp;Compatible License.
+  The Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-&NoBreak;SA&nbsp;Compatible License.
 
 </li>
 

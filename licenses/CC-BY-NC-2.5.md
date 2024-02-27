@@ -1,4 +1,4 @@
-# Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&zwj;NC&nbsp;2.5)
+# Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&NoBreak;NC&nbsp;2.5)
 
 > CC&nbsp;deed: <https://creativecommons.org/licenses/by-nc/2.5/deed>\
 > CC&nbsp;text: <https://creativecommons.org/licenses/by-nc/2.5/legalcode>\

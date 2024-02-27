@@ -1,4 +1,4 @@
-# Creative Commons Attribution-NonCommercial&nbsp;3.0 Unported (CC&nbsp;BY-&zwj;NC&nbsp;3.0)
+# Creative Commons Attribution-NonCommercial&nbsp;3.0 Unported (CC&nbsp;BY-&NoBreak;NC&nbsp;3.0)
 
 > CC&nbsp;deed: <https://creativecommons.org/licenses/by-nc/3.0/deed>\
 > CC&nbsp;text: <https://creativecommons.org/licenses/by-nc/3.0/legalcode>\
