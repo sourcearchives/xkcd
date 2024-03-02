@@ -66,14 +66,3 @@ trim_trailing_whitespace = true
 ; YAML (YAML Ain’t Markup Language)
 [*.yml]
 indent_size = 2
-
-; unset everything again for external Git repos
-[content/en/external/git/**/refs/**/**]
-charset                  = unset
-end_of_line              = unset
-indent_size              = unset
-indent_style             = unset
-insert_final_newline     = false
-max_line_length          = off
-tab_width                = unset
-trim_trailing_whitespace = false
