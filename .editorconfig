@@ -30,16 +30,16 @@ charset              = utf-8
 end_of_line          = lf
 insert_final_newline = true
 
-; Git files
-[.gitattributes,.gitconfig,.gitignore]
-; formats ignore whitespace
-trim_trailing_whitespace = true
-
 ; EditorConfig
 [.editorconfig]
 ; length limit for category lines as defined in spec. theoretically there’s no limit for rules but there’s no need for anything that long
 max_line_length          = 1024
 ; format ignores whitespace
+trim_trailing_whitespace = true
+
+; Git files
+[.gitattributes,.gitconfig,.gitignore]
+; formats ignore whitespace
 trim_trailing_whitespace = true
 
 ; image_prefix.txt
