@@ -1,0 +1,1 @@
+The projection does a good job preserving both distance and azimuth, at the cost of really exaggerating how many South Americas there are.
