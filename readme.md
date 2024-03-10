@@ -6,6 +6,7 @@ Neither this repository nor its contributors are officially affiliated with Rand
 
 This repository is available at [GitHub, repository `sourcearchives/xkcd`](https://github.com/sourcearchives/xkcd).
 
-<i>Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors).</i> &mdash;&nbsp;xkcd.com
+<i>Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors).</i>\
+<span align="right">&mdash;&nbsp;xkcd.com</span>
 
 The contents of this repository do not reflect the views of any repository contributors. Hopefully, that’s enough to keep liberal arts majors from suing.
