@@ -8,7 +8,7 @@ This repository is available at [GitHub, repository `sourcearchives/xkcd`](https
 
 <blockquote>
 
-Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors). &mdash;&nbsp;xkcd.com
+“Warning: this comic occasionally contains strong language (which may be unsuitable for children), unusual humor (which may be unsuitable for adults), and advanced mathematics (which may be unsuitable for liberal-arts majors).” &mdash;&nbsp;xkcd.com
 
 </blockquote>
 
