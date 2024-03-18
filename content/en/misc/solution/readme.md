@@ -2,7 +2,7 @@
 
 If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, <a href="https://www.xkcd.com/">xkcd</a>).
 
-[![](./image/01.jpg)](https://www.xkcd.com/)
+[![](../../xkcd/comics/0001-0099/0082/1x.jpg)](https://www.xkcd.com/)
 
 ## Solution to the [Blue Eyes](https://www.xkcd.com/blue_eyes.html) puzzle
 
@@ -34,7 +34,7 @@ These are just to give you something to think about if you enjoyed the main solu
 
 <div align="center">
 
-[![](./image/02.jpg)](https://www.xkcd.com/)
+[![](../../xkcd/comics/0001-0099/0037/1x.jpg)](https://www.xkcd.com/)
 
 Puzzle text/solution copyright <a href="https://www.xkcd.com/">Randall Munroe</a>, 2005-2006
 

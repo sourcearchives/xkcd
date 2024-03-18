@@ -2,7 +2,7 @@
 
 If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
 
-[![](./image/01.jpg)](https://www.xkcd.com/)
+[![](../../xkcd/comics/0001-0099/0082/1x.jpg)](https://www.xkcd.com/)
 
 # Blue Eyes:<br>The Hardest Logic Puzzle in the World
 
@@ -26,7 +26,7 @@ I've done my best to make the wording as precise and unambiguious as possible (a
 
 <div align="center">
 
-[![](./image/02.jpg)](https://www.xkcd.com/)
+[![](../../xkcd/comics/0001-0099/0037/1x.jpg)](https://www.xkcd.com/)
 
 I didn't come up with the idea of this puzzle, but I've written and rewritten it over the the years to try to make a definitive version. The guy who told it to me originally was some dude on the street in Boston named Joel.
 
