@@ -10,5 +10,5 @@ The language of this repository is English. Some multilingual content is located
 | `en` |    English   |   English   |
 | `es` |    Spanish   |   español   |
 | `fr` |    French    |   français  |
-| `ko` |    Korean    |   한국어       |
+| `ko` |    Korean    |   한국어    |
 | `ru` |    Russian   |   русский   |
