@@ -1,0 +1,1 @@
+In general you should only include your single best data point in the paper. The rest of the data can go in the supplementary materials.
