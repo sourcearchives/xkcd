@@ -1,0 +1,1 @@
+According to my especially unsupervised K-means clustering algorithm, there are currently about 8 billion types of people in the world.
