@@ -1,0 +1,15 @@
+{{Title text: Cloud computing has a ways to go.}}
+
+[[Man and woman laying on the ground]]
+Man:  What do you think that cloud looks like?
+
+[[Woman takes a picture with her phone]]
+<<Snap>>
+
+[[Man sits up and looks at woman]]
+Phone: Google -> Search by image
+Phone: [Uploading...]
+
+[[Man lies back down]]
+Phone:  Best guess for this image:  Cloud
+Man:  Keep trying, Google.

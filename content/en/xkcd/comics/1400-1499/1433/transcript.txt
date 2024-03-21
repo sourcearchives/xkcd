@@ -1,0 +1,12 @@
+{{Title text: A long time in the future, in a galaxy far, far, away, astronomers in the year 2008 sight an unusual gamma-ray burst originating from somewhere far across the universe.}}
+
+[[Darth Vader and Luke Skywalker]]
+Darth Vader:  I see you have constructed a new lightsaber.
+
+[[Darth Vader turns on the lightsaber]]
+<<Snap>><<Hiss>>
+
+[[Darth Vader looks at the light saber]]
+Darth Vader:  Where does it end?
+Luke:  Doesn't
+Someone off-scene:  Hull breach all along sector five!!

@@ -1,0 +1,12 @@
+{{Title text: Maybe I haven't been to Iceland because I'm busy dealing with YOUR crummy code.}}
+
+[[Man sitting at a computer reading code]]
+# Dear future self,
+# You're looking at this file because the parse function finally broke.
+# It's not fixable. You have to rewrite it.  Sincerely, past self
+
+Man:  Dear past self, it's kinda creepy how you do that.
+
+# Also, it's probably at least 2013.  Did you ever take that trip to Iceland?
+
+Man:  Stop judging me!
