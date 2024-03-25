@@ -1,0 +1,1 @@
+The Mercator projection drastically distorts the size of almost every area of land except a small ring around the North and South Poles.
