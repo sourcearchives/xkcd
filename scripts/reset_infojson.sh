@@ -1,6 +1,6 @@
 #!/bin/sh
 # run this script from the repository root: ./scripts/reset_infojson.sh
-#                                  ( or: sh ./scripts/reset_infojson.sh )
+
 LC_ALL=C
 readonly LC_ALL
 export LC_ALL

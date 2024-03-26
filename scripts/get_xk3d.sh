@@ -1,6 +1,6 @@
 #!/bin/sh
 # run this script from the repository root: ./scripts/get_xk3d.sh
-#                                  ( or: sh ./scripts/get_xk3d.sh )
+
 LC_ALL=C
 readonly LC_ALL
 export LC_ALL

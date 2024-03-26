@@ -1,6 +1,6 @@
 #!/bin/sh
 # run this script from the repository root: ./scripts/get_xkcd.sh
-#                                  ( or: sh ./scripts/get_xkcd.sh )
+
 LC_ALL=C
 readonly LC_ALL
 export LC_ALL
