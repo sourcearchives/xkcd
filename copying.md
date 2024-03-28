@@ -23,6 +23,6 @@ The typefaces embedded in [<i>xkcd: volume&nbsp;0</i>](./content/en/print/xkcd_v
 
 Original content in this repository (e.g. commit messages, the [root](./) and [`/.github/`](./.github/) directories) is licensed under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
-The [Creative Commons](https://creativecommons.org/) licenses ([`/licenses/`](./licenses/)) are licensed under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
+The text of the [Creative Commons](https://creativecommons.org/) licenses ([`/licenses/`](./licenses/)) are licensed under [Creative Commons Zero&nbsp;1.0 Universal (CC0&nbsp;1.0)](./licenses/CC0-1.0.md). `SPDX-License-Identifier: CC0-1.0`
 
-The [SIL&nbsp;Open Font License Version&nbsp;1.1 (OFL&nbsp;1.1)](./licenses/OFL-1.1.md) by Nicolas Spalinger and Victor Gaultney is copyright of [SIL&nbsp;International](https://www.sil.org/), all rights reserved. Implicitly, the document may be distributed for the purposes of identifying and licensing this repository’s font files. `SPDX-License-Identifier: NONE`
+The text of the [SIL&nbsp;Open Font License Version&nbsp;1.1 (OFL&nbsp;1.1)](./licenses/OFL-1.1.md) by Nicolas Spalinger and Victor Gaultney is copyright of [SIL&nbsp;International](https://www.sil.org/), all rights reserved. Implicitly, the document may be distributed for the purposes of identifying and licensing this repository’s font files. `SPDX-License-Identifier: NONE`
