@@ -6,7 +6,7 @@
 
 The unofficial [Spanish translation of <i>xkcd</i>](https://es.xkcd.com/) ([`/content/es/xkcd/comic/`](./content/es/xkcd/comic/)), <i>xkcd en español</i>, by [Gabriel Rodríguez Alberich](https://gabi.is/) is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&NoBreak;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
-The unofficial [French translation of <i>xkcd</i>](https://web.archive.org/web/20230415184416/https://xkcd.lapin.org/) ([`/content/fr/xkcd/comic/`](./content/fr/xkcd/comic/)) by “Sophie, Phiip [and] Antoine” at [lapin.org](https://lapin.org/) is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&NoBreak;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
+The unofficial [French translation of <i>xkcd</i>](https://web.archive.org/web/20230415184416/https://xkcd.lapin.org/) ([`/content/fr/xkcd/comic/`](./content/fr/xkcd/comic/)) by “Sophie, Phiip [and] Antoine” at [lapin.org](https://lapin.org/) (<i><b>possibly <abbr title="not safe for work">NSFW</abbr></b></i>) is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&NoBreak;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
 The unofficial [German translation of <i>xkcd</i>](https://xkcde.dapete.net/) ([`/content/de/xkcd/comic/`](./content/de/xkcd/comic/)), <i>xkcDE</i>, by [Peter Schlömer](https://dapete.net/) is licensed under [Creative Commons Attribution-NonCommercial&nbsp;2.5 Generic (CC&nbsp;BY-&NoBreak;NC&nbsp;2.5)](./licenses/CC-BY-NC-2.5.md). `SPDX-License-Identifier: CC-BY-NC-2.5`
 
