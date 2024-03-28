@@ -1,16 +1,16 @@
 <div align="center">
 
-If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://www.xkcd.com/).
+If you like formal logic, graph theory, sappy romance, bitter sarcasm, puns, or landscape art, check out my webcomic, [xkcd](https://xkcd.com/).
 
-[![](../../xkcd/comics/0001-0099/0082/1x.jpg)](https://www.xkcd.com/)
+[![](../../xkcd/comics/0001-0099/0082/1x.jpg)](https://xkcd.com/)
 
-# Blue Eyes:<br>The Hardest Logic Puzzle in the World
+# Blue Eyes:<br/>The Hardest Logic Puzzle in the World
 
 </div>
 
 A group of people with assorted eye colors live on an island. They are all perfect logicians -- if a conclusion can be logically deduced, they will do it instantly. No one knows the color of their eyes. Every night at midnight, a ferry stops at the island. Any islanders who have figured out the color of their own eyes then leave the island, and the rest stay. Everyone can see everyone else at all times and keeps a count of the number of people they see with each eye color (excluding themselves), but they cannot otherwise communicate. Everyone on the island knows all the rules in this paragraph.
 
-On this island there are 100 blue-eyed people, 100 brown-eyed people, and the Guru (she happens to have green eyes). So any given blue-eyed person can see 100 people with brown eyes and 99 people with blue eyes (and one with green), but that does not tell him his own eye color; as far as he knows the totals could be 101 brown and 99 blue. Or 100 brown, 99 blue, and he could have red eyes.
+On this island there are 100&nbsp;blue-eyed people, 100&nbsp;brown-eyed people, and the Guru (she happens to have green eyes). So any given blue-eyed person can see 100&nbsp;people with brown eyes and 99&nbsp;people with blue eyes (and one with green), but that does not tell him his own eye color; as far as he knows the totals could be 101&nbsp;brown and 99&nbsp;blue. Or 100&nbsp;brown, 99&nbsp;blue, and he could have red eyes.
 
 The Guru is allowed to speak once (let's say at noon), on one day in all their endless years on the island. Standing before the islanders, she says the following:
 
