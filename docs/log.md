@@ -1,4 +1,4 @@
-# <i>xkcd</i> arcgive &ndash;&nbsp;log
+# <i>xkcd</i> archive &ndash;&nbsp;log
 
 A log of significant events in this repository.
 
