@@ -5,4 +5,4 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 find . -type f -name info.json \
-       -execdir sh -xc 'jq --raw-output .number ./info.json > ./number.txt'
+       -execdir sh -xc 'jq --raw-output .number ./info.json > ./number.txt' ';'
