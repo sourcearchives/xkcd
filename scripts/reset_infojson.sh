@@ -1,9 +1,6 @@
 #!/bin/sh
-# run this script from the repository root: ./scripts/reset_infojson.sh
-
-LC_ALL=C
-readonly LC_ALL
-export LC_ALL
+# ./scripts/reset_infojson.sh
+# SPDX-License-Identifier: CC0-1.0 OR 0BSD
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
