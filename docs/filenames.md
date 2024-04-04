@@ -11,5 +11,5 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 Filenames <em>should</em> match this (draft) regular expression:
 
 ```Regular-Expression
-[A-Za-z_.][A-Za-z_.-]{0,125}[A-Za-z_-]
+[A-Za-z0-9_.][A-Za-z0-9_.-]{0,125}[A-Za-z0-9_-]
 ```
