@@ -1,8 +1,10 @@
 #!/bin/sh
 # ./scripts/get_xk3d.sh
 # SPDX-License-Identifier: CC0-1.0 OR 0BSD
+set -x
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
+set +x
 
 if [ "${#1}" !=  9 ]||
    [ "$#"    !=  2 ]||
@@ -60,9 +62,12 @@ if [ "$(cat "$c/3d/converted_by.txt")" = null ];then
   rm "$c/3d/converted_by.txt"
 fi
 
+set +x
+
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
 %s/\n' "$c/3d"
 
+set -x
 exit 0
