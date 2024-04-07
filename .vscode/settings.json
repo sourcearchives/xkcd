@@ -18,7 +18,7 @@
  */
 
 {
-  "files.associations": {
+ "files.associations": {
     "*.css":           "css",
      ".editorconfig":  "ini",
      ".empty":         "plaintext",
@@ -27,6 +27,7 @@
      ".gitignore":     "ignore",
     "*.html":          "html",
     "*.js":            "javascript",
+    "*.js.map":        "json",
     "*.json":          "json",
      ".vscode/**.json":"jsonc",
     "*.md":            "markdown",

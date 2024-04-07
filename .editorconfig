@@ -1,0 +1,79 @@
+; This file contains configuration for EditorConfig.
+; Information about EditorConfig is available at https://editorconfig.org/
+
+; These rules are used by EditorConfig applications to make consistent text formatting easier.
+
+; don’t look for more .editorconfig files in higher directories
+root = true
+
+; unset/disable all config for all files
+[*]
+charset                  = unset
+end_of_line              = unset
+indent_size              = unset
+indent_style             = unset
+insert_final_newline     = false
+max_line_length          = off
+tab_width                = unset
+trim_trailing_whitespace = false
+
+; placeholder files should always be empty
+[.empty,.working]
+indent_size              = 0
+indent_style             = space
+max_line_length          = 0
+trim_trailing_whitespace = true
+
+; all text files
+[*.css,.editorconfig,.gitattributes,.gitconfig,.gitignore,*.html,*.js,*.json,*.md,mimetype,*.sh,.shellcheckrc,*.svg,*.txt,*.xml,*.yml]
+charset              = utf-8
+end_of_line          = lf
+insert_final_newline = true
+
+; EditorConfig
+[.editorconfig]
+; length limit for category lines as defined in spec. theoretically there’s no limit for rules but there’s no need for anything that long
+max_line_length          = 1024
+; format ignores whitespace
+trim_trailing_whitespace = true
+
+; Git files
+[.git{attributes,config,ignore}]
+; formats ignore whitespace
+trim_trailing_whitespace = true
+
+; image_prefix.txt
+[image_prefix.txt]
+; should be prepended to a string
+insert_final_newline = false
+
+; JSON with comments
+[.vscode/**.json]
+indent_size = 2
+
+; mimetype
+; sometimes used in ZIP archives. this ensures that the file contains a valid MIME type
+[mimetype]
+indent_size              = 0
+insert_final_newline     = false
+trim_trailing_whitespace = true
+
+; ShellCheck config
+[.shellcheckrc]
+; format ignores whitespace
+trim_trailing_whitespace = true
+
+; YAML (YAML Ain’t Markup Language)
+[*.yml]
+indent_size = 2
+
+; these are raw external files and should not be touched
+[content/en/xkcd/{comics/**/{large,machine}/**,website/assets/**}]
+charset                  = unset
+end_of_line              = unset
+indent_size              = unset
+indent_style             = unset
+insert_final_newline     = false
+max_line_length          = off
+tab_width                = unset
+trim_trailing_whitespace = false
