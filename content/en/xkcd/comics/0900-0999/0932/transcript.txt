@@ -1,0 +1,16 @@
+[[A television is showing a news anchor.  The inset picture of the news shows Anonymous wearing a monocle and top hat.]]
+Anchor: Hackers briefly took down the website of the CIA yesterday...
+
+[[A person is watching television.]]
+What people hear:
+Anchor: Someone hacked into the computers of the 
+CIA!!
+
+
+[[A computer expert is watching television.]]
+What computer experts hear:
+Anchor: Someone tore down a poster hung up by the 
+CIA!!
+
+
+{{Title text: It was their main recruiting poster, hung up nearly ten feet up a wall! This means the hackers have LADDER technology! Are we headed for a future where everyone has to pay $50 for one of those locked plexiglass poster covers? More after the break ...}}
