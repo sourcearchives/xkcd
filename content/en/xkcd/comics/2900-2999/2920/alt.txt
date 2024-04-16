@@ -1,0 +1,1 @@
+Fun fact: The standard North American NAD83 coordinate system is misaligned from the actual Earth, off-center by about 7 feet. Someone knows where I am, and I'm in the wrong place.
