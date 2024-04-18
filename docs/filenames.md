@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC0-1.0 OR 0BSD -->
 # <i>xkcd</i> archive &ndash;&nbsp;filenames
 
 Filenames <em>should</em> only use characters in the  [Portable Filename Character Set](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_282):

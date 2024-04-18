@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC0-1.0 OR 0BSD -->
 # <i>xkcd</i> archive &ndash;&nbsp;log
 
 A log of significant events in this repository.

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC0-1.0 OR 0BSD -->
 # <i>xkcd</i> archive &ndash;&nbsp;copying
 
 <i>Notice: this file is not entirely up-to-date. The information that exists here should be accurate, but some is yet to be added.</i>
