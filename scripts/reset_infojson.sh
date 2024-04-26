@@ -39,7 +39,7 @@ readonly c
 export c
 
 find . -type f -path "$c/info.json" \
-       -exec sh -xc 'curl "https://xkcd.com/$2/info.0.json" --output "$1"
+       -exec sh -xc 'curl --url "https://xkcd.com/$2/info.0.json" --output "$1"
              printf "\n" >> "$1"' \
              shell '{}' "$2" ';'
 
