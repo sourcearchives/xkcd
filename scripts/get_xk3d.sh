@@ -19,7 +19,7 @@ fi
 
 set -x
 
-curl --head --fail "https://3d.xkcd.com/$2/" ||
+curl --head --fail --url "https://3d.xkcd.com/$2/" ||
 printf \
 'Couldn’t find ‘xk3d’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$2"
@@ -46,14 +46,14 @@ printf \
 Make sure that %s already exists.\n' "$c" "$c"
 mkdir "$c/_3d/images"
 
-curl "https://3d.xkcd.com/$2/" | \
+curl --url "https://3d.xkcd.com/$2/" | \
 grep --fixed-strings '{"parallax_layers":' | \
 sed -n 's/.*omgitsin3d(\({.*}\)).*/\1/p' | \
 sed 's/) }$//' > "$c/3d/comic.json"
 
 for i in $(jq --raw-output ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/3d/comic.json");do
   export i
-  curl "https://imgs.xkcd.com/xk3d/$2/$i" --output "$c/3d/image/$i"
+  curl --url "https://imgs.xkcd.com/xk3d/$2/$i" --output "$c/3d/image/$i"
 done
 
 jq --raw-output .converted_by "$c/3d/comic.json" > "$c/3d/converted_by.txt"
