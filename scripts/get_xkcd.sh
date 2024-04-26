@@ -24,7 +24,7 @@ fi
 
 set -x
 
-curl --head --fail "https://xkcd.com/$2/" ||
+curl --head --fail --url "https://xkcd.com/$2/" ||
 printf \
 'Couldn’t find ‘xkcd’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$2"
@@ -50,7 +50,7 @@ printf \
 'Couldn’t create directory %s .
 Make sure that %s already exists.\n' "$c" "$c"
 
-curl "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
+curl --url "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
 printf '\n' >> "$c/info.json"
 
 jq --raw-output .alt "$c/info.json" > "$c/alt.txt"
