@@ -1,0 +1,16 @@
+The Problem With Time Machines:
+[[Character stands holding the lever of a box labeled "Time Machine," with a big on
+off lever switched to off.]]
+
+[[He flips it on.]]
+<<click>>
+eeeeEEEEEEEE
+
+EEEEEEEEeeee
+<<click>>
+[[He flips it off.]]
+
+[[He stares at his own hands in confusion.]]
+???
+
+{{Title text: 'All time machine systems nominal ... T-minus ten ... eleven ...'}}
