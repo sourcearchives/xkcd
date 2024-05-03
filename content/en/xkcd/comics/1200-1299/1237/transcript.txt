@@ -1,0 +1,4 @@
+[[A smartphone.  On the display, the following text: "To continue installing, scan this code. 12 seconds remaining".  A particularly recursive QR code is displayed on the screen]]
+How to freak out a mobile app user.
+
+{{Title text: Remember, the installer is watching the camera for the checksum it generated, so you have to scan it using your own phone.}}
