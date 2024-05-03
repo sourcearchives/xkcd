@@ -1,6 +1,8 @@
 <!-- SPDX-License-Identifier: CC0-1.0 OR 0BSD -->
 # <i>xkcd</i> archive &ndash;&nbsp;filenames
 
+<i>“Filename” means either a filename or a directory name.</i>
+
 Filenames <em>should</em> match <em>all</em> of these conditions:
 
 <ul type="disc">
@@ -15,7 +17,23 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 0 1 2 3 4 5 6 7 8 9 . _ -
 ```
 
-  Almost all file systems in common usage should support this character set. They are also not shell special characters, and don’t cause word splitting.
+  Almost all file systems in common usage support this character set. They are also not shell special characters, and don’t cause word splitting.
+
+</li>
+
+<li>
+
+  Filenames <em>should not</em> start with a hyphen (-).
+
+  A hyphen indicates setting options in many command-line programs, making names starting with one difficult to work with in many applications.
+
+</li>
+
+<li>
+
+  Filenames <em>should not</em> end with a period (.).
+
+  Microsoft Windows generally does not allow names ending with a period. This restriction can be worked around, but it causes problems with many Windows programs.
 
 </li>
 
@@ -24,7 +42,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
   Filenames <em>should</em> match this regular expression:
 
 ```Regular-Expression
-^(([A-Za-z0-9_.][A-Za-z0-9_.-]{0,125}[A-Za-z0-9_-])|[A-Za-z0-9_])$
+^.*/(([A-Za-z0-9_.][A-Za-z0-9_.-]{0,125}[A-Za-z0-9_-])|[A-Za-z0-9_])$
 ```
 
   There are some rules listed above which are not implemented in the regular expression, so all valid filenames should match this, but not all matches are valid filenames.
