@@ -33,7 +33,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 
   Filenames <em>should not</em> end with a period (`.`).
 
-  Microsoft Windows generally does not allow names ending with a period. This restriction can be worked around, but it causes problems with many Windows programs.
+  Microsoft Windows generally does not allow names ending with a period. This restriction can be worked around, but doing so causes problems with many Windows programs.
 
   In addition, most operating systems and transfer protocols use the name `.` to represent the current directory and `..` to represent the directory above.
 
