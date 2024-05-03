@@ -35,6 +35,10 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 
   Microsoft Windows generally does not allow names ending with a period. This restriction can be worked around, but it causes problems with many Windows programs.
 
+  In addition, most operating systems and transfer protocols use the name `.` to represent the current directory and `..` to represent the directory above.
+
+  Names <em>may</em> <em>start</em> with a period, but note that this will cause the file or directory to be “hidden,” or not shown by default, on Unix-like systems (or on Windows, if a certain Git config is set).
+
 </li>
 
 <li>
