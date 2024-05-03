@@ -51,7 +51,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 ^(.*/)?(([A-Za-z0-9_.][A-Za-z0-9_.-]{0,125}[A-Za-z0-9_-])|[A-Za-z0-9_])$
 ```
 
-  There are some rules listed above which are not implemented in the regular expression, so all valid filenames should match this, but not all matches are valid filenames.
+  There are some rules listed above which are not implemented in the regular expression, so all valid filenames <em>should</em> match this, but not all matches are valid filenames.
 
 </li>
 
