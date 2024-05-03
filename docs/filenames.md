@@ -23,7 +23,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 <li>
 
-  Filenames <em>should not</em> start with a hyphen (-).
+  Filenames <em>should not</em> start with a hyphen (`-`).
 
   A hyphen indicates setting options in many command-line programs, making names starting with one difficult to work with in many applications.
 
@@ -31,7 +31,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 <li>
 
-  Filenames <em>should not</em> end with a period (.).
+  Filenames <em>should not</em> end with a period (`.`).
 
   Microsoft Windows generally does not allow names ending with a period. This restriction can be worked around, but it causes problems with many Windows programs.
 
