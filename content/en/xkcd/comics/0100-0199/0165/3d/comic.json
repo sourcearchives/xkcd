@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "165/turn_signals_frame.png", "c": "frames"}, {"src": "165/turn_signals_corners.png", "c": "corners"}, {"src": "165/turn_signals_text.png", "c": "text"}, {"src": "165/turn_signals_no_text.png", "c": "drawings"}], "alt_text": "I'm not very good at meeting people."}
+{"parallax_layers":[{"src":"165/turn_signals_frame.png","c":"frames"},{"src":"165/turn_signals_corners.png","c":"corners"},{"src":"165/turn_signals_text.png","c":"text"},{"src":"165/turn_signals_no_text.png","c":"drawings"}],"alt_text":"I'm not very good at meeting people."}

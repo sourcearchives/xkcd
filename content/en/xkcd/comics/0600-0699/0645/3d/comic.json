@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "645/rps_frame.png", "c": "frames"}, {"src": "645/rps_corners.png", "c": "corners"}, {"src": "645/rps_text.png", "c": "text"}, {"src": "645/rps_no_text.png", "c": "drawings"}], "alt_text": "It looks good, but it needs more postfixins."}
+{"parallax_layers":[{"src":"645/rps_frame.png","c":"frames"},{"src":"645/rps_corners.png","c":"corners"},{"src":"645/rps_text.png","c":"text"},{"src":"645/rps_no_text.png","c":"drawings"}],"alt_text":"It looks good, but it needs more postfixins."}

@@ -49,7 +49,8 @@ mkdir "$c/_3d/images"
 curl --url "https://3d.xkcd.com/$2/" | \
 grep --fixed-strings '{"parallax_layers":' | \
 sed -n 's/.*omgitsin3d(\({.*}\)).*/\1/p' | \
-sed 's/) }$//' > "$c/3d/comic.json"
+sed 's/) }$//' | \
+jq --compact-output --monochrome-output -- . - > "$c/3d/comic.json"
 
 for i in $(jq --raw-output ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/3d/comic.json");do
   export i

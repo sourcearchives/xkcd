@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "330/indecision_frame.png", "c": "frames"}, {"src": "330/indecision_corners.png", "c": "corners"}, {"src": "330/indecision_text.png", "c": "text"}, {"src": "330/indecision_no_text.png", "c": "drawings"}], "alt_text": "Hey, I don't make the rules.  It's in the book."}
+{"parallax_layers":[{"src":"330/indecision_frame.png","c":"frames"},{"src":"330/indecision_corners.png","c":"corners"},{"src":"330/indecision_text.png","c":"text"},{"src":"330/indecision_no_text.png","c":"drawings"}],"alt_text":"Hey, I don't make the rules.  It's in the book."}

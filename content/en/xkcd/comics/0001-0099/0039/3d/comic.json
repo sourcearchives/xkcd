@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "39/bowl_frame.png", "c": "frames"}, {"src": "39/bowl_corners.png", "c": "corners"}, {"src": "39/bowl_text.png", "c": "text"}, {"src": "39/bowl_no_text.png", "c": "drawings"}], "alt_text": "For the moment it's a standoff"}
+{"parallax_layers":[{"src":"39/bowl_frame.png","c":"frames"},{"src":"39/bowl_corners.png","c":"corners"},{"src":"39/bowl_text.png","c":"text"},{"src":"39/bowl_no_text.png","c":"drawings"}],"alt_text":"For the moment it's a standoff"}

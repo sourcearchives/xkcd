@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "99/binary_heart_frame.png", "c": "frames"}, {"src": "99/binary_heart_corners.png", "c": "corners"}, {"src": "99/binary_heart_text.png", "c": "text"}, {"src": "99/binary_heart_no_text.png", "c": "drawings"}], "alt_text": "i love you"}
+{"parallax_layers":[{"src":"99/binary_heart_frame.png","c":"frames"},{"src":"99/binary_heart_corners.png","c":"corners"},{"src":"99/binary_heart_text.png","c":"text"},{"src":"99/binary_heart_no_text.png","c":"drawings"}],"alt_text":"i love you"}

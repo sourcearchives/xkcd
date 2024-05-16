@@ -50,8 +50,8 @@ printf \
 'Couldn’t create directory %s .
 Make sure that %s already exists.\n' "$c" "$c"
 
-curl --url "https://xkcd.com/$2/info.0.json" --output "$c/info.json"
-printf '\n' >> "$c/info.json"
+curl --url "https://xkcd.com/$2/info.0.json" --output - | \
+jq --compact-output --monochrome-output -- . - > "$c/info.json"
 
 jq --raw-output .alt "$c/info.json" > "$c/alt.txt"
 jq --raw-output .link "$c/info.json" > "$c/link.txt"

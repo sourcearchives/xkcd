@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "63/valentine_frame.png", "c": "frames"}, {"src": "63/valentine_corners.png", "c": "corners"}, {"src": "63/valentine_text.png", "c": "text"}, {"src": "63/valentine_no_text.png", "c": "drawings"}], "alt_text": "Just pretend you're kidding."}
+{"parallax_layers":[{"src":"63/valentine_frame.png","c":"frames"},{"src":"63/valentine_corners.png","c":"corners"},{"src":"63/valentine_text.png","c":"text"},{"src":"63/valentine_no_text.png","c":"drawings"}],"alt_text":"Just pretend you're kidding."}

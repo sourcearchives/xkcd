@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "836/sickness_frame.png", "c": "frames"}, {"src": "836/sickness_corners.png", "c": "corners"}, {"src": "836/sickness_text.png", "c": "text"}, {"src": "836/sickness_no_text.png", "c": "drawings"}], "alt_text": "At least, with p<0.05 confidence."}
+{"parallax_layers":[{"src":"836/sickness_frame.png","c":"frames"},{"src":"836/sickness_corners.png","c":"corners"},{"src":"836/sickness_text.png","c":"text"},{"src":"836/sickness_no_text.png","c":"drawings"}],"alt_text":"At least, with p<0.05 confidence."}

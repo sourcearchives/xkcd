@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "42/geico_frame.png", "c": "frames"}, {"src": "42/geico_corners.png", "c": "corners"}, {"src": "42/geico_text.png", "c": "text"}, {"src": "42/geico_no_text.png", "c": "drawings"}], "alt_text": "David did this"}
+{"parallax_layers":[{"src":"42/geico_frame.png","c":"frames"},{"src":"42/geico_corners.png","c":"corners"},{"src":"42/geico_text.png","c":"text"},{"src":"42/geico_no_text.png","c":"drawings"}],"alt_text":"David did this"}

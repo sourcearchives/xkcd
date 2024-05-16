@@ -1,1 +1,1 @@
-{"parallax_layers": [{"src": "200/bill_nye_frame.png", "c": "frames"}, {"src": "200/bill_nye_corners.png", "c": "corners"}, {"src": "200/bill_nye_text.png", "c": "text"}, {"src": "200/bill_nye_no_text.png", "c": "drawings"}], "alt_text": "You could at least not wear the lab coat everywhere, dude."}
+{"parallax_layers":[{"src":"200/bill_nye_frame.png","c":"frames"},{"src":"200/bill_nye_corners.png","c":"corners"},{"src":"200/bill_nye_text.png","c":"text"},{"src":"200/bill_nye_no_text.png","c":"drawings"}],"alt_text":"You could at least not wear the lab coat everywhere, dude."}
