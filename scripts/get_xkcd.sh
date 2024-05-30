@@ -53,14 +53,14 @@ Make sure that %s already exists.\n' "$c" "$c"
 curl --url "https://xkcd.com/$2/info.0.json" --output - | \
 jq --compact-output --monochrome-output -- . - > "$c/info.json"
 
-jq --raw-output .alt "$c/info.json" > "$c/alt.txt"
-jq --raw-output .link "$c/info.json" > "$c/link.txt"
-jq --raw-output .news "$c/info.json" > "$c/news.html"
-jq --raw-output .title "$c/info.json" > "$c/title.txt"
-jq --raw-output .transcript "$c/info.json" > "$c/transcript.txt"
-jq --raw-output .num "$c/info.json" > "$c/num.txt"
+jq --raw-output --monochrome-output -- .alt "$c/info.json" > "$c/alt.txt"
+jq --raw-output --monochrome-output -- .link "$c/info.json" > "$c/link.txt"
+jq --raw-output --monochrome-output -- .news "$c/info.json" > "$c/news.html"
+jq --raw-output --monochrome-output -- .title "$c/info.json" > "$c/title.txt"
+jq --raw-output --monochrome-output -- .transcript "$c/info.json" > "$c/transcript.txt"
+jq --raw-output --monochrome-output -- .num "$c/info.json" > "$c/num.txt"
 
-i="$(jq --raw-output .img "$c/info.json")"
+i="$(jq --raw-output --monochrome-output -- .img "$c/info.json")"
 readonly i
 export i
 

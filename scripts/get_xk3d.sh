@@ -52,12 +52,12 @@ sed -n 's/.*omgitsin3d(\({.*}\)).*/\1/p' | \
 sed 's/) }$//' | \
 jq --compact-output --monochrome-output -- . - > "$c/3d/comic.json"
 
-for i in $(jq --raw-output ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/3d/comic.json");do
+for i in $(jq --raw-output --monochrome-output -- ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/3d/comic.json");do
   export i
   curl --url "https://imgs.xkcd.com/xk3d/$2/$i" --output "$c/3d/image/$i"
 done
 
-jq --raw-output .converted_by "$c/3d/comic.json" > "$c/3d/converted_by.txt"
+jq --raw-output --monochrome-output -- .converted_by "$c/3d/comic.json" > "$c/3d/converted_by.txt"
 
 if [ "$(cat "$c/3d/converted_by.txt")" = null ];then
   rm "$c/3d/converted_by.txt"
