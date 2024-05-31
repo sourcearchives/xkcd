@@ -24,71 +24,79 @@ fi
 
 set -x
 
-curl --head --fail "https://xkcd.com/$2/" ||
+hun="$1"
+readonly hun
+export hun
+
+num="$2"
+readonly num
+export num
+
+curl --head --fail "https://xkcd.com/$num/" ||
 printf \
 'Couldn’t find ‘xkcd’ %s online.
-Make sure it exists and that you’re connected to the Internet.\n' "$2"
+Make sure it exists and that you’re connected to the Internet.\n' "$num"
 
-if   [ "${#2}" = 1 ];then
-  p=000
-elif [ "${#2}" = 2 ];then
-  p=00
-elif [ "${#2}" = 3 ];then
-  p=0
+if   [ "${#num}" = 1 ];then
+  pad=000
+elif [ "${#num}" = 2 ];then
+  pad=00
+elif [ "${#num}" = 3 ];then
+  pad=0
 else
-  p=''
+  pad=''
 fi
-readonly p
-export p
+readonly pad
+export pad
 
-c="./content/en/xkcd/comics/$1/$p$2"
-readonly c
-export c
+dir="./content/en/xkcd/comics/$hun/$pad$num"
+readonly dir
+export dir
 
-mkdir "$c" ||
+mkdir "$dir" ||
 printf \
 'Couldn’t create directory %s .
-Make sure that %s already exists.\n' "$c" "$c"
+Make sure that %s already exists.\n' "$dir" "$dir"
 
-curl --output - "https://xkcd.com/$2/info.0.json" | \
-jq --compact-output --monochrome-output -- . - > "$c/info.json"
+curl --output - "https://xkcd.com/$num/info.0.json" | \
+jq --compact-output --monochrome-output -- . - > "$dir/info.json"
 
-jq --raw-output --monochrome-output -- .alt "$c/info.json" > "$c/alt.txt"
-jq --raw-output --monochrome-output -- .link "$c/info.json" > "$c/link.txt"
-jq --raw-output --monochrome-output -- .news "$c/info.json" > "$c/news.html"
-jq --raw-output --monochrome-output -- .title "$c/info.json" > "$c/title.txt"
-jq --raw-output --monochrome-output -- .transcript "$c/info.json" > "$c/transcript.txt"
-jq --raw-output --monochrome-output -- .num "$c/info.json" > "$c/num.txt"
+jq --raw-output --monochrome-output -- .alt "$dir/info.json" > "$dir/alt.txt"
+jq --raw-output --monochrome-output -- .link "$dir/info.json" > "$dir/link.txt"
+jq --raw-output --monochrome-output -- .news "$dir/info.json" > "$dir/news.html"
+jq --raw-output --monochrome-output -- .title "$dir/info.json" > "$dir/title.txt"
+jq --raw-output --monochrome-output -- .transcript "$dir/info.json" > "$dir/transcript.txt"
+jq --raw-output --monochrome-output -- .num "$dir/info.json" > "$dir/num.txt"
 
-i="$(jq --raw-output --monochrome-output -- .img "$c/info.json")"
-readonly i
-export i
+img="$(jq --raw-output --monochrome-output -- .img "$dir/info.json")"
+readonly img
+export img
 
-e="${i##*.}"
-readonly e
-export e
+ext="${img##*.}"
+readonly ext
+export ext
 
-m="$(printf '%s' "$i" | sed 's/\.'"$e"'//g')"
-readonly m
-export m
+bas="$(printf '%s' "$img" | sed 's/\.'"$ext"'//g')"
+readonly bas
+export bas
 
-curl --output "$c/1x.$e" "$i"
-curl --fail --output "$c/2x.$e" "${m}_2x.$e"
+curl --output "$dir/1x.$ext" "$img"
+curl --fail --output "$dir/2x.$ext" "${bas}_2x.$ext"
 
-n="$(printf '\n')"
-readonly n
-export n
+nlf="$(printf '\n')"
+readonly nlf
+export nlf
 
-if [ "$(cat "$c/link.txt")" = "$n" ];then
-  rm "$c/link.txt"
+if [ "$(cat "$dir/link.txt")" = "$nlf" ];then
+  rm -f "$dir/link.txt"
 fi
 
-if [ "$(cat "$c/news.html")" = "$n" ];then
-  rm "$c/news.html"
+if [ "$(cat "$dir/news.html")" = "$nlf" ];then
+  rm -f "$dir/news.html"
 fi
 
-if [ "$(cat "$c/transcript.txt")" = "$n" ];then
-  rm "$c/transcript.txt"
+if [ "$(cat "$dir/transcript.txt")" = "$nlf" ];then
+  rm -f "$dir/transcript.txt"
 fi
 
 set +x
@@ -96,7 +104,7 @@ set +x
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
-%s/\n' "$c"
+%s/\n' "$dir"
 
 set -x
 exit 0

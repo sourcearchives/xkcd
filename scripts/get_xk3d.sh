@@ -19,48 +19,56 @@ fi
 
 set -x
 
-curl --head --fail "https://3d.xkcd.com/$2/" ||
+hun="$1"
+readonly hun
+export hun
+
+num="$2"
+readonly num
+export num
+
+curl --head --fail "https://3d.xkcd.com/$num/" ||
 printf \
 'Couldn’t find ‘xk3d’ %s online.
-Make sure it exists and that you’re connected to the Internet.\n' "$2"
+Make sure it exists and that you’re connected to the Internet.\n' "$num"
 
-if   [ "${#2}" = 1 ];then
-  p=000
-elif [ "${#2}" = 2 ];then
-  p=00
-elif [ "${#2}" = 3 ];then
-  p=0
+if   [ "${#num}" = 1 ];then
+  pad=000
+elif [ "${#num}" = 2 ];then
+  pad=00
+elif [ "${#num}" = 3 ];then
+  pad=0
 else
-  p=''
+  pad=''
 fi
-readonly p
-export p
+readonly pad
+export pad
 
-c="./content/en/xkcd/comics/$1/$p$2"
-readonly c
-export c
+dir="./content/en/xkcd/comics/$hun/$pad$num"
+readonly dir
+export dir
 
-mkdir "$c/3d" ||
+mkdir "$dir/3d" ||
 printf \
 'Couldn’t create directory %s/3d .
-Make sure that %s already exists.\n' "$c" "$c"
-mkdir "$c/_3d/images"
+Make sure that %s already exists.\n' "$dir" "$dir"
+mkdir "$dir/3d/images"
 
-curl --url "https://3d.xkcd.com/$2/" | \
+curl "https://3d.xkcd.com/$num/" | \
 grep --fixed-strings '{"parallax_layers":' | \
 sed -n 's/.*omgitsin3d(\({.*}\)).*/\1/p' | \
 sed 's/) }$//' | \
-jq --compact-output --monochrome-output -- . - > "$c/3d/comic.json"
+jq --compact-output --monochrome-output -- . - > "$dir/3d/comic.json"
 
-for i in $(jq --raw-output --monochrome-output -- ".parallax_layers[].src | sub(\"$2/\";\"\")" "$c/3d/comic.json");do
-  export i
-  curl --url "https://imgs.xkcd.com/xk3d/$2/$i" --output "$c/3d/image/$i"
+for lay in $(jq --raw-output --monochrome-output -- ".parallax_layers[].src | sub(\"$num/\";\"\")" "$dir/3d/comic.json");do
+  export lay
+  curl --output "$dir/3d/image/$lay" "https://imgs.xkcd.com/xk3d/$num/$lay"
 done
 
-jq --raw-output --monochrome-output -- .converted_by "$c/3d/comic.json" > "$c/3d/converted_by.txt"
+jq --raw-output --monochrome-output -- .converted_by "$dir/3d/comic.json" > "$dir/3d/converted_by.txt"
 
-if [ "$(cat "$c/3d/converted_by.txt")" = null ];then
-  rm "$c/3d/converted_by.txt"
+if [ "$(cat "$dir/3d/converted_by.txt")" = null ];then
+  rm "$dir/3d/converted_by.txt"
 fi
 
 set +x
@@ -68,7 +76,7 @@ set +x
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
-%s/\n' "$c/3d"
+%s/\n' "$dir/3d"
 
 set -x
 exit 0
