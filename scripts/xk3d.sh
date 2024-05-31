@@ -1,5 +1,5 @@
 #!/bin/sh
-# ./scripts/get_xk3d.sh
+# ./scripts/xk3d.sh
 # SPDX-License-Identifier: CC0-1.0 OR 0BSD
 set -x
 readonly POSIXLY_CORRECT
@@ -10,7 +10,7 @@ if [ "${#1}" !=  9 ]||
    [ "$#"    !=  2 ]||
    [ "$2"     = '' ];then
   printf \
-'usage: ./scripts/get_xkcd.sh <0000-0000> <0/00/000/0000>
+'usage: ./scripts/xk3d.sh <0000-0000> <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the ‘xk3d’ comic number you provide.\n'
   set -x
