@@ -19,7 +19,7 @@ fi
 
 set -x
 
-curl --head --fail --url "https://3d.xkcd.com/$2/" ||
+curl --head --fail "https://3d.xkcd.com/$2/" ||
 printf \
 'Couldn’t find ‘xk3d’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$2"

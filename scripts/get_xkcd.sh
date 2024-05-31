@@ -24,7 +24,7 @@ fi
 
 set -x
 
-curl --head --fail --url "https://xkcd.com/$2/" ||
+curl --head --fail "https://xkcd.com/$2/" ||
 printf \
 'Couldn’t find ‘xkcd’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$2"
@@ -50,7 +50,7 @@ printf \
 'Couldn’t create directory %s .
 Make sure that %s already exists.\n' "$c" "$c"
 
-curl --url "https://xkcd.com/$2/info.0.json" --output - | \
+curl --output - "https://xkcd.com/$2/info.0.json" | \
 jq --compact-output --monochrome-output -- . - > "$c/info.json"
 
 jq --raw-output --monochrome-output -- .alt "$c/info.json" > "$c/alt.txt"
@@ -72,8 +72,8 @@ m="$(printf '%s' "$i" | sed 's/\.'"$e"'//g')"
 readonly m
 export m
 
-curl "$i" --output "$c/1x.$e"
-curl --fail "$m""_2x.$e" --output "$c/2x.$e"
+curl --output "$c/1x.$e" "$i"
+curl --fail --output "$c/2x.$e" "${m}_2x.$e"
 
 n="$(printf '\n')"
 readonly n
