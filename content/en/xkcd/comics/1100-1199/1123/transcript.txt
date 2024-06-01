@@ -1,0 +1,4 @@
+[[A small rectangle, in the style of a food package's ingredients list.]]
+INGREDIENTS:
+HYDROGEN, TIME
+{{Title text: Works for any grocery or non-grocery. Even thyme is just H and time.}}
