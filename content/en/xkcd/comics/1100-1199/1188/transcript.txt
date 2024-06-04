@@ -1,0 +1,22 @@
+class Ball extends Throwable {} 
+class P { 
+    P target;
+    P(P target) { 
+        this.target = target;
+    }
+    void aim(Ball ball) { 
+        try { 
+            throw ball; 
+        }
+        catch (Ball b) { 
+            target.aim(b);
+        }
+    }
+    public static void main(String[] args) { 
+        p parent = new P(null);
+        p child = new P(parent);
+        parent.target = child; 
+        parent.aim(new Ball());
+    }
+}
+{{Title text: I'm trying to build character but Eclipse is really confusing.}}

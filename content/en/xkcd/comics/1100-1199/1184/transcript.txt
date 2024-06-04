@@ -1,0 +1,7 @@
+Circumference of a circle:
+
+2*pi*r [[r has a 2 in superscript]]
+
+[[footnote 2]] The circle's radius
+
+{{Title text: Assume r' refers to the radius of Earth Prime, and r'' means radius in inches.}}
