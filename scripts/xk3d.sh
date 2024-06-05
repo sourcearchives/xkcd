@@ -6,11 +6,9 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 set +x
 
-if [ "${#1}" !=  9 ]||
-   [ "$#"    !=  2 ]||
-   [ "$2"     = '' ];then
+if [ "$1" = '' ];then
   printf \
-'usage: ./scripts/xk3d.sh <0000-0000> <0/00/000/0000>
+'usage: ./scripts/xk3d.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the ‘xk3d’ comic number you provide.\n'
   set -x
@@ -19,18 +17,16 @@ fi
 
 set -x
 
-hun="$1"
-readonly hun
-export hun
-
 num="$2"
 readonly num
 export num
 
-curl --head --fail "https://3d.xkcd.com/$num/" ||
-printf \
+if ! curl --head --fail "https://3d.xkcd.com/$num/";then
+  printf \
 'Couldn’t find ‘xk3d’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
+  exit 1
+fi
 
 if   [ "${#num}" = 1 ];then
   pad=000
@@ -44,15 +40,27 @@ fi
 readonly pad
 export pad
 
-dir="./content/en/xkcd/comics/$hun/$pad$num"
+hun="$(printf '%s%s\n' "$pad" "$num" | cut -c1-2)"
+readonly hun
+export hun
+
+dir="./content/en/xkcd/comics/${hun}00-${hun}99/$pad$num"
 readonly dir
 export dir
 
-mkdir "$dir/3d" ||
-printf \
+if ! mkdir "$dir/3d";then
+  printf \
 'Couldn’t create directory %s/3d .
 Make sure that %s already exists.\n' "$dir" "$dir"
-mkdir "$dir/3d/images"
+  exit 1
+fi
+
+if ! mkdir "$dir/3d/images";then
+  printf \
+'Couldn’t create directory %s/3d/images .
+Make sure that %s/3d already exists.\n' "$dir" "$dir"
+  exit 1
+fi
 
 curl "https://3d.xkcd.com/$num/" | \
 grep --fixed-strings '{"parallax_layers":' | \
@@ -76,7 +84,7 @@ set +x
 printf \
 'Done.
 You might want to check the command output and/or output directory for errors.
-%s/\n' "$dir/3d"
+%s/3d\n' "$dir"
 
 set -x
 exit 0

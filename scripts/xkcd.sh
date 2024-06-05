@@ -6,11 +6,9 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 set +x
 
-if [ "${#1}" !=  9 ]||
-   [ "$#"    !=  2 ]||
-   [ "$2"     = '' ];then
+if [ "$1" = '' ];then
   printf \
-'usage: ./scripts/xkcd.sh <0000-0000> <0/00/000/0000>
+'usage: ./scripts/xkcd.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the English ‘xkcd’ comic number
 you provide.
@@ -24,18 +22,16 @@ fi
 
 set -x
 
-hun="$1"
-readonly hun
-export hun
-
-num="$2"
+num="$1"
 readonly num
 export num
 
-curl --head --fail "https://xkcd.com/$num/" ||
-printf \
+if ! curl --head --fail "https://xkcd.com/$num/";then
+  printf \
 'Couldn’t find ‘xkcd’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
+  exit 1
+fi
 
 if   [ "${#num}" = 1 ];then
   pad=000
@@ -49,14 +45,20 @@ fi
 readonly pad
 export pad
 
-dir="./content/en/xkcd/comics/$hun/$pad$num"
+hun="$(printf '%s%s\n' "$pad" "$num" | cut -c1-2)"
+readonly hun
+export hun
+
+dir="./content/en/xkcd/comics/${hun}00-${hun}99/$pad$num"
 readonly dir
 export dir
 
-mkdir "$dir" ||
-printf \
+if ! mkdir "$dir";then
+  printf \
 'Couldn’t create directory %s .
-Make sure that %s already exists.\n' "$dir" "$dir"
+Make sure that ./content/en/xkcd/comics/%s00-%s99 already exists.\n' "$dir" "$hun" "$hun"
+  exit 1
+fi
 
 curl --output - "https://xkcd.com/$num/info.0.json" | \
 jq --compact-output --monochrome-output -- . - > "$dir/info.json"
