@@ -1,0 +1,1 @@
+There's a version that shows the planets with no cropping, but it's hard to find a display that supports it.
