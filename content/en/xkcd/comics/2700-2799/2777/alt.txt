@@ -1,0 +1,1 @@
+Party Mode also enables the feature, but reverses the slider.
