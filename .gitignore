@@ -4,6 +4,8 @@
 
 # Any files or directories with names that match any these patterns will be ignored by Git; that is, they won’t be added to be committed, published, etc. Any files that have already been added to the repository already will be treated and tracked as normal, even if they match one or more of these patterns; however, you can still remove those files in the usual way.
 
+# To make a pattern ignored only in your *local* repository, add it to <repo_root>/.git/info/exclude
+
 # To check if a file or directory is currently being ignored:
 #   $> git check-ignore -- <path>
 
