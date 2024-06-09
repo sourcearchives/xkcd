@@ -111,7 +111,8 @@ Thumbs.db
 *.save
 *.save.[0-9]*
 
-# Android nomedia
+# other special files
+nohup.out
 .nomedia
 
 # built files
