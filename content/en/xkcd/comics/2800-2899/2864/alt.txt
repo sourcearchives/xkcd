@@ -1,0 +1,1 @@
+People may complain about readability, but even with jpeg compression, extracting the data points is usually computationally feasible if there aren't too many of them.

@@ -1,0 +1,1 @@
+The value of n is still unknown, but new results constrain it to fall between 8 and 10^500, ruling out popular 'n=1' and 'n=2' theories.
