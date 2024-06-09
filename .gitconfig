@@ -8,14 +8,11 @@
 ;  $> git config --local -- include.path <repo_root>/.gitconfig
 
 [core]
-commentChar = auto
+commentchar = auto
 eol         = lf
-
-[feature]
-manyFiles = true
 
 [gitweb]
 description = a work-in-progress archive of the webcomic ‘xkcd’ by Randall Munroe, plus both official and unofficial related data
 
 [init]
-defaultBranch = master
+defaultbranch = master
