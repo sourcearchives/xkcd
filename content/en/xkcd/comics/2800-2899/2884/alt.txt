@@ -1,0 +1,1 @@
+A video can have a log scale that's misaligned with both the time AND space axes.
