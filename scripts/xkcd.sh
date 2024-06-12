@@ -45,32 +45,31 @@ fi
 readonly pad
 export pad
 
-hun="$(printf '%s%s\n' "$pad" "$num" | cut -c1-2)"
-readonly hun
-export hun
+hundred="$(printf '%s%s\n' "$pad" "$num" | cut -c1-2)"
+readonly hundred
+export hundred
 
-dir="./content/en/xkcd/comics/${hun}00-${hun}99/$pad$num"
+dir="./content/en/xkcd/comics/${hundred}00-${hundred}99/$pad$num"
 readonly dir
 export dir
 
-if ! mkdir "$dir";then
+if ! mkdir -p "$dir";then
   printf \
-'Couldn’t create directory %s .
-Make sure that ./content/en/xkcd/comics/%s00-%s99 already exists.\n' "$dir" "$hun" "$hun"
+'Couldn’t create directory %s\n' "$dir"
   exit 1
 fi
 
 curl --output - "https://xkcd.com/$num/info.0.json" | \
-jq --compact-output --monochrome-output -- . - > "$dir/info.json"
+jq --compact-output --monochrome-output . - > "$dir/info.json"
 
-jq --raw-output --monochrome-output -- .alt "$dir/info.json" > "$dir/alt.txt"
-jq --raw-output --monochrome-output -- .link "$dir/info.json" > "$dir/link.txt"
-jq --raw-output --monochrome-output -- .news "$dir/info.json" > "$dir/news.html"
-jq --raw-output --monochrome-output -- .title "$dir/info.json" > "$dir/title.txt"
-jq --raw-output --monochrome-output -- .transcript "$dir/info.json" > "$dir/transcript.txt"
-jq --raw-output --monochrome-output -- .num "$dir/info.json" > "$dir/num.txt"
+jq --raw-output --monochrome-output .alt "$dir/info.json" > "$dir/alt.txt"
+jq --raw-output --monochrome-output .link "$dir/info.json" > "$dir/link.txt"
+jq --raw-output --monochrome-output .news "$dir/info.json" > "$dir/news.html"
+jq --raw-output --monochrome-output .title "$dir/info.json" > "$dir/title.txt"
+jq --raw-output --monochrome-output .transcript "$dir/info.json" > "$dir/transcript.txt"
+jq --raw-output --monochrome-output .num "$dir/info.json" > "$dir/num.txt"
 
-img="$(jq --raw-output --monochrome-output -- .img "$dir/info.json")"
+img="$(jq --raw-output --monochrome-output .img "$dir/info.json")"
 readonly img
 export img
 
@@ -78,26 +77,26 @@ ext="${img##*.}"
 readonly ext
 export ext
 
-bas="$(printf '%s' "$img" | sed 's/\.'"$ext"'//g')"
-readonly bas
-export bas
+base="$(printf '%s' "$img" | sed 's/\.'"$ext"'//g')"
+readonly base
+export base
 
 curl --output "$dir/1x.$ext" "$img"
-curl --fail --output "$dir/2x.$ext" "${bas}_2x.$ext"
+curl --fail --output "$dir/2x.$ext" "${base}_2x.$ext"
 
-nlf="$(printf '\n')"
-readonly nlf
-export nlf
+lf="$(printf '\n')"
+readonly lf
+export lf
 
-if [ "$(cat "$dir/link.txt")" = "$nlf" ];then
+if [ "$(cat "$dir/link.txt")" = "$lf" ];then
   rm -f "$dir/link.txt"
 fi
 
-if [ "$(cat "$dir/news.html")" = "$nlf" ];then
+if [ "$(cat "$dir/news.html")" = "$lf" ];then
   rm -f "$dir/news.html"
 fi
 
-if [ "$(cat "$dir/transcript.txt")" = "$nlf" ];then
+  if [ "$(cat "$dir/transcript.txt")" = "$lf" ];then
   rm -f "$dir/transcript.txt"
 fi
 
@@ -105,7 +104,6 @@ set +x
 
 printf \
 'Done.
-You might want to check the command output and/or output directory for errors.
 %s/\n' "$dir"
 
 set -x
