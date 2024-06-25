@@ -11,8 +11,6 @@ This script downloads data and creates files for the ‘xk3d’ comic number you
   exit 1
 fi
 
-set -x
-
 num="$1"
 readonly num
 export num
