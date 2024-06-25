@@ -5,7 +5,8 @@ readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 if [ "$1" = '' ];then
-  printf 'usage: ./scripts/xkcd.sh <0/00/000/0000>
+  printf \
+'usage: ./scripts/xkcd.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the English ‘xkcd’ comic number
 you provide.
@@ -21,7 +22,8 @@ readonly num
 export num
 
 if ! curl -fI "https://xkcd.com/$num/";then
-  printf 'Couldn’t find ‘xkcd’ %s online.
+  printf \
+'Couldn’t find ‘xkcd’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
   exit 1
 fi
@@ -54,12 +56,13 @@ fi
 curl -o - "https://xkcd.com/$num/info.0.json" | \
 jq --compact-output --monochrome-output . - > "$dir/info.json"
 
-jq --raw-output --monochrome-output .alt "$dir/info.json" > "$dir/alt.txt"
-jq --raw-output --monochrome-output .link "$dir/info.json" > "$dir/link.txt"
-jq --raw-output --monochrome-output .news "$dir/info.json" > "$dir/news.html"
-jq --raw-output --monochrome-output .title "$dir/info.json" > "$dir/title.txt"
-jq --raw-output --monochrome-output .transcript "$dir/info.json" > "$dir/transcript.txt"
-jq --raw-output --monochrome-output .num "$dir/info.json" > "$dir/num.txt"
+jq --raw-output --monochrome-output .alt "$dir/info.json" > "$dir/alt.txt" &
+jq --raw-output --monochrome-output .link "$dir/info.json" > "$dir/link.txt" &
+jq --raw-output --monochrome-output .news "$dir/info.json" > "$dir/news.html" &
+jq --raw-output --monochrome-output .title "$dir/info.json" > "$dir/title.txt" &
+jq --raw-output --monochrome-output .transcript "$dir/info.json" > "$dir/transcript.txt" &
+jq --raw-output --monochrome-output .num "$dir/info.json" > "$dir/num.txt" &
+wait
 
 img="$(jq --raw-output --monochrome-output .img "$dir/info.json")"
 readonly img
@@ -73,8 +76,9 @@ base="$(printf '%s' "$img"|sed 's/\.'"$ext"'//g')"
 readonly base
 export base
 
-curl -o "$dir/1x.$ext" "$img"
-curl -fo "$dir/2x.$ext" "${base}_2x.$ext"
+curl -o "$dir/1x.$ext" "$img" &
+curl -fo "$dir/2x.$ext" "${base}_2x.$ext" &
+wait
 
 lf="$(printf '\n')"
 readonly lf
@@ -92,7 +96,8 @@ if [ "$(cat "$dir/transcript.txt")" = "$lf" ];then
   rm -f "$dir/transcript.txt"
 fi
 
-printf 'Done.
+printf \
+'Done.
 %s/\n' "$dir"
 
 exit 0

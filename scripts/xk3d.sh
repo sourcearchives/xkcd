@@ -18,7 +18,8 @@ readonly num
 export num
 
 if ! curl -fI "https://3d.xkcd.com/$num/";then
-  printf 'Couldn’t find ‘xk3d’ %s online.
+  printf \
+'Couldn’t find ‘xk3d’ %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
   exit 1
 fi
@@ -70,7 +71,8 @@ if [ "$(cat "$dir/3d/converted_by.txt")" = null ];then
   rm -f "$dir/3d/converted_by.txt"
 fi
 
-printf 'Done.
+printf \
+'Done.
 %s/3d\n' "$dir"
 
 exit 0
