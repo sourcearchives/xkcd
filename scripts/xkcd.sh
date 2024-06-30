@@ -4,11 +4,11 @@
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
-num="$1"
-readonly num
-export num
+arg="$1"
+readonly arg
+export arg
 
-if [ "$(printf '%s' "$num"|grep -e '^[0-9]*$')" = '' ];then
+if [ "$(printf '%s' "$arg"|grep -e '^[0-9]*$')" = '' ];then
   printf \
 'usage: ./scripts/xkcd.sh <0/00/000/0000>
 Please run this script from the repository root.
@@ -20,6 +20,10 @@ It currently doesn’t do anything past that. You might want to check the
 comics you’re downloading first for potential issues.\n'
   exit 1
 fi
+
+num="$(("$arg"*1))"
+readonly num
+export num
 
 if ! curl -fI "https://xkcd.com/$num/";then
   printf \
@@ -34,8 +38,15 @@ elif [ "${#num}" = 2 ];then
   pad=00
 elif [ "${#num}" = 3 ];then
   pad=0
-else
+elif [ "${#num}" = 4 ];then
   pad=''
+else
+  printf \
+'The number is more than 4 digits long.
+Please file an issue at
+https://github.com/sourcearchives/xkcd
+if this is a valid comic number.'
+  exit 1
 fi
 readonly pad
 export pad

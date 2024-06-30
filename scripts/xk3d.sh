@@ -4,16 +4,20 @@
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
-num="$1"
-readonly num
-export num
+arg="$1"
+readonly arg
+export arg
 
-if [ "$(printf '%s' "$num"|grep -e '^[0-9]*$')" = '' ];then
+if [ "$(printf '%s' "$arg"|grep -e '^[0-9]*$')" = '' ];then
   printf 'usage: ./scripts/xk3d.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the “xk3d” comic number you provide.\n'
   exit 1
 fi
+
+num="$(("$arg"*1))"
+readonly num
+export num
 
 if ! curl -fI "https://3d.xkcd.com/$num/";then
   printf \
@@ -28,8 +32,15 @@ elif [ "${#num}" = 2 ];then
   pad=00
 elif [ "${#num}" = 3 ];then
   pad=0
-else
+elif [ "${#num}" = 4 ];then
   pad=''
+else
+  printf \
+'The number is more than 4 digits long.
+Please file an issue at
+https://github.com/sourcearchives/xkcd
+if this is a valid comic number.'
+  exit 1
 fi
 readonly pad
 export pad
