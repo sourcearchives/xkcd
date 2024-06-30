@@ -55,7 +55,11 @@ hundred="$(printf '%s\n' "$pad$num"|cut -c1-2)"
 readonly hundred
 export hundred
 
-dir="./content/en/xkcd/comics/${hundred}00-${hundred}99/$pad$num"
+if [ "$hundred" = 00 ];then
+  dir="./content/en/xkcd/comics/0001-0099/$pad$num"
+else
+  dir="./content/en/xkcd/comics/${hundred}00-${hundred}99/$pad$num"
+fi
 readonly dir
 export dir
 
