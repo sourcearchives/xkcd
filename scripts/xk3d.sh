@@ -8,7 +8,7 @@ num="$1"
 readonly num
 export num
 
-if [ "$num" = '' ];then
+if [ "$(printf '%s' "$num"|grep -e '^[0-9]*$')";then
   printf 'usage: ./scripts/xk3d.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the “xk3d” comic number you provide.\n'
