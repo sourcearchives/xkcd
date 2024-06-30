@@ -27,7 +27,7 @@ repository:
   allow_squash_merge: false
   default_branch: 'master'
   delete_branch_on_merge: false
-  description: 'a work-in-progress archive of the webcomic ‘xkcd’ by Randall Munroe, plus both official and unofficial related data'
+  description: 'a work-in-progress archive of the webcomic “xkcd” by Randall Munroe, plus both official and unofficial related data'
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
   has_downloads: true

@@ -4,20 +4,20 @@
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
-if [ "$1" = '' ];then
-  printf 'usage: ./scripts/xk3d.sh <0/00/000/0000>
-Please run this script from the repository root.
-This script downloads data and creates files for the ‘xk3d’ comic number you provide.\n'
-  exit 1
-fi
-
 num="$1"
 readonly num
 export num
 
+if [ "$num" = '' ];then
+  printf 'usage: ./scripts/xk3d.sh <0/00/000/0000>
+Please run this script from the repository root.
+This script downloads data and creates files for the “xk3d” comic number you provide.\n'
+  exit 1
+fi
+
 if ! curl -fI "https://3d.xkcd.com/$num/";then
   printf \
-'Couldn’t find ‘xk3d’ %s online.
+'Couldn’t find “xk3d” %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
   exit 1
 fi

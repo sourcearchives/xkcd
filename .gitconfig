@@ -12,7 +12,7 @@ commentchar = auto
 eol         = lf
 
 [gitweb]
-description = a work-in-progress archive of the webcomic ‘xkcd’ by Randall Munroe, plus both official and unofficial related data
+description = a work-in-progress archive of the webcomic “xkcd” by Randall Munroe, plus both official and unofficial related data
 
 [init]
 defaultbranch = master

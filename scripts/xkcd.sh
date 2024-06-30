@@ -4,11 +4,15 @@
 readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
-if [ "$1" = '' ];then
+num="$1"
+readonly num
+export num
+
+if [ "$num" = '' ];then
   printf \
 'usage: ./scripts/xkcd.sh <0/00/000/0000>
 Please run this script from the repository root.
-This script downloads data and creates files for the English ‘xkcd’ comic number
+This script downloads data and creates files for the English “xkcd” comic number
 you provide.
 It automatically handles 1x and 2x images; info.json; title.txt, alt.txt,
 transcript.txt, link.txt, and news.html.
@@ -17,13 +21,9 @@ comics you’re downloading first for potential issues.\n'
   exit 1
 fi
 
-num="$1"
-readonly num
-export num
-
 if ! curl -fI "https://xkcd.com/$num/";then
   printf \
-'Couldn’t find ‘xkcd’ %s online.
+'Couldn’t find “xkcd” %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
   exit 1
 fi
