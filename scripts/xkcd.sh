@@ -21,7 +21,7 @@ comics you’re downloading first for potential issues.\n'
   exit 1
 fi
 
-num="$(("$arg"*1))"
+num="$(($arg*1))"
 readonly num
 export num
 

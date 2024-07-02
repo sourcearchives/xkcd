@@ -15,7 +15,7 @@ This script downloads data and creates files for the “xk3d” comic number you
   exit 1
 fi
 
-num="$(("$arg"*1))"
+num="$(($arg*1))"
 readonly num
 export num
 
