@@ -113,6 +113,6 @@ fi
 
 printf \
 'Done.
-%s/\n' "$dir"
+%s\n' "$dir"
 
 exit 0
