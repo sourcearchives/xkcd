@@ -1,0 +1,9 @@
+[[A figure sits at a desk. A message is being displayed on the figure's laptop screen. It reads "Urgent: critical update available!"]]
+
+[[The message continues. "Details: Fixes an issue that was causing random laptop electrical fires."]]
+
+(This update will require restarting your computer.)
+
+[[The figure clicks on "Remind me later."]]
+
+{{Title text: I have a bunch of things open right now.}}
