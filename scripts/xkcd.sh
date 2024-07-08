@@ -108,8 +108,8 @@ readonly base
 export base
 
 # download image, plus 2x image if it exists
-curl -Iso "$dir/1x.$ext" "$img" &
-curl -Ifso "$dir/2x.$ext" "${base}_2x.$ext" &
+curl -so "$dir/1x.$ext" "$img" &
+curl -fso "$dir/2x.$ext" "${base}_2x.$ext" &
 wait
 
 lf="$(printf '\n')"
