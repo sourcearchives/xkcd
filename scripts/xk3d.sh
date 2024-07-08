@@ -10,11 +10,12 @@ export arg
 
 # make sure that the argument is an integer (“number”)
 if [ "$(printf '%s' "$arg" | grep -e '^[0-9]*$')" = '' ];then
-  # the argument is not a number (e.g. empty, “-h,” “--help,” “-?,” etc., so print usage)
+  # the argument is not a number (e.g. empty, “-h,” “--help,” “-?,” etc.), so print usage
   printf \
 'usage: ./scripts/xk3d.sh <0/00/000/0000>
 Please run this script from the repository root.
 This script downloads data and creates files for the “xk3d” comic number you provide.\n'
+  # exit unsuccessfully
   exit 1
 fi
 
@@ -28,6 +29,7 @@ if ! curl -fI "https://3d.xkcd.com/$num/";then
   printf \
 'Couldn’t find “xk3d” %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
+  # exit unsuccessfully
   exit 1
 fi
 
@@ -47,6 +49,7 @@ else
 Please file an issue or pull request at
 https://github.com/sourcearchives/xkcd
 if this is a valid comic number.'
+  # exit unsuccessfully
   exit 1
 fi
 readonly pad
@@ -68,11 +71,13 @@ export dir
 
 if ! mkdir -p "$dir/3d";then
   printf 'Couldn’t create directory %s/3d\n' "$dir"
+  # exit unsuccessfully
   exit 1
 fi
 
 if ! mkdir -p "$dir/3d/images";then
   printf 'Couldn’t create directory %s/3d/images\n' "$dir"
+  # exit unsuccessfully
   exit 1
 fi
 
