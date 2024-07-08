@@ -25,7 +25,7 @@ readonly num
 export num
 
 # make sure that the number doesn’t give an error
-if ! curl -fI "https://3d.xkcd.com/$num/";then
+if ! curl -Ifs "https://3d.xkcd.com/$num/";then
   printf \
 'Couldn’t find “xk3d” %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
@@ -82,7 +82,7 @@ if ! mkdir -p "$dir/3d/images";then
 fi
 
 # extract JSON from webpage (don’t ask me how this works please)
-curl "https://3d.xkcd.com/$num/" |\
+curl -s "https://3d.xkcd.com/$num/" |\
 grep -F '{"parallax_layers":' |\
 sed -n 's/.*omgitsin3d(\({.*}\)).*/\1/p' |\
 sed 's/) }$//' |\

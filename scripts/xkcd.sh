@@ -9,7 +9,7 @@ readonly arg
 export arg
 
 # make sure that the argument is an integer (“number”)
-if [ "$(printf '%s' "$arg"|grep -e '^[0-9]*$')" = '' ];then
+if [ "$(printf '%s' "$arg" | grep -e '^[0-9]*$')" = '' ];then
   # the argument is not an integer (e.g. empty, “-h,” “--help,” “-?,” etc.), so print usage
   printf \
 'usage: ./scripts/xkcd.sh <0/00/000/0000>
@@ -108,8 +108,8 @@ readonly base
 export base
 
 # download image, plus 2x image if it exists
-curl -o "$dir/1x.$ext" "$img" &
-curl -fo "$dir/2x.$ext" "${base}_2x.$ext" &
+curl -Iso "$dir/1x.$ext" "$img" &
+curl -Ifso "$dir/2x.$ext" "${base}_2x.$ext" &
 wait
 
 lf="$(printf '\n')"
