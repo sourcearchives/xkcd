@@ -34,6 +34,7 @@ if ! curl -Ifs "https://xkcd.com/$num/";then
   printf \
 'Couldn’t find “xkcd” %s online.
 Make sure it exists and that you’re connected to the Internet.\n' "$num"
+  # exit unsuccessfully
   exit 1
 fi
 
@@ -75,10 +76,11 @@ export dir
 
 if ! mkdir -p "$dir";then
   printf 'Couldn’t create directory %s\n' "$dir"
+  # exit unsuccessfully
   exit 1
 fi
 
-# download JSON and minify it
+# download JSON and compact it
 curl -o - "https://xkcd.com/$num/info.0.json" | \
 jq --compact-output --monochrome-output . - > "$dir/info.json"
 
