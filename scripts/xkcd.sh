@@ -81,7 +81,7 @@ if ! mkdir -p "$dir";then
 fi
 
 # download JSON and compact it
-curl -o - "https://xkcd.com/$num/info.0.json" | \
+curl -so - "https://xkcd.com/$num/info.0.json" | \
 jq --compact-output --monochrome-output . - > "$dir/info.json"
 
 # extract some JSON fields to files
