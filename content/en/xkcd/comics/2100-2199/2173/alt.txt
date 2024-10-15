@@ -1,0 +1,1 @@
+It also works for anything you teach someone else to do. "Oh yeah, I trained a pair of neural nets, Emily and Kevin, to respond to support tickets."
