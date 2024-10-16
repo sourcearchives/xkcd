@@ -1,0 +1,1 @@
+This projection distorts both area and direction, but preserves Melbourne.
