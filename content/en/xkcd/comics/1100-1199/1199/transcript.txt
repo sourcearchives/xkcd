@@ -1,0 +1,8 @@
+[[Character is walking along; she stops and holds up her phone.]]
+Phone: Identify Song Recorded > Live [BETA]
+
+Phone: Listening ...
+
+Positive Match: 4'33" John Cage
+
+{{Title text: All music is just performances of 4'33" in studios where another band happened to be playing at the time.}}
