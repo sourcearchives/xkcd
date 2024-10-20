@@ -1,0 +1,6 @@
+[[The panel shows a mostly-illegible page of a book.  In the margin is a note.  Unusually for xkcd, this note is written in lower-case.]]
+I have discovered a truly marvelous proof that information is infinitely compressible, but this margin is too small to...
+...oh
+never mind :(
+
+{{Title text: PROTIP: You can get around the Shannon-Hartley limit by setting your font size to 0.}}

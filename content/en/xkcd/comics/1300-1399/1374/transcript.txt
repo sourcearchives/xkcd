@@ -1,0 +1,11 @@
+[[A lecturer is standing in front of a student at a desk.]]
+Lecturer: Imagine that you're drawing at random from an urn containing fifteen balls--six red and nine black.
+Student: Ok.  I reach in and... 
+...My grandfather's ashes?!? Oh god!
+
+Lecturer: I... what?
+Student: 
+Why would you do this to me?!?
+
+
+{{Title text: Can this PLEASE be drawing with replacement?}}

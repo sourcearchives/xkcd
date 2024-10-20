@@ -1,0 +1,7 @@
+[Person stands behind a podium labeled Google.]
+Person: The rumors are true. Google will be shutting down Plus--
+Person: along with Hangouts, Photos, Voice, Docs, Drive, Maps, Gmail, Chrome, Android, and Search--
+Person: to focus on our core project:
+Person: the 8.8.8.8 DNS server.
+
+{{Title text: The less popular 8.8.4.4 is slated for discontinuation.}}

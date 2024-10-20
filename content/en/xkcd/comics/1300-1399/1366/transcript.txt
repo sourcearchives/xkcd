@@ -1,0 +1,5 @@
+[[The world is shown, with a train on top.  There's an arrow indicating the direction the world is rotating.]]
+Passenger: ... Almost ...
+A machine that grabs the Earth by metal rails and rotates it until the part you want is near you.
+
+{{Title text: Trains rotate the Earth around various axes while elevators shift its position in space.}}
