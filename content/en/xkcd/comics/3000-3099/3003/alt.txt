@@ -1,0 +1,1 @@
+The number one rule of string manipulation is that youâ€™ve got to specify your encodings.
