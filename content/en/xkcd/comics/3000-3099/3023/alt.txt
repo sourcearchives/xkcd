@@ -1,0 +1,1 @@
+It works because a nautical mile is based on a degree of latitude, and the Earth (e) is a circle.
