@@ -1,16 +1,14 @@
 #!/bin/sh
 # ./scripts/xk3d.sh
 # SPDX-License-Identifier: CC0-1.0 OR 0BSD
-readonly POSIXLY_CORRECT
 export POSIXLY_CORRECT
 
 arg="$1"
-readonly arg
 export arg
 
 # make sure that the argument is an integer (“number”)
 if [ "$(printf '%s' "$arg" | grep -e '^[0-9]*$')" = '' ];then
-  # the argument is not a number (e.g. empty, “-h,” “--help,” “-?,” etc.), so print usage
+  # the argument is not a number (e.g. empty, “-h”, “--help”, “-?”, etc.), so print usage
   printf \
 'usage: ./scripts/xk3d.sh <0/00/000/0000>
 Please run this script from the repository root.
@@ -19,9 +17,8 @@ This script downloads data and creates files for the “xk3d” comic number you
   exit 1
 fi
 
-# remove leading “0s” from the number by multiplying by 1
+# remove leading “0”s from the number by multiplying by 1
 num="$(($arg*1))"
-readonly num
 export num
 
 # make sure that the number doesn’t give an error
@@ -33,7 +30,7 @@ Make sure it exists and that you’re connected to the Internet.\n' "$num"
   exit 1
 fi
 
-# add padding with “0s” to number, for compatibility with directory structure
+# add padding with “0”s to number, for compatibility with directory structure
 if   [ "${#num}" = 1 ];then
   pad=000
 elif [ "${#num}" = 2 ];then
@@ -52,12 +49,10 @@ if this is a valid comic number.'
   # exit unsuccessfully
   exit 1
 fi
-readonly pad
 export pad
 
 # extract first two digits of number for categorization
 hundred="$(printf '%s\n' "$pad$num" | cut -c1-2)"
-readonly hundred
 export hundred
 
 # the first 99 comics are categorized differently
@@ -66,7 +61,6 @@ if [ "$hundred" = 00 ];then
 else
   dir="./content/en/xkcd/comics/${hundred}00-${hundred}99/$pad$num"
 fi
-readonly dir
 export dir
 
 if ! mkdir -p "$dir/3d";then
