@@ -1,0 +1,1 @@
+Speed limit c arcminutes^2 per steradian
