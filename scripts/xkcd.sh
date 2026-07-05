@@ -84,7 +84,6 @@ jq --raw-output --monochrome-output .link "$dir/info.json" > "$dir/link.txt" &
 jq --raw-output --monochrome-output .news "$dir/info.json" > "$dir/news.html" &
 jq --raw-output --monochrome-output .title "$dir/info.json" > "$dir/title.txt" &
 jq --raw-output --monochrome-output .transcript "$dir/info.json" > "$dir/transcript.txt" &
-jq --raw-output --monochrome-output .num "$dir/info.json" > "$dir/num.txt" &
 wait
 
 img="$(jq --raw-output --monochrome-output .img "$dir/info.json")"
