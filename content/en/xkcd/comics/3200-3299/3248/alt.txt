@@ -1,0 +1,1 @@
+They rounded down to 182.8 instead of rounding up to 182.9 because 182.9 might make the statement incorrect.
