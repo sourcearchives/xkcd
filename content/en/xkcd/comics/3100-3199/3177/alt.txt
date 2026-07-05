@@ -1,0 +1,1 @@
+Luckily, the range is limited by the fact that the square boundary lines follow great circles.
