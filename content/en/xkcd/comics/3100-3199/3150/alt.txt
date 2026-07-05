@@ -1,0 +1,1 @@
+Progress on getting shipwrecked sailors to adopt ICMPv6 has been slow.
