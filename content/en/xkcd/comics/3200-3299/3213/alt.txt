@@ -1,0 +1,1 @@
+I mean, half of these are undefined. And your multiplication dots are too low; they look like decimal points.
