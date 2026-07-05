@@ -1,0 +1,1 @@
+'This HAZMAT container contains radioactive material with activity of one becquerel.' 'So, like, a single banana slice?'

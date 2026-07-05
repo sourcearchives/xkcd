@@ -1,0 +1,1 @@
+It's important for devices to have internet connectivity so the manufacturer can patch remote exploits.
